@@ -1,5 +1,6 @@
 # ignore dossier images
 /images/
+
 # ignore un fichier
 index.html
 style.css

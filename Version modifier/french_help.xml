@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Code>FR</Code>
+	<HelpPage>
+		<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES           |
+    ~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+		<StationpediaPage>
+			<!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+			<Key>Home</Key>
+			<Title>Accueil</Title>
+			<Text/>
+		</StationpediaPage>
+		<!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+		<StationpediaPage>
+			<Key>Search</Key>
+			<Title>Rechercher</Title>
+			<Text/>
+		</StationpediaPage>
+	<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |        DESCRIPTION SECTION ACCUEIL          |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+
+		<StationpediaPage>
+			<Key>OrePage</Key>
+			<Title>Minerais</Title>
+			<Text>
+				Ce sont des objets qui sont {LINK:MiningPage;minée} et peuvent souvent être {LINK:SmeltingPage;fondue}. Vous pouvez également obtenir du minerai mélangé en recyclant des éléments dans le {THING:StructureRecycler}, puis en le faisant passer dans la {THING:StructureCentrifuge} qui le divisera en {LINK:OrePage} ou {LINK:SmeltingPage;smelting}.
+				Certains minerais fondent lorsqu'ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gaz}. Par exemple, le minerais de {THING:ItemIce} se fond en {GAS:Water} et en {GAS:Oxygen}. Veillez à les garder à l'abri de la chaleur ou de la lumière du soleil jusqu'à ce que vous vouliez qu'ils fondent.
+				{LIST_OF_ORES}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>IngotPage</Key>
+			<Title>Lingots</Title>
+			<Text>
+				Il s'agit d'articles généralement fabriqués à partir de {LINK:SmeltingPage;minerais} {LINK:OrePage;fondu} pour une utilisation dans les {LINK:FabricatorPage}.
+				{LIST_OF_INGOTS}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>FabricatorPage</Key>
+			<Title>Machines</Title>
+			<Text>
+				Ce sont des structures motorisées qui peuvent être utilisées pour fabriquer ce dont vous avez besoin dans le jeu. Ils utilisent généralement des {LINK:IngotPage;lingots} pour extraire les {LINK:ReagentPage;reactifs} dont ils ont besoin pour fabriquer des objets.
+				{LIST_OF_FABRICATORS}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>KitPage</Key>
+			<Title>Kits de construction</Title>
+			<Text>
+				Ce sont des objets qui sont utiliser pendant la {LINK:ConstructionPage;Construction} et d'autres tâches.
+				{LIST_OF_KITS}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>GasPage</Key>
+			<Title>Gaz</Title>
+			<Text>
+				Ce sont des gaz chimiques de certains types.
+				{LIST_OF_GASES}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ReagentPage</Key>
+			<Title>Réactifs</Title>
+			<Text>
+				Ce sont des Réactifs chimiques de certains types.
+				{LIST_OF_REAGENTS}
+			</Text>
+		</StationpediaPage>
+        <StationpediaPage>
+			<Key>AtmosphericPage</Key>
+			<Title>Atmosphère</Title>
+			<Text>
+				Divers produits sur la gestion atmosphérique.
+				{LIST_OF_ATMOSPHERICS}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ElectronicPage</Key>
+			<Title>Électriques</Title>
+			<Text>
+				Divers produits sur la gestion électrique.
+				{LIST_OF_ELECTRONICS}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>LogicUnitPage</Key>
+			<Title>Électronique</Title>
+			<Text>
+				Divers produits sur la gestion électronique.
+				{LIST_OF_LOGIC_UNITS}{LIST_OF_MOTHERBOARD}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>StructurePage</Key>
+			<Title>Structures</Title>
+			<Text>
+				Ce sont des pièces d&apos;ouvrage sur la conception de la structure d&apos;une base.
+				{LIST_OF_STRUCTURES}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>OrganicPage</Key>
+			<Title>Biologie et aliments</Title>
+			<Text>
+				Ce sont des produits Biologiques et alimentaires.
+				{LIST_OF_ORGANICS}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ToolPage</Key>
+			<Title>Tools</Title>
+			<Text>
+				Ce sont des éléments qui peuvent tenir dans un emplacement d'outil spécialisé et sont utilisés pour la {LINK:ConstructionPage;Construction} et d'autres tâches.
+				{LIST_OF_TOOLS}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>CartridgePage</Key>
+			<Title>Cartes</Title>
+			<Text>
+				Ceux-ci peuvent être ajoutés à la {THING:ItemTablet} ou à la {THING:ItemAdvancedTablet} pour effectuer différentes fonctions de diagnostique.
+				{LIST_OF_CARTRIDGES}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ClothingPage</Key>
+			<Title>Vêtements</Title>
+			<Text>
+				Ce sont des pièces d&apos;équipement que les Stationeers peuvent porter.
+				{LIST_OF_CLOTHING}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>LorePage</Key>
+			<DisplayFilter>Lore</DisplayFilter>
+			<Title>Factions</Title>
+			<Text>{LIST_OF_FACTIONS}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>LorePage</Key>
+			<DisplayFilter>Lore</DisplayFilter>
+			<Title>Traduction française</Title>
+			<Text>Note de version française.
+			Version: 0.2 (05-02-2022)
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>FurniturePage</Key>
+			<Title>Meubles</Title>
+			<Text>
+				Ce sont des pièces d'ameublement.
+				{LIST_OF_FURNITURES}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ImportExportPage</Key>
+			<Title>Import/Export and Chutes</Title>
+			<Text>
+				Ce sont des structures, généralement alimentées, capables de recevoir et d'envoyer des éléments. La plupart ont des fonctions spécialisées et peuvent être automatiser notamment avec des {LINK:LogicUnitPage}, {LINK:AtmosphericPage}, etc. Ils sont construits de la même manière que les autres structures.
+				{LIST_OF_IMPORTEXPORT}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>DevicePage</Key>
+			<Title>Dispositifs</Title>
+			<Text>
+				Il s'agit de structures, généralement électriquement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.
+			{LIST_OF_DEVICES}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>SmeltingPage</Key>
+			<Title>Fonte</Title>
+			<Text>Une fois que vous avez des {LINK:OrePage;minerai}, vous pouvez les convertir en {LINK: IngotPage;lingots} pour pouvoir utiliser leur {LINK: ReagentPage;réactifs}. La fusion produit souvent des {LINK: GasPage;gaz}. Cela se produit soit dans le {THING:StructureArcFurnace} (pour des recettes simples) et dans le {THING:StructureFurnace} pour un {LINK:AlloyPage;Alliages} plus compliqué, et enfin un {THING:StructureAdvancedFurnace} pour un {LINK: SuperAlloyPage;Super alliages}. Pour les alliages complexes, vous devrez réaliser des mélanges avec des rapports parfaits, {LINK: TemperaturePage;Temperature} et {LINK: PressurePage;Pression}.</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>MiningPage</Key>
+			<Title>Minage</Title>
+			<Text>Vous pouvez exploiter un {LINK:OrePage;minerai} avec une {THING:ItemMiningDrill}. Si vous portez une {THING:ItemMiningBelt}, le {LINK:OrePage;minerai} y sera automatiquement placé à l'intérieur.</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ReagentPage</Key>
+			<Title>Réactifs</Title>
+			<Text>Ce sont des quantités chimiques de certains types.
+		{LIST_OF_REAGENTS}
+		</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ResourcePage</Key>
+			<Title>Ressources</Title>
+			<Text>Il s'agit d'éléments utilisés lors de {LINK:ConstructionPage;construction} et par d'autres tâches.
+		{LIST_OF_RESOURCES}
+		</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>FoodPage</Key>
+			<Title>Aliments</Title>
+			<Text>Ce sont des éléments qui sont utilisés pour produire de la nourriture.
+		{LIST_OF_FOOD}
+		</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>AppliancePage</Key>
+			<Title>Appareils électroménagers</Title>
+			<Text>Ces objets peuvent être placés sur des plans de travail. Vous les posez sur un plan de travail et vous les fixez en utilisant une clé à molette.
+		{LIST_OF_APPLIANCES}
+		</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>RocketShuttlePage</Key>
+			<Title>Capsule de fusée</Title>
+			<Text>Ce sont les modules de navette, utilisés pour voyager entre les mondes. {THING:StructureLaunchPad} est requis.</Text>
+		</StationpediaPage>
+	
+	<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     GUIDES                |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+		<StationpediaPage>
+			<Key>TradingPage</Key>
+			<Title>Les commerçants</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>
+				Le commerce est une partie essentielle de l&apos;existence d&apos;un &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt;, en particulier sur des mondes plus extrêmes, où les nouveaux cadets peuvent être soumis à rude épreuve et sans aide.
+
+				{HEADER:Conseil commercial:}
+				Pour contacter un commerçant, vous devez établir un système de communication. Cela nécessite les éléments suivants:
+
+				- Un {THING:StructureVendingMachine} alimenté pour stocker et échanger des objets.
+				- Unel {THING:StructureSatelliteDish} opérationnelle pour localiser et identifier les commerçants potentiels.
+				- Un {THING:StructureComputer} et une {THING:MotherboardComms} fonctionnel.
+				- Une {THING:StructureShuttleLandingPad} sur laquelle le commerçant peut atterrir.
+
+				Lorsque votre système est opérationnel, vous verrez un écran vide sur le terminal de l&apos;ordinateur. Ajustez la position de l&apos;antenne parabolique jusqu&apos;à ce qu&apos;elle enregistre un ou plusieurs commerçants. Ceux-ci apparaîtront à l&apos;écran avec une note de 1 à 100 %. C&apos;est la force de votre signal. Un commerçant ne peut être invoqué que lorsque la force du signal est supérieure à 95 %. Une fois qu&apos;un commerçant a été contacté, il fournira par la suite un nom. Différents commerçants proposent différentes catégories d&apos;articles.
+
+				{HEADER:Les commerçants:}
+				Électronique        TechTree Electronics
+				Biologiques         Organicon
+				De base         Spes&apos;mall Basics
+				Hydraulique         HydrauliKit
+				Minerai         MineRiteOres
+				Four micro-onde         Microwares
+				Chimie         ChemLab
+				Exotiques         ExoTech
+				Peindre         Color Corp Paints
+				Outils         Tool Corp
+				Sécurité         Hall Corp Security
+				Gaz         GasTrade
+				Autre         Kolders&apos; Assorted Goods
+				Personnalisé         Spes&apos;mall
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ConstructionPage</Key>
+			<Title>Construction</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>
+				{HEADER:Conseil d&apos;artisan:}
+				En règle générale, vous utiliserez des {LINK:KitPage;kits} pour lancer la construction, puis une variété d&apos;{LINK:ToolPage;outils} et de {LINK:ResourcePage;resources} pour terminer. Portez une attention particulière au nombre de pièces de votre kit pour finir la construction de ce que vous avez sélectionné, car certaines structures nécessitent plus d&apos;une pièce pour être terminé. Pour certains kits, vous aurez plusieurs options, utilisez la {COLORRED:molette} pour changer l&apos;option actuelle que vous cherchez à construire.
+
+				{HEADER:Étapes de construction:}
+				Certaines structures auront plusieurs étapes de construction qui nécessitent différentes combinaisons pour se terminer. Votre info-bulle vous indiquera la combinaison dont vous avez besoin pour compléter la structure. Parfois, vous aurez besoin d&apos;avoir deux objets, un dans chaque main, pour terminer un état de construction. Certains outils devront d&apos;abord être activés, ce qui peut être fait en appuyant sur {KEY:ToggleHandPower} pendant qu&apos;il est dans votre main active.
+
+				{HEADER:Info-bulles:}
+				Si vous regardez directement une structure incomplète, vous obtiendrez des informations sur ce que vous devez faire pour la compléter. Si vous avez un {LINK:ToolPage;outil} dans votre main et que ce n&apos;est pas le bon {LINK:ToolPage;tool}, une info-bulle apparaîtra vous indiquant ce que vous auriez besoin d&apos;utiliser pour le déconstruire.
+
+				{HEADER:Pression:}
+				Lors de la construction, il est important de noter que la pression est mesurée sous forme de différentiel. La plupart des structures ont une limite de pression de 200 kPa. Si la différence entre l&apos;intérieur et l&apos;extérieur est supérieure à cela, vous allez avoir des sérieux problèmes.
+			  </Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>MusicPage</Key>
+			<Title>Faire de la musique</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>
+				&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; n&apos;approuve pas les bandes sonores ou autres distractions.
+				En tant que tels, les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; ont dû créer leur propre accompagnement musical pour le travail exigeant de construction et de maintenance d&apos;infrastructures hors du monde.
+				Au centre de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; de séquencer de courts motifs musicaux ou des boucles.
+				
+				{HEADER:Conseil de musicien:}
+				1: Connectez 8 {THING:DeviceStepUnit} à votre séquenceur pas à pas via le port de données sur le côté gauche.
+				
+				2: Étiquetez chaque unité de pas, puis attribuez les unités de pas 1 à 8 sur le séquenceur pas à pas à l&apos;aide du tournevis.
+				
+				3: Sélectionnez le haut-parleur de sortie (par exemple {THING:PassiveSpeaker}) où le séquenceur jouera les sons. Celui-ci doit être connecté au réseau logique sur le côté droit du séquenceur.
+				
+				4: Placez un {THING:StopWatch} et utilisez un {THING:StructureLogicReader} et un {THING:StructureLogicWriter} pour écrire l&apos;heure dans la variable time du séquenceur.
+				
+				5: Définissez le BPM sur le séquenceur à l&apos;aide d&apos;un {THING:StructureLogicDial} et d&apos;un {THING:StructureLogicWriter} pour écrire dans la variable BPM du séquenceur. Un bpm plus élevé jouera la séquence plus rapidement. 
+				
+				6: Insérez une cartouche de son de votre choix et sélectionnez la variante de son que vous souhaitez jouer en appuyant sur les boutons fléchés situés au-dessus et en dessous de la fente de la cartouche de son.
+				
+				7: Choisissez la hauteur des sons à jouer en réglant le cadran de chacune de vos unités à 8 pas sur la note désirée. Avec la batterie, chaque note est un son de batterie différent. Vous pouvez tester vos sons en appuyant sur le bouton d&apos;activation de chaque unité de pas (avec le séquenceur inactif).
+				
+				8: Soyez pas trop lourd avec le {THING:DeviceLfoVolume}.
+				
+				9: Enfin, activez le séquenceur,, Vibeoneer.
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>TemperatureControlPage</Key>
+			<Title>Contr&#244;le de la température</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>
+				Afin de contrôler la température d&apos;un système, nous devons soit lui ajouter de la chaleur, ce qui augmente sa température, soit lui retirer de la chaleur, ce qui le refroidit, c&apos;est l&apos;idée de base du contrôle de la température. Les appareils qui atteignent cet objectif pour vous sont:
+				- Un {THING:ItemWallHeater}
+				- Un {THING:ItemWallCooler}
+				- Un {THING:StructurePipeRadiator}
+				- Un {THING:StructureAirConditioner}
+
+				REMARQUE: Il existe de nombreuses méthodes de contrôle de la température. Certains n&apos;impliquent aucun des dispositifs mentionnés. Ici, nous verrons seulement les bases.
+
+				Il est important de comprendre votre environnement avant d&apos;installer tout type de contrôle de température. Le volume de gaz ou de liquide est un facteur important lors du choix de votre méthode de contrôle de la température. Un {THING:StructureTankSmall} peut contenir jusqu&apos;à 6 000L, tandis qu&apos;un {THING:StructureTankBig} peut contenir jusqu&apos;à 50,000L, ce qui signifie que si les deux sont pleins, le petit réservoir réagira plus rapidement aux changements de température. Une pièce est un espace pouvant contenir une certaine quantité de gaz. Plus il est grand, plus il pourra contenir de volume, donc les mêmes règles s&apos;appliquent généralement aux réservoirs et aux chambres.
+
+				{HEADER:RÉSEAUX DE CANALISATIONS:}
+				Un réseau de canalisations est constitué d&apos;un ou de plusieurs segments de canalisation connectés les uns aux autres sans aucune séparation en aucun point. Un réseau de canalisations partage la même atmosphère partout le long de la canalisation, quelle que soit sa taille. Si vous modifiez la température ou la pression à une extrémité du réseau, l&apos;extrémité la plus éloignée subira immédiatement le même changement sans délai.
+
+				L&apos;ajout d&apos;appareils à un réseau peut le diviser en deux réseaux différents. Par exemple, l&apos;ajout d&apos;une {THING:StructureVolumePump} à un réseau de canalisations divisera le réseau en deux réseaux: un avant la pompe et un après celle-ci.
+
+				Utilisez une {THING:ItemTablet} avec une {THING:CartridgeAtmosAnalyser} installé pour afficher des informations sur le contenu de n&apos;importe quel réseau de canalisations.
+
+				{HEADER:RADIATEURS:}
+				Fabriqué dans la cintreuse de tuyaux, un {THING:StructurePipeRadiator} vous aidera à échanger de la chaleur entre les tuyaux et leur environnement environnant. Ils fonctionnent à la fois sur des tuyaux et des tuyaux isolés, ainsi que sur des variantes liquides.
+
+				Dans des conditions normales, un segment de tuyau échangera de la chaleur avec son environnement, mais l'ajout d'un radiateur à ce segment de tuyau accélérera considérablement le processus. Un segment de tuyau continuera à échanger de la chaleur avec l'atmosphère environnante jusqu'à ce que les deux s'égalisent en température.
+
+				{HEADER:REFROIDISSEMENT PASSIF:}
+				Vous pouvez refroidir ou chauffer n&apos;importe quel environnement en utilisant un {THING:StructurePipeRadiator} pour échanger de la chaleur entre deux atmosphères. Un exemple de ceci serait de placer un tuyau sur le mur, de le remplir de gaz et de placer des radiateurs sur le tuyau. Maintenant, l&apos;atmosphère des deux tuyaux et de la pièce échangera de température jusqu'à ce que leurs environnements s'égalisent.
+
+				{HEADER:CHAUFFAGE MURAL}
+				Le {THING:ItemWallHeater} est un appareil simple qui peut être installé sur un mur ou un cadre et connecté à l'alimentation. Lorsqu'il est allumé, il commencera à chauffer l'environnement environnant. Il consomme 1010W de puissance et peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain niveau.
+
+				{HEADER:REFROIDISSEUR MURAL:}
+				Le {THING:ItemWallCooler} complète le radiateur mural, qui ne peut qu'augmenter la température. Le refroidisseur mural fonctionne en puisant la chaleur de l'atmosphère environnante et en ajoutant cette chaleur dans son réseau de canalisations. Afin de faire fonctionner correctement le refroidisseur mural, vous devrez connecter des tuyaux au refroidisseur mural et remplir le réseau de tuyaux connecté avec n'importe quel type de gaz. La capacité calorifique et le volume du gaz détermineront à quelle vitesse il réagit aux changements de température.
+
+				Plus la différence de température entre le gaz stocké dans les tuyaux et la pièce est élevée, moins le refroidisseur mural sera efficace. Donc, pour que le refroidisseur mural fonctionne à une efficacité acceptable, vous devrez vous débarrasser de la chaleur qui s'accumule dans les tuyaux qui y sont connectés. Une pratique courante serait de faire passer les tuyaux vers l'extérieur et d'utiliser des {THING:ItemPassiveVent} sur la section extérieure et se débarrasser de la chaleur.
+
+				Moins le refroidisseur mural est efficace, moins il consomme d'énergie. Il consommera 1010W à efficacité maximale. Le refroidisseur mural peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain degré.
+
+				Si le refroidisseur mural affiche une erreur, il manque l'un des éléments suivants:
+				- Un mauvais raccordement du tuyau au refroidisseur mural.
+				- Le gaz dans les tuyaux raccordés ou pression trop faible.
+				- L'atmosphère dans le milieu environnant ou la pression est trop basse.
+
+				{HEADER:CLIMATISEUR:}
+				Le {THING:StructureAirConditioner} dans sa forme de base fonctionne exactement comme le refroidisseur mural et peut bénéficier des mêmes conceptions. Cependant, il est plus puissant. Il refroidit plus rapidement et consomme beaucoup plus d'énergie en fonction de la situation, ce qui le rend plus adapté pour traiter de gros volumes et de grandes surfaces. Il peut chauffer ou refroidir selon le réglage.
+
+				CLIMATISEUR: COMMENT ÇA MARCHE ?
+				Le gaz entre par le côté entrée, puis, selon le réglage, de la chaleur est ajoutée ou retirée du gaz entrant et ajoutée au tuyau d'évacuation. Le gaz de sortie sortira alors par la connexion de sortie, plus froid ou plus chaud selon le réglage.
+				Le gaz de sortie sortira alors par la connexion de sortie, plus froid ou plus chaud selon le réglage.
+				Vous pouvez connecter le tuyau d'entrée aux tuyaux de sortie (vous pouvez voir s'ils sont connectés s'ils ont tous les deux le même numéro de réseau) : cela vous donnera plus de contrôle sur la température, car le gaz n'atteindra pas la température cible après le premier passage. Il faudra du temps et de l'énergie pour retirer ou ajouter de la chaleur à n'importe quel gaz.
+
+				La façon dont vous installez et configurez votre climatiseur dépend de ce que vous essayez de refroidir ou de chauffer. Pour une pièce, vous aurez besoin d'un {THING:StructureAirConditioner} à l'intérieur de la pièce et à la l&apos;extérieur, tandis que le tuyau d'évacuation doit être rempli d'un gaz réfrigérant.
+
+				Le climatiseur n'a pas besoin d'être à l'intérieur de la pièce. La seule partie de cette configuration qui doit être dans la pièce est {THING:StructureAirConditioner} qui fera le tour de l'atmosphère de la pièce jusqu'au climatiseur pour être refroidi ou chauffé.
+
+				Vous pouvez utiliser un seul climatiseur pour chauffer et refroidir. Il vous suffit de modifier le réglage de la température cible sur le panneau. Cependant, si vous souhaitez automatiser le refroidissement et le chauffage en même temps, vous aurez besoin d'un climatiseur pour le refroidissement et d'un autre pour le chauffage, car le réglage sur le panneau ne peut être modifié que manuellement.
+
+				L'installation de plusieurs climatiseurs sur le même réseau de canalisations peut être utile si vous avez besoin que les choses aillent plus vite ou si vous devez en utiliser certains pour le chauffage et d'autres pour le refroidissement. Pour ce faire, connectez les entrées et les sorties des climatiseurs ensemble et partagez le même réseau de tuyaux pour leurs entrées et sorties. Le réseau de canalisations d'évacuation peut également être partagé entre eux, mais il doit être séparé du réseau de canalisations d'entrée/sortie. La même idée s'applique lors de l'utilisation du climatiseur pour contrôler la température des réservoirs. Cependant, au lieu d'utiliser un {THING:StructureAirConditioner}, vous devrez connecter directement le réservoir au climatiseur.
+
+				CLIMATISEUR: NE PAS OUBLIEZ
+				- Plus la différence de température entre le tuyau d'entrée et le tuyau d'évacuation est grande, plus le climatiseur utilisera de puissance
+				- La puissance consommée par le climatiseur peut dépasser 5 kW, il est donc recommandé d'utiliser des {THING:ItemCableCoilHeavy} pour alimenter les climatiseurs.
+				- Faire passer le tuyau d'évacuation à l'extérieur et l'égaliser avec l'atmosphère extérieure n'est pas toujours la meilleure option : le gaz que vous y mettez peut être appliqué ailleurs dans votre base.
+
+				CLIMATISEUR: CONTRÔLE DE LA TEMPÉRATURE DE BASE
+				Il existe de nombreuses façons de contrôler la température de votre base à l'aide de climatiseurs
+				Objectif:
+				Étapes 1: Réalisez un réseau de tuyaux unique autour de votre base et installez des {THING:StructureAirConditioner} connectés à ce tuyau dans chaque pièce que vous souhaitez contrôler pour cette configuration. C'est 'Réseau A'.
+				Étapes 2: Connectez le « Réseau A » à une entrée et une sortie du climatiseur.
+				Étapes 3: Connectez le tuyau d'évacuation à un réseau différent et faites-le passer vers l'extérieur. Installez des radiateurs sur ce réseau.
+				C'est la configuration de base. Pour l'analyser, vous aurez besoin d'un analyseur de tuyaux. Lisez la température et faites fonctionner votre ou vos climatiseurs en conséquence.
+				Bonne chance Cadet !
+			</Text>
+		</StationpediaPage>
+	
+	<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               	|
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+		<StationpediaPage>
+			<Key>ThingTemplate</Key>
+			<Text>{0}
+		{HEADER:General}
+		{LIST}Prefab Hash {POS:300}{1}
+		A peindre {POS:300}{2}{3}{/LIST}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ThingThermalTemplate</Key>
+			<Text>{HEADER:Limites thermique}
+		{LIST}Deterioration {POS:300}{0}
+		Point de rupture{POS:300}{1}
+		Auto-allumage{POS:300}{2}{3}{/LIST}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ThingSlotItemTemplate</Key>
+			<Text>{0}. {1} type {2}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ThingTransmissibleTemplate</Key>
+			<Text>Se connecte à {THING:StructureLogicTransmitter}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>IceMeltingTemplate</Key>
+			<Text>Température de fusion {1}
+		Pression de fusion {0}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>LogicTransmitHeaderTemplate</Key>
+			<Text>{LIST}{0}{/LIST}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>ReagentPageTemplate</Key>
+			<Text>Un {LINK:ReagentPage;réactif}, souvent utilisable sous forme de {LINK:IngotPage;lingots}.
+		{LIST}Unit {1}{/LIST}
+		{LIST}{2}{/LIST}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>GasPageTemplate</Key>
+			<Text>Du {LINK:GasPage;gaz}, est généralement produit lors de la fusion d&apos;{LINK:SmeltingPage;alliage}.
+		{LIST}Specific Heat {1}{2}{/LIST}
+		{LIST}{0}{/LIST}</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>GasPageFlamableTemplate</Key>
+			<Text>Limite d&apos;embrassement {0} à {1}</Text>
+		</StationpediaPage>
+	</HelpPage>
+</Language>

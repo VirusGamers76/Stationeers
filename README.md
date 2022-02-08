@@ -9,3 +9,9 @@
 -----------------------
 
 #### N'hésitez pas à télécharger la version rfançaise, testée notre première version et ainsi donnez votre avis dans le [fil de discussion](https://github.com/VirusGamers76/Stationeers/discussions).
+
+-----------------------
+
+Pour voir l'avancement du projet, tu peut visionner le [CHANGELOG](https://github.com/VirusGamers76/Stationeers/blob/main/CHANGELOG.md) :)
+
+-----------------------

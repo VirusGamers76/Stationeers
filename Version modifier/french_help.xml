@@ -4,7 +4,7 @@
 	<HelpPage>
 		<!--
     ~~~~~~~~~~~~~~~~~~~~~~~
-    |                 MASTER PAGES           |
+    |     MASTER PAGES    |
     ~~~~~~~~~~~~~~~~~~~~~~~
     -->
 		<StationpediaPage>
@@ -20,9 +20,9 @@
 			<Text/>
 		</StationpediaPage>
 	<!--
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    |        DESCRIPTION SECTION ACCUEIL          |
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |   DESCRIPTION SECTION ACCUEIL    |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
 
 		<StationpediaPage>
@@ -222,7 +222,7 @@
 	
 	<!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~~
-    |                     GUIDES                |
+    |     	  GUIDES  	      |
     ~~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
 		<StationpediaPage>
@@ -384,9 +384,9 @@
 		</StationpediaPage>
 	
 	<!--
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    |                     TEMPLATES               	|
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |       TEMPLATES          	|
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
 		<StationpediaPage>
 			<Key>ThingTemplate</Key>

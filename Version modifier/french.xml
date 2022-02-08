@@ -9971,7 +9971,6 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 			<Key>TimerPanel</Key>
 			<Value>Durée</Value>
 		</Record>
-		
 		<!-- AJOUTER PAR VIRUS_GAMERS -->
 		<Record>
 			<Key>MoleOxygenDescription</Key>
@@ -10004,23 +10003,13 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 			<Key>MoleWaterDescription</Key>
 			<Value>Vous pouvez obtenir de l'eau en fondant ou en écrasant de la {THING:ItemIce} à l'aide d'un {THING:StructureFurnace} ou d'un {THING:StructureIceCrusher}, ou en brûlant des substances volatiles et de l'oxygène à l'aide du {THING:H2Combustor}.
 			L'eau est essentielle pour que les &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plantes}&lt;/color&gt; restent en vie et produisent de la &lt;color=#0080FFFF&gt;{LINK:NutritionPage;nourriture}&lt;/color&gt;. C'est aussi un fluide caloporteur exceptionnel avec une capacité calorifique très élevée.
-			Remarque : L'eau était auparavant traitée comme un gaz, mais un nouveau système pour les liquides est en cours de développement, comprenant des tuyaux, des réservoirs, des pompes, etc. L'eau est actuellement le seul liquide disponible et ne change pas actuellement d'état.
+			Remarque: L'eau était auparavant traitée comme un gaz, mais un nouveau système pour les liquides est en cours de développement, comprenant des tuyaux, des réservoirs, des pompes, etc. L'eau est actuellement le seul liquide disponible et ne change pas actuellement d'état.
 			</Value>
 		</Record>
 		<Record>
 			<Key>MoleNitrousOxideDescription</Key>
 			<Value>Le protoxyde d'azote est un gaz inerte qui assommera les joueurs s'il est inhalé. Cela fait exploser votre {THING:ItemJetpackBasic}... whoosh.</Value>
 		</Record>
-
-
-
-
-
-
-
-
-
-		
 	</Interface>
 	
 	<!-- SECTION DES COULEURS -->

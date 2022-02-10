@@ -1,4 +1,4 @@
-# Version 0.2 (en cours...) [Prochainement]
+# Version 0.2 (à jour) [10/02/2022]
 
 ## <ins>**Ajout:**</ins> (French.xml)
 
@@ -31,7 +31,7 @@
 - Traduction de la page "faire de la musique" (Guides)
 - Traduction de page "Contrôle de la température" (Guides)
 - Traduction de page "Modules de fusée automatisés (A.R.M.)" (Guides)
-# Version 0.1 (release) [06/02/2022]
+# Version 0.1 (Obselette) [06/02/2022]
 
 Caractéristiques:
 

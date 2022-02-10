@@ -145,14 +145,6 @@
 			<Text>{LIST_OF_FACTIONS}</Text>
 		</StationpediaPage>
 		<StationpediaPage>
-			<Key>LorePage</Key>
-			<DisplayFilter>Lore</DisplayFilter>
-			<Title>Traduction française</Title>
-			<Text>Note de version française.
-			Version: 0.2 (05-02-2022)
-			</Text>
-		</StationpediaPage>
-		<StationpediaPage>
 			<Key>FurniturePage</Key>
 			<Title>Meubles</Title>
 			<Text>
@@ -382,7 +374,71 @@
 				Bonne chance Cadet !
 			</Text>
 		</StationpediaPage>
-	
+		<StationpediaPage>
+   			<Key>AutomatedRocketPage</Key>
+			<Title>Modules de fusée automatisés (A.R.M.)</Title>
+     		<DisplayFilter>Guides</DisplayFilter>
+			<Text>Les fusées automatisées sont des véhicules sans équipage qui peuvent être envoyés hors du monde pour récupérer une gamme de ressources. La fusée peut être contrôlée par des composants &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;électronique}&lt;/color&gt;.
+      
+				Une fois lancées, les fusées automatisées recherchent des planètes ou des astéroïdes avec des ressources exploitables, selon les MODULES avec lesquels elles ont été construites. Les fusées peuvent être programmées pour exploiter toutes les ressources disponibles, puis se déplacer vers une autre planète ou rentrer chez elles. Leur portée - Leur portée - et donc la quantité de ressources qu'ils peuvent collecter - est déterminée par leur carburant disponible. S'ils manquent de carburant, ils sont perdus dans le vide pour toujours.
+
+				{HEADER:LES MODULES:}
+				Le système de fusée automatisé est composé de quatre modules fondamentaux, plus un moteur et un ou plusieurs réservoirs de carburant:
+
+				# MODULE D'AUTOMATISATION:
+				Le {THING:StructureModularRocketAutomation} est le système de contrôle, transmettant les données aux différents modules.
+
+				# MODULE MINIER:
+				Ces modules effectue l'opération minière. Actuellement ce sont {THING:StructureRocketModuleMiningOre}, {THING:StructureModularRocketIceMining}, {THING:StructureRocketModuleMiningJunk} et {THING:StructureModularRocketGasMining}.
+
+				# COUPLEUR:
+				Celui-ci relie les modules de minage aux modules de stockage, en faisant passer la matière de l'un à l'autre. Plus précisément, le {THING:StructureModularRocketCouplingDown} transmet les ressources à un module de stockage SOUS celui-ci. Le {THING:StructureModularRocketCouplingUp} transmet les ressources à un module de stockage AU-DESSUS. La fusée ne collectera pas de ressources sans cet élément.
+
+				# MODULE DE RANGEMENT:
+				ce module reçoit des ressources d'un module de minage via un coupleur et les stocke jusqu'au retour de la fusée. Cela inclut actuellement {THING:StructureRocketModuleSilo} pour les minerais et {THING:StructureModularRocketFueltank01} pour le gaz. Les modules de stockage peuvent être connectés à un &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;réseau de chutes}&lt;/color&gt;, mais sont fermés par défaut. Utilisez des &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;composants électronique}&lt;/color&gt; pour le définir sur "ouvert".
+
+
+				{HEADER:CONDITIONS DE LANCEMENT:}
+
+				# PUISSANCE:
+				tous les modules de la fusée doivent être alimentés. Notez que les modules sont créés "On" par défaut, mais peuvent être désactivés et activés à l'aide des &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;composants électronique}&lt;/color&gt;.
+
+				# CARBURANT:
+				La fusée doit avoir au moins un réservoir de carburant et suffisamment de carburant pour le décollage (au moins 500 mols). Notez que la fusée nécessite également 500 mols pour atterrir ET consomme 5 mols par tick pendant la phase de déplacement.
+
+				# CONSTRUCTION:
+				La fusée doit être correctement assemblée (voir MODULES ci-dessus)
+
+				# PROGRAMMATION:
+				La fusée est contrôlée par le &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;système IC}&lt;/color&gt; (voir ci-dessous).
+
+				{HEADER:MODES FUSÉE:}
+				Le mode de la fusée est défini via la valeur "activer" de l'appareil. Le mode détermine le comportement actuel :
+
+				0: Inactif (à la base)
+				1: Lancement
+				2: En Voyage
+				3: Arrived
+				4: Inactif à destination (prêt à activer les modules de minage).
+				5: Retourner à la maison
+				6: Revenu
+				7: Perdu
+
+				{HEADER:COMMANDES DE FUSÉE UNIQUES:}
+				
+				# CARBURANT DANS LE RÉSERVOIR RESTANT:
+				Obtient le carburant restant dans le réservoir de carburant de votre fusée.
+
+				# COÛT DE RETOUR DE CARBURANT:
+				Obtient le coût du carburant pour ramener la fusée dans votre monde actuel.
+
+				# MODE FUSÉE:
+				Obtient la valeur actuelle du RocketMode (0-7).
+
+				# BIENS DE COLLECTION:
+				Renvoie 0 ou 1 selon que le système de fusée actuel a ou non la capacité de collecter des ressources sur la planète.
+			</Text>
+		</StationpediaPage>
 	<!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     |       TEMPLATES          	|
@@ -413,7 +469,7 @@
 		<StationpediaPage>
 			<Key>IceMeltingTemplate</Key>
 			<Text>Température de fusion {1}
-		Pression de fusion {0}</Text>
+			Pression de fusion {0}</Text>
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>LogicTransmitHeaderTemplate</Key>

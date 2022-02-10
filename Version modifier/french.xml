@@ -794,6 +794,7 @@
 		<RecordThing>
 			<Key>ItemBatteryCharger</Key>
 			<Value>[Kit] Chargeur de Batterie</Value>
+			<Description>Voir: {THING:StructureBatteryCharger} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBook</Key>
@@ -1020,6 +1021,7 @@
 		<RecordThing>
 			<Key>ItemKitAtmospherics</Key>
 			<Value>[Kit] Atmosphérique</Value>
+			<Description>Voir: {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration} ou {THING:H2Combustor} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitBattery</Key>
@@ -1404,6 +1406,17 @@
 		<RecordThing>
 			<Key>StructureAirConditioner</Key>
 			<Value>Climatiseur</Value>
+			<Description>Construit à l'aide du {THING:ItemKitAtmospherics}, le climatiseur conçu par &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin-designed}&lt;/color&gt; est utilisé pour augmenter ou diminuer la température locale. 
+			Il dispose de trois raccords de tuyauterie: entrée, sortie et évacuation. Fixez un {THING:ItemActiveVent} au port d'entrée et de sortie de l'appareil, afin que qu'il puisse aspirer du gaz à travers celui-ci.
+			Faites passer des tuyaux depuis le port d'évacuation jusqu'à l'extérieur de votre base, où vous pouvez ajouter des {THING:StructurePipeRadiator} pour éliminer ou gagner rapidement de la température à partir du réseau.
+			Notez que certains &lt;color=#0080FFFF&gt;{LINK:GasPage;gaz}&lt;/color&gt; sont de meilleurs caloporteurs que d'autres, mais si le tuyau de caloporteur a une pression inférieure à 100kPa, il va siphonner sa sortie pour atteindre la pression nécessaire.
+			Pour plus d'informations sur l'utilisation du climatiseur, consultez la page guides de {LINK:TemperatureControlPage;contrôle de la température}.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureFiltration</Key>
+			<Value>Filtration</Value>
+			<Description>L'unité de filtration Zyklon est basée sur un système &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;, de longue date, lui-même basé sur des conceptions plus anciennes de provenance incertaine. Il est disponible dans le {THING:ItemKitAtmospherics}.
+			Peut-être mal nommé, l'appareil s'est néanmoins révélé indispensable pour les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; , car il peut filtrer deux &lt;color=#0080FFFF&gt;{LINK:GasPage;gaz}&lt;/color&gt; simultanément à partir d'un réseau de canalisations unique à l'aide d'un réseau de filtres doubles. L'unité a une entrée et une sortie filtrée ainsi qu'une sortie non filtrée pour les éventuels gaz résiduels.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAirlock</Key>
@@ -1424,6 +1437,9 @@
 		<RecordThing>
 			<Key>StructureBatteryCharger</Key>
 			<Value>Chargeur de Batterie</Value>
+			<Description>Le chargeur de batterie peut charger 5 batteries à la fois.
+			{HEADER:Notes:}
+			Chaque batterie de charge consommera 500 watts. La puissance maximale nécessaire pour cinq batteries est de 2500 Watts. La connexion du chargeur de batterie à des câbles lourds n’augmentera pas le taux de charge. Il consomme une alimentation de veille de 10 watts lorsqu’il est allumé, quel que soit le nombre de batteries connectées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBench</Key>
@@ -1932,6 +1948,10 @@
 		<RecordThing>
 			<Key>StructureArcFurnace</Key>
 			<Value>Four à Arc</Value>
+			<Description>Le système de fusion le plus simple disponible pour les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;moyen, le four à arc de &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso's}&lt;/color&gt; a été forgé lui-même dans les profondeurs du système solaire pour aider les géologues explorateurs à déterminer la pureté des cibles minières astéroïdes potentielles.
+			Coopté par &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, il offre désormais aux Stationeers un moyen de produire des lingots purs de diverses ressources.
+			Le processus de fusion libère également une gamme de sous-produits &lt;color=#0080FFFF&gt;{LINK:GasPage;gazeux}&lt;/color&gt;, principalement de l'&lt;color=#0080FFFF&gt;{LINK:GasPage;azote}&lt;/color&gt;, du &lt;color=#0080FFFF&gt;{LINK:GasPage;dioxyde de carbone}&lt;/color&gt;, des composés &lt;color=#0080FFFF&gt;{LINK:GasPage;volatils}&lt;/color&gt; et de l' &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygène}&lt;/color&gt; ans des proportions différentes. Ceux-ci peuvent être récupérés dans l'atmosphère par filtrage, mais font aussi du four à arc un risque en milieu clos.
+			Contrairement au {THING:StructureFurnace} plus avancé, le four à arc ne peut pas créer d'alliages.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAutolathe</Key>
@@ -2098,9 +2118,7 @@
 		<RecordThing>
 			<Key>ItemKitElectronicsPrinter</Key>
 			<Value>[Kit] Imprimante électronique</Value>
-			<Description>L'imprimante électronique créera n'importe quelle &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;pièce électronique}&lt;/color&gt; dont vous avez besoin. Des circuits imprimés et appareils électroniques aux panneaux solaires. Le choix t'appartient.
-			{HEADER:Amélioration:}
-			Mettez à niveau l'appareil à l'aide d'un {THING:ElectronicPrinterMod} pour des recettes supplémentaires et des vitesses de traitement plus rapides.</Description>
+			<Description>Voir: {THING:StructureElectronicsPrinter} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDoor</Key>
@@ -2109,6 +2127,7 @@
 		<RecordThing>
 			<Key>ItemKitAutolathe</Key>
 			<Value>[Kit] Tour Automatique</Value>
+			<Description>Voir: {THING:StructureAutolathe} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitBlastDoor</Key>
@@ -2117,6 +2136,7 @@
 		<RecordThing>
 			<Key>ItemKitArcFurnace</Key>
 			<Value>[Kit] Four à Arc</Value>
+			<Description>Voir: {THING:StructureArcFurnace} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureHydraulicPipeBender</Key>
@@ -2128,9 +2148,7 @@
 		<RecordThing>
 			<Key>ItemKitHydraulicPipeBender</Key>
 			<Value>[Kit] Cintreuse Hydraulique</Value>
-			<Description>Un outil incontournable pour tous vos besoins atmosphériques et de plomberie, La cintreuse hydraulique conçue par &lt;color=#0080FFFF&gt;{LINK:ExMin;Exmin}&lt;/color&gt; vous fabriquera tout types de tuyaux, pompes et réservoirs, aux ventilation et filtres, assurant votre survie dans n'importe quel environnement.
-			{HEADER:Amélioration:}
-			Mettez à niveau l'Atmoprinter à l'aide d'un {THING:PipeBenderMod} pour des recettes supplémentaires et des vitesses de traitement plus rapides.</Description>
+			<Description>Voir: {THING:StructureHydraulicPipeBender} pour plus de détails. </Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSorter</Key>
@@ -2162,9 +2180,7 @@
 		<RecordThing>
 			<Key>ItemKitToolManufactory</Key>
 			<Value>[Kit] Imprimante Outillage</Value>
-			<Description>Aucune mission ne peut être accomplie sans les outils appropriés. La manufacture &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; ThuulDek peut fabriquer presque n'importe quel outil ou appareil portatif dont un &lt;color=#0080FFFF&gt;{LINK:Stationeer;Stationeer}&lt;/color&gt; peut avoir besoin pour accomplir sa mission, ainsi qu'une variété de peintures délicieuses.
-			{HEADER:Amélioration:}
-			Mettez à niveau l'appareil à l'aide d'un {THING:ToolPrinterMod} pour des recettes supplémentaires et des vitesses de traitement plus rapides.</Description>
+			<Description>Voir: {THING:StructureToolManufactory} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTransformerSmallReversed</Key>
@@ -2333,10 +2349,17 @@
 		<RecordThing>
 			<Key>StructureGasGenerator</Key>
 			<Value>Générateur à gaz combustible</Value>
+			<Description>En tant que grand frère du {THING:DynamicGenerator}, le générateur de gaz nécessite du carburant et produit des quantités folles de puissance si vous n’étranglez pas son entrée de gaz.
+			{HEADER:Notes:}
+			- Utilisez un régulateur de pression sur l’entrée et démarrez-le à 1kpa pour commencer.
+			- Peut être utilisé en conjonction avec un {THING:StructureElectrolyzer} pour générer son carburant.
+			- Nécessite d’être placé dans une atmosphère pour travailler. Pression minimale de 20 kPA et température comprise 5 à 55 degrés Celsius.
+			- Avec un bon mélange de carburant (33/64 O²/H²) peut générer jusqu’à 80kW.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitGasGenerator</Key>
 			<Value>[Kit] Générateur à gaz combustible</Value>
+			<Description>Voir: {THING:StructureGasGenerator} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGPR</Key>
@@ -2850,7 +2873,7 @@
 		<RecordThing>
 			<Key>ItemKitSecurityPrinter</Key>
 			<Value>[Kit] Imprimante de sécurité</Value>
-			<Description>Tout &lt;color=#0080FFFF&gt;{LINK:Stationeer;Stationeer}&lt;/color&gt; soucieux de la sécurité a besoin de l'imprimante de sécurité Vigilant-E conçue par &lt;color=#0080FFFF&gt;{LINK:Harkwell;Harkwell-designed}&lt;/color&gt;. Utilisez le Vigilant-E pour créer un {THING:CartridgeAccessController}, afin de restreindre l'accès à différentes parties de votre base via des cartes-clés comme le {THING:AccessCardBlue}. L'imprimante fabrique également une variété d'armes et de munitions pour défendre votre base contre toute entité hostile, agressive ou légèrement grossière que vous rencontrez lors de votre exploration du système solaire.</Description>
+			<Description>Voir: {THING:StructureSecurityPrinter} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>Handgun</Key>
@@ -2874,7 +2897,8 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureElectrolyzer</Key>
-			<Value>Electrolyseur</Value>
+			<Value>Électrolyseur</Value>
+			<Description>L'électrolyseur &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; divise l'eau en hydrogène et en oxygène. Utilisant une technologie inconnue, l'appareil utilise la chaleur latente de l'eau comme énergie pour piloter le processus d'électrose. S'il y a un inconvénient à cette fission quasi miraculeuse, c'est que l'appareil est limité par la quantité d'énergie disponible, qui est utilisée pour maintenir la température de sortie. En d'autres termes, la machine fonctionne mieux avec du gaz chaud.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureElevatorShaft</Key>
@@ -2914,7 +2938,7 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitHydroponicStation</Key>
-			<Value>Kit (Station Hydroponique)</Value>
+			<Value>[Kit] Station Hydroponique</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureDiodeSlide</Key>
@@ -2938,23 +2962,23 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitMotherShipCore</Key>
-			<Value>Kit (Noyau de Vaisseau Mère)</Value>
+			<Value>[Kit] Noyau de Vaisseau Mère</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDynamicScrubber</Key>
-			<Value>Kit (Epurateur portable)</Value>
+			<Value>[Kit] Epurateur portable</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDynamicAirCon</Key>
-			<Value>Kit (Climatiseur portable)</Value>
+			<Value>[Kit] Climatiseur portable</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitPipeValve</Key>
-			<Value>Kit (Vanne de tuyau)</Value>
+			<Value>[Kit] Vanne de tuyau</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicGenerator</Key>
-			<Value>Kit (Générateur portable)</Value>
+			<Value>[Kit] Générateur portable</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureVendingMachine</Key>
@@ -2962,7 +2986,7 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitVendingMachine</Key>
-			<Value>Kit (Distributeur automatique)</Value>
+			<Value>[Kit] Distributeur automatique</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLogicSlotReader</Key>
@@ -3439,10 +3463,14 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>StructureAdvancedFurnace</Key>
 			<Value>Fourneau avancé</Value>
+			<Description>Le four avancé est utilisé pour créer des alliages avancés, mais peut également être utilisé pour créer des alliages de base. Il se prête à l’automatisation.
+			La pression maximale du four est de 60 MPa avant que le four n’explose.  L’ajout d’hydrocarbures, c’est-à-dire de charbon, augmentera la pression. Contient deux {THING:StructureVolumePump} pour contrôler le débit entrant et sortant, , pour les utiliser, le four doit être alimenté, et mettre les deux à zéro mettra le four dans un état de quiescence, mais le four perdra lentement de la pression et de la température.
+			La capacité du four est supérieure à 5 kg de matériaux, il est donc possible d’utiliser les lingots complets de 500 g pour fabriquer un alliage.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitAdvancedFurnace</Key>
 			<Value>[Kit] Fourneau avancé</Value>
+			<Description>Voir: {THING:StructureAdvancedFurnace} pour une de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemStelliteIngot</Key>
@@ -3966,11 +3994,11 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBatteryChargerSmall</Key>
-			<Value>Chargeur de Batterie (Petit)</Value>
+			<Value>Petit chargeur de batterie</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBatteryChargerSmall</Key>
-			<Value>[Kit] Petit Chargeur de Batterie</Value>
+			<Value>[Kit] Petit chargeur de batterie</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanelFlat</Key>
@@ -5088,7 +5116,7 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>ItemKitAdvancedPackagingMachine</Key>
 			<Value>[Kit] Machine d&apos;emballage avancée</Value>
-			<Description>Le &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Multi-Plus Pro est une machine d'emballage automatisable qui utilise des {THING:ItemEmptyCan}s et des &lt;color=#0080FFFF&gt;{LINK:OrganicPage;aliments biologiques cuits}&lt;/color&gt; pour créer des aliments en conserve qui ne se décomposent pas. Notez que l'ACMPP n'accepte que les plats cuisinés et les boîtes de conserve.</Description>
+			<Description>Voir: {THING:StructureAdvancedPackagingMachine} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAutomatedOven</Key>
@@ -5098,7 +5126,7 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>ItemKitAutomatedOven</Key>
 			<Value>[Kit] Four automatisé (cuisine)</Value>
-			<Description>Cette machine est fabriquée dans {THING:ElectronicPrinterMod;l’imprimante électronique Mk.II.}. Il permet aux joueurs d’automatiser la production alimentaire. C’est l’étape suivante après un {LINK:ApplianceMicrowave}, et remplit les mêmes fonctions que le micro-ondes à grande échelle. Il a une trappe sur la gauche, de sorte que vous pouvez verser de nombreux ingrédients bruts à la fois.</Description>
+			<Description>Voir: {THING:StructureAutomatedOven} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitInsulatedWaterPipe</Key>
@@ -7894,7 +7922,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicTypeFiltration</Key>
-			<Value>L&apos;état actuel du système de filtration, par exemple : Filtration = 1 pour une combinaison définit la filtration sur activé</Value>
+			<Value>L&apos;état actuel du système de filtration, par exemple: Filtration = 1 pour une combinaison définit la filtration sur activé</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeAirRelease</Key>

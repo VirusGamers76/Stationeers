@@ -12,6 +12,6 @@
 
 -----------------------
 
-Pour voir l'avancement du projet, tu peut visionner le [CHANGELOG](https://github.com/VirusGamers76/Stationeers/blob/main/CHANGELOG.md) :)
+#### Pour voir l'avancement du projet, tu peut visionner le [CHANGELOG](https://github.com/VirusGamers76/Stationeers/blob/main/CHANGELOG.md) :)
 
 -----------------------

@@ -31,33 +31,23 @@
   - Rajout & traduction de l'Analyseur de tuyau de liquide.
 - Rajout & traduction du [Kit] Module automatisé d'extraction de gaz de fusée.
   - Rajout & traduction du Module automatisé d'extraction de gaz de fusée.
-- Rajout & traduction du [Kit] Échangeur de chaleur. >>>>>>>>>>>>>>>>>>>>>>>>>>
+- Rajout & traduction du [Kit] Échangeur de chaleur.
   - Rajout & traduction de l'Échangeur de chaleur Liquide.
   - Rajout & traduction de l'Échangeur de chaleur Gaz.
   - Rajout & traduction de l'Échangeur de chaleur Liquide + Gaz.
-- Rajout & traduction du Séquenceur logique pas à pas. >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+- Rajout & traduction du Séquenceur logique pas à pas.
   - Migration de la description vers le Guides.
-- Rajout & traduction du [Kit] Machines à musique. >>>>>>>>>>>>>>>>>>
+- Rajout & traduction du [Kit] Machines à musique.
   - Rajout & traduction des options de construction.
 - Rajout & traduction du [Kit] Connecteur de réservoir isolé gaz & liquide.
 - Rajout & traduction de l'oscillateur basse fréquence.
-- Rajout & traduction du [Kit] Grand réfrigérateur.>>>>>>>>>>>>>>>>
-  - Rajout & Traduction du Grand réfrigérateur. >>>>>>>>>>>>>>>>>>
-
-
-
-/!\ LIGNE 6059 à 6538 NON TRADUITE. BESOIN POUR GUIDES "Culture alimentaire" META LIEN /!\
-
-
-
-
-
-
-
-
-
-
-
+- Rajout & traduction du [Kit] Grand réfrigérateur.
+  - Rajout & Traduction du Grand réfrigérateur. 
+- Rajout & traduction du [Kit] Petit réfrigérateur.
+  - Rajout & traduction du Petit réfrigérateur.
+- Rajout & traduction de l'Engrais.
+- Rajout & traduction du [Kit] Composteur avancé.
+  - Rajout & traduction du Composteur avancé.
 # Version 0.2 (à jour) [10/02/2022]
 
 ## <ins>**Ajout:**</ins> (French.xml)

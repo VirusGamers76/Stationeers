@@ -1,3 +1,63 @@
+# Version 0.3 (En cours...) [Prochaineent]
+
+## <ins>**Ajout:**</ins> (French_help.xml)
+  - Traduction de la page "Voyager vers d'autres planètes" (Guides).
+  - Rajout d'une description dans "Capsule de fusée" avec le listing des modules de navette de fusée.
+  - Traduction de la page "Modules de navette de fusée" (Guides).
+  - Traduction de la page "La météo" (Guides).
+  - Traduction de la page "Faim et alimentation" (Guides).
+  - Traduction de la page "Culture alimentaire" (Guides).
+  - Traduction de la page "Nourriture pourrie" (Guides).
+  - Traduction de la page "Soif & hydratation" (Guides).
+  - Traduction de la page "Combinaisons EVA" (Guides.).
+  - Rajout de divers Template.
+## <ins>**Ajout:**</ins> (French.xml)
+- Ajout d'une description au Lingot (Astroloy). (A REVOIR)
+- Ajout d'une description au Lingot (Hastelloy). (A REVOIR)
+- Ajout d'une description au Lingot (Stellite). (A REVOIR)
+- Ajout d'une description au Lingot (Inconel). (A REVOIR)
+- Ajout d'une description au Lingot (Waspoloy). (A REVOIR)
+- Ajout et traduction du "Sachet de riz".
+- Ajout et traduction du "Sachet de fougère".
+- Ajout et traduction du "Sachat de citrouille".
+- Ajout et traducction du "Sachet de pomme de terre".
+- Ajout et traducction du "Sachet de maïs".
+- Ajout et traducction du "Sachet de blé".
+- Ajout et traducction du "Sachet de tomates".
+- Ajout et traducction du "Sachet de soja".
+- Rajout & traduction du [Kit] Vidange de liquide.
+  - Rajout & traduction de "Vidange de liquide".
+- Rajout & traduction du [Kit] Analyseur de tuyau de liquide.
+  - Rajout & traduction de l'Analyseur de tuyau de liquide.
+- Rajout & traduction du [Kit] Module automatisé d'extraction de gaz de fusée.
+  - Rajout & traduction du Module automatisé d'extraction de gaz de fusée.
+- Rajout & traduction du [Kit] Échangeur de chaleur. >>>>>>>>>>>>>>>>>>>>>>>>>>
+  - Rajout & traduction de l'Échangeur de chaleur Liquide.
+  - Rajout & traduction de l'Échangeur de chaleur Gaz.
+  - Rajout & traduction de l'Échangeur de chaleur Liquide + Gaz.
+- Rajout & traduction du Séquenceur logique pas à pas. >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  - Migration de la description vers le Guides.
+- Rajout & traduction du [Kit] Machines à musique. >>>>>>>>>>>>>>>>>>
+  - Rajout & traduction des options de construction.
+- Rajout & traduction du [Kit] Connecteur de réservoir isolé gaz & liquide.
+- Rajout & traduction de l'oscillateur basse fréquence.
+- Rajout & traduction du [Kit] Grand réfrigérateur.>>>>>>>>>>>>>>>>
+  - Rajout & Traduction du Grand réfrigérateur. >>>>>>>>>>>>>>>>>>
+
+
+
+/!\ LIGNE 6059 à 6538 NON TRADUITE. BESOIN POUR GUIDES "Culture alimentaire" META LIEN /!\
+
+
+
+
+
+
+
+
+
+
+
 # Version 0.2 (à jour) [10/02/2022]
 
 ## <ins>**Ajout:**</ins> (French.xml)

@@ -10,7 +10,7 @@
   - Traduction de la page "Nourriture pourrie" (Guides).
   - Traduction de la page "Soif & hydratation" (Guides).
   - Traduction de la page "Combinaisons EVA" (Guides.).
-  - Rajout de divers Template.
+  - Rajout de divers Templates.
 ## <ins>**Ajout:**</ins> (French.xml)
 - Ajout d'une description au Lingot (Astroloy). (A REVOIR)
 - Ajout d'une description au Lingot (Hastelloy). (A REVOIR)

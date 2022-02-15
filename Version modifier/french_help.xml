@@ -38,7 +38,7 @@
 			<Key>IngotPage</Key>
 			<Title>Lingots</Title>
 			<Text>
-				Il s'agit d'articles généralement fabriqués à partir de {LINK:SmeltingPage;minerais} {LINK:OrePage;fondu} pour une utilisation dans les {LINK:FabricatorPage}.
+				Il s'agit d'articles généralement fabriqués à partir de {LINK:SmeltingPage;minerais} {LINK:OrePage;fondu} pour une utilisation dans les {LINK:FabricatorPage;machines}.
 				{LIST_OF_INGOTS}
 			</Text>
 		</StationpediaPage>
@@ -116,7 +116,7 @@
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>ToolPage</Key>
-			<Title>Tools</Title>
+			<Title>Outils</Title>
 			<Text>
 				Ce sont des éléments qui peuvent tenir dans un emplacement d'outil spécialisé et sont utilisés pour la {LINK:ConstructionPage;Construction} et d'autres tâches.
 				{LIST_OF_TOOLS}
@@ -209,7 +209,9 @@
 		<StationpediaPage>
 			<Key>RocketShuttlePage</Key>
 			<Title>Capsule de fusée</Title>
-			<Text>Ce sont les modules de navette, utilisés pour voyager entre les mondes. {THING:StructureLaunchPad} est requis.</Text>
+			<Text>Ce sont les modules de navette, utilisés pour voyager entre les mondes. {THING:StructureLaunchPad} est requis.
+			{HEADER:Liste des modules de navette de fusée:}
+			{LIST_OF_ROCKET_SHUTTLE}</Text>
 		</StationpediaPage>
 	
 	<!--
@@ -224,7 +226,7 @@
 			<Text>
 				Le commerce est une partie essentielle de l&apos;existence d&apos;un &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt;, en particulier sur des mondes plus extrêmes, où les nouveaux cadets peuvent être soumis à rude épreuve et sans aide.
 
-				{HEADER:Conseil commercial:}
+				{HEADER:CONSEIL COMMERCIAL:}
 				Pour contacter un commerçant, vous devez établir un système de communication. Cela nécessite les éléments suivants:
 
 				- Un {THING:StructureVendingMachine} alimenté pour stocker et échanger des objets.
@@ -234,21 +236,23 @@
 
 				Lorsque votre système est opérationnel, vous verrez un écran vide sur le terminal de l&apos;ordinateur. Ajustez la position de l&apos;antenne parabolique jusqu&apos;à ce qu&apos;elle enregistre un ou plusieurs commerçants. Ceux-ci apparaîtront à l&apos;écran avec une note de 1 à 100 %. C&apos;est la force de votre signal. Un commerçant ne peut être invoqué que lorsque la force du signal est supérieure à 95 %. Une fois qu&apos;un commerçant a été contacté, il fournira par la suite un nom. Différents commerçants proposent différentes catégories d&apos;articles.
 
-				{HEADER:Les commerçants:}
+				{HEADER:LES COMMERÇANTS:}
+				{LIST}
 				Électronique        TechTree Electronics
 				Biologiques         Organicon
-				De base         Spes&apos;mall Basics
+				De base         	Spes&apos;mall Basics
 				Hydraulique         HydrauliKit
-				Minerai         MineRiteOres
-				Four micro-onde         Microwares
-				Chimie         ChemLab
-				Exotiques         ExoTech
-				Peindre         Color Corp Paints
-				Outils         Tool Corp
-				Sécurité         Hall Corp Security
-				Gaz         GasTrade
-				Autre         Kolders&apos; Assorted Goods
-				Personnalisé         Spes&apos;mall
+				Minerai         	MineRiteOres
+				Four micro-onde		Microwares
+				Chimie         		ChemLab
+				Exotiques			ExoTech
+				Peindre				Color Corp Paints
+				Outils				Tool Corp
+				Sécurité			Hall Corp Security
+				Gaz					GasTrade
+				Autre				Kolders&apos; Assorted Goods
+				Personnalisé		Spes&apos;mall
+				{/LIST}
 			</Text>
 		</StationpediaPage>
 		<StationpediaPage>
@@ -256,16 +260,16 @@
 			<Title>Construction</Title>
 			<DisplayFilter>Guides</DisplayFilter>
 			<Text>
-				{HEADER:Conseil d&apos;artisan:}
+				{HEADER:CONSEIL D'ARTISAN:}
 				En règle générale, vous utiliserez des {LINK:KitPage;kits} pour lancer la construction, puis une variété d&apos;{LINK:ToolPage;outils} et de {LINK:ResourcePage;resources} pour terminer. Portez une attention particulière au nombre de pièces de votre kit pour finir la construction de ce que vous avez sélectionné, car certaines structures nécessitent plus d&apos;une pièce pour être terminé. Pour certains kits, vous aurez plusieurs options, utilisez la {COLORRED:molette} pour changer l&apos;option actuelle que vous cherchez à construire.
 
-				{HEADER:Étapes de construction:}
+				{HEADER:ÉTAPES DE CONSTRUCTION:}
 				Certaines structures auront plusieurs étapes de construction qui nécessitent différentes combinaisons pour se terminer. Votre info-bulle vous indiquera la combinaison dont vous avez besoin pour compléter la structure. Parfois, vous aurez besoin d&apos;avoir deux objets, un dans chaque main, pour terminer un état de construction. Certains outils devront d&apos;abord être activés, ce qui peut être fait en appuyant sur {KEY:ToggleHandPower} pendant qu&apos;il est dans votre main active.
 
-				{HEADER:Info-bulles:}
+				{HEADER:INFO-BULLES:}
 				Si vous regardez directement une structure incomplète, vous obtiendrez des informations sur ce que vous devez faire pour la compléter. Si vous avez un {LINK:ToolPage;outil} dans votre main et que ce n&apos;est pas le bon {LINK:ToolPage;tool}, une info-bulle apparaîtra vous indiquant ce que vous auriez besoin d&apos;utiliser pour le déconstruire.
 
-				{HEADER:Pression:}
+				{HEADER:PRESSION:}
 				Lors de la construction, il est important de noter que la pression est mesurée sous forme de différentiel. La plupart des structures ont une limite de pression de 200 kPa. Si la différence entre l&apos;intérieur et l&apos;extérieur est supérieure à cela, vous allez avoir des sérieux problèmes.
 			  </Text>
 		</StationpediaPage>
@@ -278,7 +282,7 @@
 				En tant que tels, les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; ont dû créer leur propre accompagnement musical pour le travail exigeant de construction et de maintenance d&apos;infrastructures hors du monde.
 				Au centre de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; de séquencer de courts motifs musicaux ou des boucles.
 				
-				{HEADER:Conseil de musicien:}
+				{HEADER:CONSEIL DE MUSICIEN:}
 				1: Connectez 8 {THING:DeviceStepUnit} à votre séquenceur pas à pas via le port de données sur le côté gauche.
 				
 				2: Étiquetez chaque unité de pas, puis attribuez les unités de pas 1 à 8 sur le séquenceur pas à pas à l&apos;aide du tournevis.
@@ -328,7 +332,7 @@
 				{HEADER:REFROIDISSEMENT PASSIF:}
 				Vous pouvez refroidir ou chauffer n&apos;importe quel environnement en utilisant un {THING:StructurePipeRadiator} pour échanger de la chaleur entre deux atmosphères. Un exemple de ceci serait de placer un tuyau sur le mur, de le remplir de gaz et de placer des radiateurs sur le tuyau. Maintenant, l&apos;atmosphère des deux tuyaux et de la pièce échangera de température jusqu'à ce que leurs environnements s'égalisent.
 
-				{HEADER:CHAUFFAGE MURAL}
+				{HEADER:CHAUFFAGE MURAL:}
 				Le {THING:ItemWallHeater} est un appareil simple qui peut être installé sur un mur ou un cadre et connecté à l'alimentation. Lorsqu'il est allumé, il commencera à chauffer l'environnement environnant. Il consomme 1010W de puissance et peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain niveau.
 
 				{HEADER:REFROIDISSEUR MURAL:}
@@ -376,7 +380,7 @@
 		</StationpediaPage>
 		<StationpediaPage>
    			<Key>AutomatedRocketPage</Key>
-			<Title>Modules de fusée automatisés (A.R.M.)</Title>
+			<Title>Modules de fusée automatisés (A.R.M)</Title>
      		<DisplayFilter>Guides</DisplayFilter>
 			<Text>Les fusées automatisées sont des véhicules sans équipage qui peuvent être envoyés hors du monde pour récupérer une gamme de ressources. La fusée peut être contrôlée par des composants &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;électronique}&lt;/color&gt;.
       
@@ -439,6 +443,185 @@
 				Renvoie 0 ou 1 selon que le système de fusée actuel a ou non la capacité de collecter des ressources sur la planète.
 			</Text>
 		</StationpediaPage>
+		<StationpediaPage>
+     		<Key>TravelPage</Key>
+			<Title>Voyager vers d'autres planètes</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>Attendez! Ne me ferme pas encore ! Les conditions suivantes doivent être remplies pour le lancement:
+				
+				- Fusée entièrement construite: au moins 3 modules de base.
+				- Le {THING:StructureModularRocketFueltank01} doit être entièrement alimenté.
+				- Rapport de mélange de carburant correct: un mélange 2:1 de Volatils et d'oxygène.
+				- L'{THING:StructureLaunchPad} doit être correctement alimentée en électricité.
+				- Tous les joueurs doivent être assis dans le {THING:StructureModularRocketCommand01}.
+				
+				Vous trouverez ci-dessous les identifiants des mondes. Vous pouvez les utiliser pour voyager vers des planètes spécifiques, lorsqu'ils sont combinés avec une {LINK:RocketShuttlePage;Navette de fusée} et des {LINK:LogicUnitPage;Unités logiques}.
+				
+				Écrivez simplement le hachage dans la variable de réglage sur {THING:StructureLaunchPad} avec une {THING:StructureLogicWriter} et une {THING:StructureLogicMemory}. Remarque: Vous pouvez cliquer sur un hachage pour le copier dans le presse-papiers.
+				
+				{LIST}
+				{WORLD_HASHES}
+				{/LIST}
+			</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>RocketShuttleModulesHelpPage</Key>
+			<Title>Modules de navette de fusée</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>{HEADER:CARGAISON DE FUSÉE MODULAIRE:}
+				Le {THING:StructureModularRocketCargo01} a une capacité de deux caisses à dix emplacements. Vous pouvez avoir plusieurs modules de fret sur votre fusée. La fusée peut soulever jusqu'à sept modules au total.
+				
+				{HEADER:COMMANDE DE FUSÉE MODULAIRE:}
+				Le {THING:StructureModularRocketCommand01} doit être placé sur le dessus de la fusée. Il évaluera l'état de préparation de la fusée pour le vol. Une fois toutes les conditions remplies, la fusée peut être lancée lorsque tous les joueurs sont assis dans le module en appuyant sur «ALLUMAGE» sur la console.
+				
+				Les conditions suivantes doivent être remplies pour le lancement:
+				1. Carburant plein.
+				2. Un mélange de carburant correct.
+				3. Tous les joueurs assis.
+				4. Alimentation fournie à la rampe de lancement.
+				5. Fusée entièrement construite
+
+				La console du {THING:StructureModularRocketCommand01} affiche l'état actuel de ces conditions. Il ne nécessite pas d'atmosphère pour décoller, l'atmosphère de votre combinaison est suffisante.
+
+				{HEADER:MOTEUR DE FUSÉE MODULAIRE:}
+				Le {THING:StructureModularRocketEngine01} est capable de soulever jusqu'à sept modules (y compris lui-même).
+
+				{HEADER:RÉSERVOIR DE CARBURANT DE FUSÉE MODULAIRE:}
+				Le {THING:StructureModularRocketFueltank01} nécessite un mélange 2:1 de Volatils et d'Oxygène. Si le mélange dépasse ces proportions, ou si vous placez d'autres gaz dans le réservoir, la console du {THING:StructureModularRocketCommand01} affichera une erreur "Non valide".
+			</Text>
+        </StationpediaPage>
+    	<StationpediaPage>
+      		<Key>WeatherPage</Key>
+     		<Title>La météo</Title>
+      		<DisplayFilter>Guides</DisplayFilter>
+      		<Text>
+				Les planètes du système solaire ne sont pas aussi calmes qu'elles le paraissent. Après sept jours sur n'importe quel monde doté d'une atmosphère, les forces impénétrables de la nature entrent en action, frappant les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; imprudents avec des blizzards, des tempêtes de poussière et des événements volcaniques.
+				En tant que tel, l'&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; recommande que les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; fraîchement déployés créent une base hermétique dans les 7 jours suivant l'atterrissage.
+				Tout objet dynamique laissé à l'extérieur lors d'une tempête sur Mars, Loulan, Vulcain ou Europe, risque d'être soufflé très, très loin, y compris votre atterrisseur.
+				De même, sachez que les panneaux solaires sont fragiles et peuvent voir leur vitre se briser, voire parfois être détruite par une tempête suffisamment féroce. Pendant les tempêtes, leur production est également considérablement réduite.
+      		</Text>
+   		</StationpediaPage>
+   		<StationpediaPage>
+			<Key>NutritionPage</Key>
+			<Title>Faim et alimentation</Title>
+      		<DisplayFilter>Guides</DisplayFilter>
+      		<Text>{HEADER:LA FAIM:}
+			Les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; finissent par avoir faim, mais tous les aliments ne sont pas créés égaux. De plus, votre taux de faim varie en fonction des paramètres et de la difficulté. Manger ne consommera que la partie d'un article suffisante pour restaurer votre faim à 100%.
+			  
+			Les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; reçoivent des provisions de nourriture telles que la {THING:ItemCerealBar} dans leur atterrisseur à leur arrivée sur un nouveau monde. Lorsque ceux-ci sont épuisés, vous devez trouver de nouvelles sources de subsistance, comme cultiver les vôtres, à partir des graines fournies, ou contacter un {LINK:TradingPage;commerçant}. 
+			  
+			{HEADER:NUTRITION:}
+			Manger des ingrédients crus satisfera moins la faim que les repas, c'est-à-dire remplacera une plus petite proportion de votre faim. Les éléments de base de la nourriture sont créés à l'aide d'&lt;color=#0080FFFF&gt;{LINK:OrganicPage;aliments}&lt;/color&gt;. Ceux-ci peuvent être transformés en ingrédients de recette à l'aide du {THING:ApplianceReagentProcessor}, puis transformés en repas à l'aide d'un {THING:ApplianceMicrowave} ou un {THING:StructureAutomatedOven}.
+			
+			Votre taux de faim peut être ajusté dans le menu général des paramètres en ajustant le curseur "Taux de faim/soif". Notez que le curseur de la faim régit également votre {LINK:HydrationPage;soif}.
+			</Text>
+    	</StationpediaPage>
+		<StationpediaPage>
+      		<Key>FarmingPage</Key>
+			<Title>Culture alimentaire</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>Pour survivre sur des mondes extraterrestres, l'&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; s'attend à ce que tous les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; mettent en place des systèmes &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponiques}&lt;/color&gt; viables ou contactent des {LINK:TradingPage;commerçants}.
+
+				{HEADER:MISE EN PLACE:}
+				Lors de la mise en place de votre système hydroponique, vous aurez besoin de &lt;color=#0080FFFF&gt;{LINK:OrganicPage;graines}&lt;/color&gt;. Alternativement, vous pouvez planter la nourriture elle-même.
+
+				L'équipement hydroponique commun de Stationeer comprend:
+				- Une {THING:DynamicHydroponics}.
+				- Un {THING:ItemHydroponicTray}.
+				- Une {THING:ItemKitHydroponicStation}.
+				- Un {THING:StructureHarvie}.
+
+				Tous les systèmes hydroponiques nécessitent de l'eau, de la lumière du soleil et le bon mélange de gaz. Les plantes ont besoin de CO² et produisent de l'oxygène (sauf pour les {THING:ItemAlienMushroom}). Les plantes ne pousseront pas dans une mauvaise atmosphère. Si les plantes n'ont pas assez de lumière, vous devrez construire une {THING:StructureGrowLight}.
+
+				Votre système dépendra des ressources et du temps disponibles, mais un système agricole bien conçu peut être presque entièrement automatisé avec suffisamment de temps et de ressources.
+
+				{HEADER:LA RÉCOLTE:}
+				La plupart des plantes ont plusieurs stades de croissance. La première étape est la croissance de la plante tout au long de son cycle de vie. Au cours de la deuxième phase, les graines peuvent être récoltées à partir de la plante. Dans la troisième phase, la plante produira des fruits. Après cela, à moins qu'elle ne soit nettoyée, la plante mourra.
+
+				{HEADER:L'ENGRAIS}
+				L'engrais modifie les processus de croissance des plantes et est créé par le {THING:PortableComposter} et le {THING:StructureAdvancedComposter} à l'aide de matière &lt;color=#0080FFFF&gt;{LINK:OrganicPage;organique}&lt;/color&gt;.
+
+				Les effets des engrais dépendent de ses ingrédients:
+
+				- La &lt;color=#0080FFFF&gt;{LINK:OrganicPage;nourriture}&lt;/color&gt; AUGMENTE LE RENDEMENT des plantes individuelles jusqu'à 3 éléments.
+				- La {THING:DecayedFood} AUGMENTE LA VITESSE DE CROISSANCE des plantes jusqu'à 3 fois.
+				- La {THING:ItemBiomass} augmente le NOMBRE DE CYCLES DE CROISSANCE pendant lesquels l'engrais dure jusqu'à un maximum de 5.
+
+				L'effet de ces ingrédients dépend de leurs proportions respectives dans le composteur lorsque le traitement est activé. L'engrais est produit dans un ratio de 1:3 d'engrais aux ingrédients. Lors du traitement, l'{LINK:GasPage;azote} et les {THING:ItemVolatiles} sont libérés, ainsi qu'une petite quantité de chaleur.
+			</Text>
+    	</StationpediaPage>
+		<StationpediaPage>
+			<Key>DecayPage</Key>
+    		<Title>Nourriture pourrie</Title>
+    		<DisplayFilter>Guides</DisplayFilter>
+    		<Text>Les aliments se décomposent avec le temps en {THING:DecayedFood}, à moins d'être réfrigéré dans une atmosphère sutable. La vitesse exacte de décomposition varie individuellement par:
+
+				- TEMPÉRATURE: La réfrigération ralentira la décomposition, mais de nombreux aliments seront endommagés par une exposition à une pression extrêmement basse, ainsi qu'à une chaleur extrême. La température optimale est de 0 kelvin (-272 °C).
+
+				- TYPE D'ALIMENT: Chaque type d'&lt;color=#0080FFFF&gt;{LINK:OrganicPage;aliment}&lt;/color&gt; a ses propres propriétés de décomposition. Une boite de {THING:ItemTomatoSoup} dure beaucoup plus longtemps qu'une {THING:ItemTomato}, par exemple.
+
+				- PRESSION: Les aliments se décomposent plus rapidement lorsque la pression descend en dessous de 101 kPa. La décomposition se produit de manière exponentielle plus rapidement lorsque l'atmosphère se rapproche d'un vide parfait. Il n'y a aucun effet des pressions plus élevées.
+
+				- ATMOSPHÈRE: Différents gaz peuvent ralentir et accélérer le processus de décomposition. Le processus tiendra compte des rapports de gaz respectifs dans les atmosphères mixtes lors du calcul du modificateur de désintégration. Les taux suivants s'appliquent à tous les aliments:
+
+				> Oxygène: x 1.3
+				> Azote: x 0.6
+				> Dioxyde de carbone: x 0.8
+				> Volatils: x 1
+				> Polluant: x 3
+				> Protoxyde d'azote: x 1.5
+				> Eau: x 2
+				> Vide: voir PRESSION (ci-dessus).
+			</Text>
+   		</StationpediaPage>
+   		<StationpediaPage>
+			<Key>HydrationPage</Key>
+			<Title>Soif et hydratation</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>En moyenne, un &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; a besoin de boire de l'eau régulièrement. Cependant, les réglementations obscures et peut-être erronées de l'&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; en matière de santé et de sécurité ont longtemps refusé aux Stationeers le droit à des mécanismes d'hydratation en combinaison. Au lieu de cela, ils doivent prendre des pauses régulières pour ouvrir leur casque et boire de l'eau. Le faire dans un environnement non pressurisé est déconseillé.
+
+				A quelle fréquence boire ? Ceci est déterminé par votre niveau de difficulté, la chaleur de la planète et combien vous aimez bouger votre corps.
+
+				L'eau se présente sous plusieurs formes. Au moins une {THING:ItemWaterBottle} est fournie aux Stationeers dans le cadre de leurs rations lors de l'atterrissage sur de nouvelles planètes, avec plus dans vos caisses d'atterrisseur. Ceux-ci peuvent être remplis à l'aide d'un {THING:ItemWaterBottleFiller}, qui doit lui-même être connecté à un réseau de conduites de liquide. Le réseau lui-même peut être rempli à l'aide d'un {THING:StructureIceCrusher} avec une réserve de glace appropriée.
+
+				Votre taux de soif peut être ajusté dans le menu général des paramètres en ajustant votre curseur de "taux de faim/soif".
+			</Text>
+		</StationpediaPage>
+    	<StationpediaPage>
+    		<Key>EVAPage</Key>
+    		<Title>Combinaisons EVA</Title>
+    		<DisplayFilter>Guides</DisplayFilter>
+    		<Text>Votre combinaison spatiale vous offre une atmosphère portable, avec des réglages de pression et de climatisation (température) réglables, ainsi qu'un système d'avertissement qui vous alertera si l'atmosphère à l'intérieur de la combinaison devient dangereuse. Il fonctionne en conjonction avec un casque approprié pour fonctionner correctement, ainsi que des cartouches de gaz et des filtres appropriés dans les différentes fentes de la combinaison. Ceux-ci devront être changés régulièrement, et peuvent également être rechargés (ou vidangés) à l'aide d'un {THING:StructureSuitStorage}.
+
+				Il existe plusieurs combinaisons, dont la {THING:ItemEvaSuit} et la plus résistante à la pression et à la température {THING:ItemHardSuit}.
+
+				Les différentes lectures de votre combinaison se trouvent en bas à droite de l'écran. Appuyez sur la touche appropriée et ses paramètres. Ceux-ci incluent:
+
+				- A/C On/Off (c'est-à-dire contrôle de température marche/arrêt)
+				- Filtres On/Off
+				- Air On/Off
+				- Pression Up/Down (avec une plage de 0kPA à 202kPa)
+				- Température Up/Down (avec une plage de 0°C à 60°C)
+
+				La combinaison contient 6 à 8 emplacements:
+				- Bouteille d'air (x1) - Insérez une {THING:ItemGasCanisterEmpty} ou une {THING:ItemGasCanisterSmart} ontenant un mélange de gaz respirable, par exemple O² ou azote/oxygène 35/65.
+				- Bouteille de déchets (x1) - Recueille les gaz éliminés par les filtres.
+				- système de survie (x1) - Contient une batterie, qui alimente votre A/C, vos lumières, etc.
+				- Filtres (x3) - Nécessite au moins un filtre à CO² (si humain), en fonction de votre mélange de gaz respirable. Notez qu'une {THING:ItemHardSuit} a 4 emplacements de filtre.
+				- IC - {THING:ItemHardSuit} uniquement..
+
+				{HEADER:PRESSION:}
+				Elle doit être réglé entre 50-100 KPa. Les humains dans le jeu tolèrent jusqu'à ~250kPa et peuvent survivre jusqu'à ~300kPA.
+
+				{HEADER:TEMPÉRATURE:}
+				Normalement réglé sur 18-21°C, les humains dans le jeu préférant 10-29°C, tolérant 0-39°C et survivant jusqu'à 49°C. À des températures plus élevées, votre A/C consommera plus d'énergie de la batterie pour maintenir la température interne.
+
+				{HEADER:FILTRES:}
+				le filtre par défaut est le filtre CO2, qui capte le gaz généré par l'homme lors de l'expiration. Si vous n'utilisez pas 100 % d'oxygène dans votre gaz respiratoire, ajoutez des filtres supplémentaires, par exemple si vous mélangez 25 % d'oxygène + 75 % d'azote, l'azote s'accumulera dans votre combinaison au fil du temps et vous étouffera, sauf si vous avez un filtre à azote. Si vous disposez des filtres et du gaz respirable appropriés, mais que vous rencontrez toujours des problèmes, utilisez la fonction 'PURGE' de votre casque spatial. Des avertissements d'oxygène faible/critique retentiront lorsque vos filtres cesseront de fonctionner.
+
+				Si elle est endommagée, votre combinaison peut être réparée en tenant du {THING:ItemDuctTape} ou {THING:ItemMKIIDuctTape} dans votre main et en utilisant le bouton "activer".
+			</Text>
+    	</StationpediaPage>
 	<!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     |       TEMPLATES          	|
@@ -491,5 +674,35 @@
 			<Key>GasPageFlamableTemplate</Key>
 			<Text>Limite d&apos;embrassement {0} à {1}</Text>
 		</StationpediaPage>
+    	<StationpediaPage>
+      		<Key>ModeStringItemTemplate</Key>
+     		 <Text>{0}.{1}</Text>
+   	 	</StationpediaPage>
+		<StationpediaPage>
+      		<Key>CreatedReagentTemplate</Key>
+     		<Text>{LIST}{0}{/LIST}</Text>
+    	</StationpediaPage>
+    	<StationpediaPage>
+      		<Key>CreatedGasesTemplate</Key>
+      		<Text>{LIST}{0}{/LIST}</Text>
+	    </StationpediaPage>
+    	<StationpediaPage>
+    		<Key>ModeStringHeaderTemplate</Key>
+    		<Text>{LIST}{0}{/LIST}</Text>
+    	</StationpediaPage>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</HelpPage>
 </Language>

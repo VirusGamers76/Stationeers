@@ -1,5 +1,4 @@
-# Version 0.3 (En cours...) [Prochaineent]
-
+# Version 0.3 (à jour) [16/02/2022]
 ## <ins>**Ajout:**</ins> (French_help.xml)
   - Traduction de la page "Voyager vers d'autres planètes" (Guides).
   - Rajout d'une description dans "Capsule de fusée" avec le listing des modules de navette de fusée.
@@ -48,7 +47,35 @@
 - Rajout & traduction de l'Engrais.
 - Rajout & traduction du [Kit] Composteur avancé.
   - Rajout & traduction du Composteur avancé.
-# Version 0.2 (à jour) [10/02/2022]
+- Rajout & traduction du [Kit] Refroidisseur mural.
+  - Rajout & traduction du Refroidisseur mural.
+- Rajout & traduction du [Kit] Chauffage mural.
+  - Rajout & traduction du Chauffage mural.
+- Rajout & traduction du [Kit] jardinière.
+  - Rajout & traduction de la jardinière.
+- Rajout & traduction du Machine d'emballage de base.
+- Rajout & traduction d'Oeufs en poudre.
+- Rajout & traduction du Riz au lait en conserve.
+- Rajout & traduction des Frites Belge en conserve. 
+- Rajout & traduction du Lait condensé en conserve. 
+- Rajout & traduction de l'Edamame en conserve.
+- Rajout & traduction des Oeufs en poudre en conserve.
+- Rajout & traduction de Soja Cui.
+- Rajout & traduction de Tomate Cuite.
+- Rajout & traduction de Maïs Cuit.
+- Rajout & traduction de Riz cuit.
+- Rajout & traduction de Citrouille cuite.
+- Rajout & traduction de Champignon Cuit.
+- Rajout & traduction de la Vanne unidirectionnelle à gaz.
+- Rajout & traduction du [Kit] Chauffe-tuyau de gaz.
+  - Rajout & traduction du Chauffe-tuyau de gaz.
+- Rajout & traduction du [Kit] Chauffe-tuyau d'eau.
+  - Rajout & traduction du Chauffe-tuyau d'eau.
+- Rajout & traduction du [Kit] Turbo pompe  à gaz.
+  - Rajout & traduction de la Turbo pompe  à gaz.
+- Rajout & traduction du [Kit] Turbo pompe à eau.
+  - Rajout & traduction de la Turbo pompe à eau.
+# Version 0.2 (Obselette) [10/02/2022]
 
 ## <ins>**Ajout:**</ins> (French.xml)
 

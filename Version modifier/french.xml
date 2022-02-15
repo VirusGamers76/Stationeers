@@ -1153,7 +1153,7 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeAnalyizer</Key>
-			<Value>Kit Analyseur de Tuyau</Value>
+			<Value>[Kit] Analyseur de tuyau de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeCorner</Key>
@@ -1338,10 +1338,12 @@
 		<RecordThing>
 			<Key>ItemWallCooler</Key>
 			<Value>[Kit] Refroidisseur mural</Value>
+			<Description>Voir {THING:StructureWallCooler} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWallHeater</Key>
 			<Value>[Kit] Chauffage mural</Value>
+			<Description>Voir {THING:StructureWallHeater} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWallLight</Key>
@@ -1663,7 +1665,7 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeAnalysizer</Key>
-			<Value>Analyseur de Tuyau</Value>
+			<Value>Analyseur de tuyau de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeCorner</Key>
@@ -1804,10 +1806,24 @@
 		<RecordThing>
 			<Key>StructureWallCooler</Key>
 			<Value>Refroidisseur mural</Value>
+			<Description>Le refroidisseur mural &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Freezy Boi complète le radiateur mural, qui ne peut qu'augmenter la température. Le refroidisseur mural fonctionne en puisant la chaleur de l'atmosphère environnante et en ajoutant cette chaleur dans son réseau de canalisations.
+Afin de faire fonctionner correctement le refroidisseur mural, vous devrez connecter des tuyaux au refroidisseur mural et remplir le réseau de tuyaux connecté avec n'importe quel type de gaz. La capacité calorifique et le volume du gaz détermineront à quelle vitesse il réagit aux changements de température.
+			{HEADER:EFFICACITÉ:}
+			Plus la différence de température entre le gaz stocké dans les tuyaux et la pièce est élevée, moins le refroidisseur mural sera efficace. Donc, pour que le refroidisseur mural fonctionne à une efficacité acceptable, vous devrez vous débarrasser de la chaleur qui s'accumule dans les tuyaux qui y sont connectés. Une pratique courante serait de faire passer les tuyaux vers l'extérieur et d'utiliser des radiateurs sur la section extérieure des tuyaux pour se débarrasser de la chaleur.
+			Moins le refroidisseur mural est efficace, moins il consomme d'énergie. Il consommera 1010W à efficacité maximale. Le refroidisseur mural peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain degré.
+
+			{HEADER:ERREURS:}
+			Si le refroidisseur mural affiche une erreur, il manque l'un des éléments suivants:
+			- Raccordement du tuyau au refroidisseur mural.
+			- Gaz dans les tuyaux raccordés ou pression trop faible.
+			- L'atmosphère dans le milieu environnant ou la pression est trop basse.
+
+			Pour en savoir plus sur le {LINK:TemperatureControlPage;contrôle des températures}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallHeater</Key>
 			<Value>Chauffage mural</Value>
+			<Description>Le radiateur mural &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; est un appareil simple qui peut être installé sur un mur ou un cadre et connecté à l'alimentation. Lorsqu'il est allumé, il commencera à chauffer l'environnement environnant. Il consomme 1010W de puissance et peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain niveau.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallLight</Key>
@@ -3463,7 +3479,7 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>StructureAdvancedFurnace</Key>
 			<Value>Fourneau avancé</Value>
-			<Description>Le four avancé est utilisé pour créer des alliages avancés, mais peut également être utilisé pour créer des alliages de base. Il se prête à l’automatisation.
+			<Description>Le fourneau avancé est utilisé pour créer des alliages avancés, mais peut également être utilisé pour créer des alliages de base. Il se prête à l’automatisation.
 			La pression maximale du four est de 60 MPa avant que le four n’explose.  L’ajout d’hydrocarbures, c’est-à-dire de charbon, augmentera la pression. Contient deux {THING:StructureVolumePump} pour contrôler le débit entrant et sortant, , pour les utiliser, le four doit être alimenté, et mettre les deux à zéro mettra le four dans un état de quiescence, mais le four perdra lentement de la pression et de la température.
 			La capacité du four est supérieure à 5 kg de matériaux, il est donc possible d’utiliser les lingots complets de 500 g pour fabriquer un alliage.</Description>
 		</RecordThing>
@@ -3475,22 +3491,31 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>ItemStelliteIngot</Key>
 			<Value>Lingot (Stellite)</Value>
+			<Description>Le lingot (Stellite) est un super alliage. Il est utilisé dans la fabrication de diverses pièces de Rocket et pièces de la combinaison.
+			Il est créé en fusionnant un rapport de 2:1:1 en utilisant du silicium, de l’argent et du cobalt dans le {THING:StructureAdvancedFurnace}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWaspaloyIngot</Key>
 			<Value>Lingot (Waspaloy)</Value>
+			<Description>Le lingot (Waspaloy) est un super alliage. Il est utilisé dans la fabrication du combinaison et le Jetpack.
+			Il est créé en fondant un rapport de 2:1:1 en utilisant du plomb, de l’argent et du nickel dans le {THING:StructureAdvancedFurnace}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemHastelloyIngot</Key>
 			<Value>Lingot (Hastelloy)</Value>
+			<Description>Le lingot Hastelloy est un superalliage. Il est utilisé dans la fabrication de {THING:ItemNVG}.
+			Il est créé en fondant un rapport de 2:1:1 en utilisant de l'argent, du nickel et du cobalt dans le {THING:StructureAdvancedFurnace}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemInconelIngot</Key>
 			<Value>Lingot (Inconel)</Value>
+			<Description>Le lingot (Inconel) est un super alliage. Il est utilisé dans la fabrication de divers outils et pièces rocket.
+			Il est créé en fondant un rapport de 2: 1: 1 en utilisant de l’or, du nickel et de l’acier dans le {THING:StructureAdvancedFurnace}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemAstroloyIngot</Key>
 			<Value>Lingot (Astroloy)</Value>
+			<Description>En raison de l'effondrement du manuel original de Stationeer en une singularité, les recettes d'Astroloy ont été déformées par des contorsions de l'espace-temps. La bonne recette d'Astroloy, telle que commémorée à jamais dans une série d'icônes en plastique charmantes, est 1.0 Cuivre, 1.0 Cobalt et 2.0 Acier.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCobaltOre</Key>
@@ -3622,7 +3647,12 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureShelf</Key>
-			<Value>Etagère</Value>
+			<Value>Étagère</Value>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureShelfMedium</Key>
+			<Value>Étagère Moyenne</Value>
+			<Description>Une étagère pour mettre des choses, afin que vous puissiez les voir.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>HumanSkull</Key>
@@ -5121,7 +5151,7 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>StructureAutomatedOven</Key>
 			<Value>Four automatisé (cuisine)</Value>
-			<Description>Cette machine est fabriquée dans {THING:ElectronicPrinterMod;l’imprimante électronique Mk.II.}. Il permet aux joueurs d’automatiser la production alimentaire. C’est l’étape suivante après un {LINK:ApplianceMicrowave}, et remplit les mêmes fonctions que le micro-ondes à grande échelle. Il a une trappe sur la gauche, de sorte que vous pouvez verser de nombreux ingrédients bruts à la fois.</Description>
+			<Description>Cette machine est fabriquée dans l’{THING:ElectronicPrinterMod} Mk.II. Il permet aux joueurs d’automatiser la production alimentaire. C’est l’étape suivante après un {LINK:ApplianceMicrowave}, et remplit les mêmes fonctions que le micro-ondes à grande échelle. Il a une trappe sur la gauche, de sorte que vous pouvez verser de nombreux ingrédients bruts à la fois.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitAutomatedOven</Key>
@@ -5217,6 +5247,66 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 			<Key>StructureInsulatedPipeLiquidTJunction</Key>
 			<Value>Tuyau de liquide isolé (jonction T)</Value>
 			<Description>Tuyauterie de liquide à très faible perte ou gain de température.</Description>
+		</RecordThing>
+	    <RecordThing>
+			<Key>StructurePipeHeater</Key>
+			<Value>Chauffe-tuyau de gaz</Value>
+			<Description>Ajoute 1000 joules de chaleur par tick au contenu de votre réseau de canalisations.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructurePipeOneWayValve</Key>
+			<Value>Vanne unidirectionnelle à gaz</Value>
+			<Description>La vanne unidirectionnelle déplace le gaz dans une seule direction : du côté entrée vers le côté sortie. Il n'autorise le débit que si la pression d'entrée est supérieure à la pression de sortie.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureOneWayValve</Key>
+			<Value>Vanne unidirectionnelle à gaz</Value>
+			<Description>La vanne unidirectionnelle déplace le gaz dans une seule direction : du côté entrée vers le côté sortie. Il n'autorise le débit que si la pression d'entrée est supérieure à la pression de sortie.</Description>
+		</RecordThing>
+	    <RecordThing>
+			<Key>StructureWaterPipeHeater</Key>
+			<Value>Chauffe-tuyau de gaz</Value>
+			<Description>Ajoute 1000 joules de chaleur par tick au contenu de votre réseau de canalisations.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemPipeHeater</Key>
+			<Value>[Kit] Chauffe-tuyau de gaz</Value>
+			<Description>Voir {THING:StructurePipeHeater} pour plus de détails.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemWaterPipeHeater</Key>
+			<Value>[Kit] Chauffe-tuyau d'eau</Value>
+			<Description>Voir {THING:StructureLiquidPipeHeater} pour plus de détails.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemLiquidPipeHeater</Key>
+			<Value>[Kit] Chauffe-tuyau d'eau</Value>
+			<Description>Voir {THING:StructureLiquidPipeHeater} pour plus de détails.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureLiquidPipeHeater</Key>
+			<Value>Chauffe-tuyau d'eau</Value>
+			<Description>Ajoute 1000 joules de chaleur par tick au contenu de votre réseau de canalisations.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureTurboVolumePump</Key>
+			<Value>Turbo pompe  à gaz</Value>
+			<Description>Déplace 10 fois plus de gaz qu'une {THING:StructureVolumePump}, de base, avec un mode qui peut être réglé pour s'écouler dans les deux sens.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemKitTurboVolumePump</Key>
+			<Value>[Kit] Turbo pompe à gaz</Value>
+			<Description>Voir {THING:StructureTurboVolumePump} pour plus de détails.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureLiquidTurboVolumePump</Key>
+			<Value>Turbo pompe à eau</Value>
+			<Description>Déplace 10 fois plus de gaz qu'une {THING:StructureVolumePump}, de base, avec un mode qui peut être réglé pour s'écouler dans les deux sens.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemKitLiquidTurboVolumePump</Key>
+			<Value>[Kit] Turbo pompe à eau</Value>
+			<Description>Voir {THING:StructureLiquidTurboVolumePump} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankBigInsulated</Key>
@@ -5384,37 +5474,36 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 			<Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; OGRE (Orthogonal Ground Rotating Excavator) est une structure de base avec un véhicule minier attaché, qui exploitera un puits horizontal jusqu'à X mètres de long. Une fois plein, le véhicule minier retournera à la base pour se vider, avant de retourner creuser. S'il rencontre un espace vide, il retournera également à la base et attendra des instructions. L'unité reviendra si elle est désactivée.
 			L'OGRE peut être connecté à un système de goulotte, et est pilotable par un réseau logique. Notez que l'OGRE produit plus de minerai qu'une {THING:ItemMiningDrill} conventionnelle sur la même zone, en raison d'un traitement plus efficace.
 			{HEADER:MODES:}
-Inactif - 0
-Exploitation minière - 1
-De retour - 2
-Dépôt de minerai - 3
-Terminé - 4
-			</Description>
-			</RecordThing>
-			<RecordThing>
+			Inactif - 0
+			Exploitation minière - 1
+			De retour - 2
+			Dépôt de minerai - 3
+			Terminé - 4</Description>
+		</RecordThing>
+		<RecordThing>
 				<Key>StructureWindowShutter</Key>
 				<Value>Volet de fenêtre</Value>
 				<Description>Pour ces moments privilégiés et privés, une fenêtre qui peut être fermée aux regards indiscrets.
 					Lorsqu'il est fermé, il a les caractéristiques de transfert de chaleur d'un mur de base. Nécessite une alimentation et peut être connecté à des systèmes logiques.</Description>
-			</RecordThing>
-			<RecordThing>
+		</RecordThing>
+		<RecordThing>
 				<Key>ItemKitWindowShutter</Key>
 				<Value>[Kit] Volet de fenêtre</Value>
 				<Description>Produit un {THING:StructureWindowShutter}.</Description>
-			</RecordThing>
-			<RecordThing>
+		</RecordThing>
+		<RecordThing>
 				<Key>ItemExplosiveBasic</Key>
 				<Value>Explosif de base</Value>
 				<Description>Un explosif à faible coût et à haut rendement avec une minuterie de 10 secondes.</Description>
-			</RecordThing>
-			<RecordThing>
+		</RecordThing>
+		<RecordThing>
 				<Key>ItemMiningCharge</Key>
 				<Value>Charge minière</Value>
 				<Description>Un explosif à faible coût et à haut rendement avec une minuterie de 10 secondes.</Description>
 			</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidPipeOneWayValve</Key>
-			<Value>Vanne unidirectionnelle (liquide)</Value>
+			<Value>Vanne unidirectionnelle d'eau</Value>
 			<Description>La vanne unidirectionnelle déplace le liquide dans une seule direction: du côté entrée vers le côté sortie. Il n'autorise le débit que si la pression d'entrée est supérieure à la pression de sortie.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -5427,6 +5516,379 @@ Terminé - 4
 			<Value>Ceinture minière MK.II</Value>
 			<Description>Une ceinture minière plus grande et plus spacieuse, le Mk II est similaire à la {THING:ItemMiningBelt}, mais dispose de 13 emplacements au lieu des 8 de base, pour augmenter la durée de vos voyages miniers. Il a également de la place pour deux outils.</Description>
 		</RecordThing>
+		<RecordThing>
+      		<Key>ItemLiquidDrain</Key>
+     		<Value>[Kit] Vidange de liquide</Value>
+     		<Description>Voir: {THING:StructureLiquidDrain} pour plus de détails.</Description>
+    	</RecordThing>
+		<RecordThing>
+			<Key>StructureLiquidDrain</Key>
+			<Value>Vidange de liquide</Value>
+			<Description>Le drain est un dispositif simple, mais non sans une touche de mystère. Lorsqu'il est connecté à l'alimentation et activé, il draine le liquide d'un réseau de liquide à raison de 1 mol par tick. Pratique s'il y a du liquide dont vous avez besoin... disparu.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemLiquidPipeAnalyzer</Key>
+			<Value>[Kit] Analyseur de tuyau de liquide</Value>
+			<Description>Voir: {THING:StructureLiquidPipeAnalyzer} pour plus de détails.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureLiquidPipeAnalyzer</Key>
+			<Value>Analyseur de tuyau de liquide</Value>
+			<Description>Tout comme le  {THING:StructurePipeAnalysizer}, il peut être utilisé pour afficher la pression à l’intérieur des tuyaux, mais aussi pour afficher le contenu et la température. Il nécessite 50 W de puissance et peut être connecté à des consoles ou à des ordinateurs.</Description>
+		</RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketGasMining</Key>
+      <Value>[Kit] Module automatisé d'extraction de gaz de fusée</Value>
+      <Description>Voir: {THING:StructureModularRocketGasMining} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+		<Key>StructureModularRocketGasMining</Key>
+		<Value>Module automatisé d'extraction de gaz de fusée</Value>
+		<Description>À la manière typique de &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; le module d'extraction de gaz ARM est un ajout rapidement conçu à un système plus sophistiqué par une entreprise qui se soucie très peu de la sécurité ou de la fiabilité.
+		Le module stockera le gaz extrait dans un {THING:StructureModularRocketFueltank01} vide, tant qu'il est connecté par un {THING:StructureModularRocketCouplingDown} ou {THING:StructureModularRocketCouplingUp}.</Description>
+    </RecordThing>
+    <RecordThing>
+		<Key>ItemKitHeatExchanger</Key>
+		<Value>[Kit] Échangeur de chaleur</Value>
+		<Description>Voir: {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} et {THING:StructureHeatExchangerGastoGas} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+		<Key>StructureHeatExchangerLiquidtoLiquid</Key>
+		<Value>Échangeur de chaleur Liquide</Value>
+		<Description>Selon les rumeurs, les spécifications originales de l'échangeur de chaleur Flow-P de la série N auraient été gribouillées au dos d'un reçu de hamburger par un designer &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; ennuyé qui monte dans l'ascenseur spatial brésilien, mais cela ne l'a pas empêché de devenir l'un des plus copié en therme de conceptions d'échangeurs de chaleur dans le système solaire.
+			Le 'N Flow-P' a quatre connexions, vous permettant de faire passer deux réseaux de liquide dans l'unité, qui travaille ensuite pour égaliser la température sur les deux réseaux séparés.
+			Comme le N Flow-P est un système passif, il égalise la pression sur l'ensemble de chaque réseau individuel, sauf s'il est connecté à des dispositifs de gestion des liquides comme une {THING:StructureLiquidVolumePump} ou un {THING:StructureBackLiquidPressureRegulator}.</Description>
+    </RecordThing>
+    <RecordThing>
+		<Key>StructureHeatExchangerGastoGas</Key>
+		<Value>Échangeur de chaleur Gaz</Value>
+		<Description>Selon les rumeurs, les spécifications originales de l'échangeur de chaleur Flow-P de la série N auraient été gribouillées au dos d'un reçu de hamburger par un designer &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; ennuyé qui monte dans l'ascenseur spatial brésilien, mais cela ne l'a pas empêché de devenir l'un des plus copié en therme de conceptions d'échangeurs de chaleur dans le système solaire.
+			Le 'N Flow-P' a quatre connexions, vous permettant de faire passer deux réseaux de liquide dans l'unité, qui travaille ensuite pour égaliser la température sur les deux réseaux séparés.
+			Comme le N Flow-P est un système passif, il égalise la pression sur l'ensemble de chaque réseau individuel, sauf s'il est connecté à des dispositifs de gestion des liquides comme une {THING:StructureLiquidVolumePump} ou un {THING:StructureBackLiquidPressureRegulator}.</Description>
+    </RecordThing>
+    <RecordThing>
+		<Key>StructureHeatExchangeLiquidtoGas</Key>
+		<Value>Échangeur de chaleur Liquide + Gaz</Value>
+		<Description>Selon les rumeurs, les spécifications originales de l'échangeur de chaleur Flow-P de la série N auraient été gribouillées au dos d'un reçu de hamburger par un designer &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; ennuyé qui monte dans l'ascenseur spatial brésilien, mais cela ne l'a pas empêché de devenir l'un des plus copié en therme de conceptions d'échangeurs de chaleur dans le système solaire.
+Le 'N Flow-P' a quatre connexions, vous permettant de faire passer deux réseaux de liquide dans l'unité, qui travaille ensuite pour égaliser la température sur les deux réseaux séparés.
+Comme le N Flow-P est un système passif, il égalise la pression sur l'ensemble de chaque réseau individuel, sauf s'il est connecté à des dispositifs de gestion des liquides comme une {THING:StructureLiquidVolumePump} ou un {THING:StructureBackLiquidPressureRegulator}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>LogicStepSequencer8</Key>
+      <Value>Séquenceur logique pas à pas</Value>
+      <Description>Voir: {THING:MusicPage} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+		<Key>DeviceLfoVolume</Key>
+		<Value>Oscillateur basse fréquence</Value>
+		<Description>L'oscillateur basse fréquence rend tout les son sombre, tordu et croustillant en modifiant la forme des ondes émises par un {THING:LogicStepSequencer8}.
+      
+			{HEADER:CONFIGURATION:}
+			1. Placez un oscillateur basse fréquence.
+			2. Réglez la sortie de l'oscillateur basse fréquence sur un {THING:PassiveSpeaker}.
+			2. Réglez la sortie d'un séquenceur sur l'oscillateur basse fréquence, de sorte que le signal du séquenceur passe par l'oscillateur basse fréquence jusqu'à un haut-parleur.
+			3. Placez un {THING:StopWatch} ou utilisez-en un existant, puis utilisez un {THING:StructureLogicWriter} pour l'écrire dans l'oscillateur basse fréquence.
+			4. Utilisez un autre {THING:StructureLogicWriter} pour écrire le BPM dans l'oscillateur basse fréquence.
+			5. Tu est prêt. C'est l'avenir. Vous êtes dans l'espace. Faites en sorte que ça sonne cool.
+
+			Pour plus d'informations, consultez la &lt;color=#0080FFFF&gt;{THING:MusicPage}&lt;/color&gt;.</Description>
+    </RecordThing>
+    <RecordThing>
+		<Key>PassiveSpeaker</Key>
+		<Value>Haut-parleur</Value>
+		<Description>Voir: {THING:MusicPage} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DeviceStepUnit</Key>
+      <Value>Unité d'étape</Value>
+	  <Description>Voir: {THING:MusicPage} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StopWatch</Key>
+      <Value>Chronomètre</Value>
+	  <Description>Voir: {THING:MusicPage} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeBass</Key>
+      <Value>Cassette de Bass</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeDrums</Key>
+      <Value>Cassette de Tambours</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeLeads</Key>
+      <Value>Cassette de Pistes</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeSynth</Key>
+      <Value>Cassette de Synthé</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitMusicMachines</Key>
+      <Value>[Kit] Machines à musique</Value>
+	  <Description>Voir: {THING:StopWatch}, {THING:DeviceStepUnit}, {THING:PassiveSpeaker}, {THING:DeviceLfoVolume} et {THING:LogicStepSequencer8} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulatedTankConnector</Key>
+      <Value>[Kit] Connecteur de réservoir isolé gaz</Value>
+	  <Description>Voir: {THING:StructureInsulatedTankConnector} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedTankConnector</Key>
+      <Value>Connecteur de réservoir isolé gaz</Value>
+      <Description>Utilisé pour fixer un réservoir portable à gaz, un épurateur d’air portable ou un climatiseur portable à un réseau de tuyaux à gaz à l’aide de la clé à molette.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulatedTankConnectorLiquid</Key>
+      <Value>[Kit] Connecteur de réservoir isolé liquide</Value>
+      <Description>Voir: {THING:StructureInsulatedTankConnectorLiquid} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedTankConnectorLiquid</Key>
+      <Value>Connecteur de réservoir isolé liquide</Value>
+      <Description>Utilisé pour fixer un réservoir portable à liquide, un épurateur d’air portable ou un climatiseur portable à un réseau de tuyaux à liquide à l’aide de la clé à molette.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFridgeBig</Key>
+      <Value>[Kit] Grand réfrigérateur</Value>
+      <Description>Voir: {THING:StructureFridgeBig} pour plus de détails.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFridgeBig</Key>
+      <Value>Grand réfrigérateur</Value>
+      <Description>Le réfrigérateur &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Koolaid est un dispositif de stockage auto-refroidissant avec 15 emplacements qui conserve les aliments lorsqu'il est alimenté et allumé. Alors que de nombreux utilisateurs se sont plaints de l'emplacement de l'interrupteur d'alimentation, sa place dans le panthéon des logiciels blancs hors monde est incontestée.
+Doté de sa propre atmosphère interne permanente, le réfrigérateur Koolaid ralentit la décomposition des &lt;color=#0080FFFF&gt;{LINK:OrganicPage;aliments}&lt;/color&gt; en maintenant une température interne optimale. Sa consommation électrique varie en fonction de la température extérieure contre laquelle il doit équilibrer sa température interne.
+En tant que tel, il doit dégager de la chaleur pour fonctionner, de sorte que le réfrigérateur Koolaid NE fonctionne PAS dans le vide. Aussi, ne laissez pas la porte ouverte, car elle s'égalisera avec la température extérieur; Et peut-être commencer à biper.
+Pour plus d'informations sur la conservation des aliments, visitez la section {LINK:DecayPage} de Stationpedia.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Rice</Key>
+      <Value>Sachet de riz</Value>
+      <Description>Cultivez du {THING:ItemRice}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Fern</Key>
+      <Value>Sachet de fougère</Value>
+      <Description>Cultivez des {THING:ItemFern}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Pumpkin</Key>
+      <Value>Sachat de citrouille</Value>
+      <Description>Cultivez des {THING:ItemPumpkin}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Potato</Key>
+      <Value>Sachet de pomme de terre</Value>
+      <Description>Cultivez des {THING:ItemPotato}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Corn</Key>
+      <Value>Sachet de maïs</Value>
+      <Description>Grow a {THING:ItemCorn}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Wheet</Key>
+      <Value>Sachet de blé</Value>
+      <Description>Cultivez du {THING:ItemWheat}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Tomato</Key>
+      <Value>Sachet de tomates</Value>
+      <Description>Cultivez des {THING:ItemTomato}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Soybean</Key>
+      <Value>Sachet de soja</Value>
+      <Description>Cultivez du {THING:ItemSoybean}.</Description>
+    </RecordThing>
+    <RecordThing>
+		<Key>ItemKitFridgeSmall</Key>
+		<Value>[Kit] Petit réfrigérateur</Value>
+		<Description>Voir: {THING:StructureFridgeSmall} pour plus de détails.</Description>
+	</RecordThing>
+	<RecordThing>
+		<Key>StructureFridgeSmall</Key>
+		<Value>Petit réfrigérateur</Value>
+		<Description>Essentiellement une boîte fortement isolée qui permet aux Stationeers de le brancher dans n'importe quelle atmosphère souhaitée, le réfrigérateur &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; était une solution simple au problème de la &lt;color=#0080FFFF&gt;{LINK:NutritionPage;décomposition des aliments}&lt;/color&gt;. Il stocke un petit nombre d'articles, à n'importe quelle température que vous pouvez rassembler.
+Pour plus d'informations sur la conservation des aliments, visitez la section {LINK:DecayPage;Nourriture pourrie} de Stationpedia.</Description>
+	</RecordThing>
+    <RecordThing>
+		<Key>Fertilizer</Key>
+		<Value>Engrais</Value>
+		<Description>L'engrais modifie les processus de croissance des plantes et est créé par le composteur de base et le {THING:StructureAdvancedComposter} à l'aide de matière &lt;color=#0080FFFF&gt;{LINK:OrganicPage;organic}&lt;/color&gt;.
+			Les effets de l'engrais dépendent de ses ingrédients:
+			
+			- La &lt;color=#0080FFFF&gt;{LINK:OrganicPage;nourriture}&lt;/color&gt; AUGMENTE LE RENDEMENT des plantes jusqu'à 2 fois.
+			- La {THING:DecayedFood} AUGMENTE LA VITESSE DE CROISSANCE des plantes jusqu'à 2 fois.
+			- Le {THING:ItemBiomass} AUGMENTE LE NOMBRE DE CYCLES DE CROISSANCE pendant lesquels l'engrais dure.
+			
+			L'effet de ces ingrédients dépend de leurs proportions respectives dans le composteur lorsque le traitement est activé.</Description>
+	</RecordThing>
+    <RecordThing>
+		<Key>StructureAdvancedComposter</Key>
+		<Value>Composteur avancé</Value>
+		<Description>Le composteur avancé crée de l'{THING:Fertilizer} à partir de matière organique. Il accepte les &lt;color=#0080FFFF&gt;{LINK:OrganicPage;aliments}&lt;/color&gt;, {THING:DecayedFood} ou de la {THING:ItemBiomass}. Il nécessite de l'eau et de l'électricité pour fonctionner, ce qui accélère le processus naturel de compostage.
+			Lors du traitement, il libère de l'azote et des substances volatiles, ainsi qu'une petite quantité de chaleur.
+			
+			{HEADER:COMPOSTAGE:}
+			L'engrais est produit dans un rapport de 1:3 d'engrais aux ingrédients. Les effets de l'engrais sur les plantes varieront en fonction des proportions respectives de ses ingrédients.
+			
+			- La &lt;color=#0080FFFF&gt;{LINK:OrganicPage;nourriture}&lt;/color&gt; AUGMENTE LE RENDEMENT des plantes jusqu'à 2 fois.
+			- {THING:DecayedFood} AUGMENTE LA VITESSE DE CROISSANCE des plantes jusqu'à 2 fois
+			- {THING:ItemBiomass} augmente le NOMBRE DE CYCLES DE CROISSANCE que l'engrais dure jusqu'à 5 fois
+		</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemKitAdvancedComposter</Key>
+		<Value>[Kit] Composteur avancé</Value>
+		<Description>Voir {THING:StructureAdvancedComposter} pour plus de détails.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>StructurePlanter</Key>
+		<Value>jardinière</Value>
+		<Description>Une petite jardinière à des fins décoratives ou hydroponiques. Peut être connecté à l'eau ou arrosé manuellement à l'aide d'une {THING:ItemWaterBottle} ou d'une {THING:ItemGasCanisterWater}.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemKitPlanter</Key>
+		<Value>[Kit] jardinièrer</Value>
+		<Description>Voir {THING:StructurePlanter} pour plus de détails.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>KitPlanter</Key>
+		<Value>[Kit] jardinière</Value>
+		<Description>Voir {THING:StructurePlanter} pour plus de détails.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>AppliancePackagingMachine</Key>
+		<Value>Machine d'emballage de base</Value>
+		<Description>La sertisseuse de boite de conserve de &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; nécessite une {THING:ItemEmptyCan} et des &lt;color=#0080FFFF&gt;{LINK:OrganicPage;aliments}&lt;/color&gt; pour créer une {LINK:DecayPage;nourriture durable}, et facile à stocker. Notez que la {THING:StructureBench} doit être boulonné à une table pour être alimenté et n'accepte que les aliments cuits et les boîtes de conserve.
+  
+  {HEADER:UTILISATION:}
+  
+  1. Ajoutez les ingrédients corrects à l'appareil via la trémie en haut.
+  
+  2. Fermez l'appareil à l'aide de la poignée déroulante.
+  
+  3. Activez l'appareil.
+  
+  4. Retirez les conserves de la sortie à l'avant.
+  
+  NOTE: Machine d'emballage de base affichera une erreur sur son interrupteur d'activation si vous essayez de l'activer avant de le fermer.
+		</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemPowderedeggs</Key>
+		<Value>Oeufs en poudre</Value>
+		<Description>Oeufs en poudre: la raison pour laquelle vous êtes allé dans l'espace.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemPoweredEggs</Key>
+		<Value>Oeufs en poudre</Value>
+		<Description />
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemFrenchFries</Key>
+		<Value>Frites Belge en conserve</Value>
+		<Description>Parce que l'espace serait nul sans eux.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCannedRicePudding</Key>
+		<Value>Riz au lait en conserve</Value>
+		<Description>Fabriqué dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, en utilisant {THING:ItemCookedRice} et une {THING:ItemEmptyCan}, le riz au lait en conserve est une gâterie sucrée, assez riche en nutriments et ne se {LINK:DecayPage;décompose pas}.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCannedCondensedMilk</Key>
+		<Value>Lait condensé en conserve</Value>
+		<Description>Fabriqué dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, en utilisant {THING:ItemCookedRice} et une {THING:ItemEmptyCan}, le riz au lait en conserve est une gâterie sucrée, assez riche en nutriments et ne se {LINK:DecayPage;décompose pas}.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCannedEdamame</Key>
+		<Value>Edamame en conserve</Value>
+		<Description>Fabriqué dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, en utilisant {THING:ItemCookedRice} et une {THING:ItemEmptyCan}, le riz au lait en conserve est une gâterie sucrée, assez riche en nutriments et ne se {LINK:DecayPage;décompose pas}.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCannedPowderedEggs</Key>
+		<Value>Oeufs en poudre en conserve</Value>
+		<Description>Fabriqué dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, en utilisant {THING:ItemCookedRice} et une {THING:ItemEmptyCan}, le riz au lait en conserve est une gâterie sucrée, assez riche en nutriments et ne se {LINK:DecayPage;décompose pas}.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCookedSoybean</Key>
+		<Value>Soja Cuit</Value>
+		<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCookedTomato</Key>
+		<Value>Tomate Cuite</Value>
+		<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCookedCorn</Key>
+		<Value>Maïs Cuit</Value>
+		<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCookedRice</Key>
+		<Value>Riz cuit</Value>
+		<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCookedPumpkin</Key>
+		<Value>Citrouille cuite</Value>
+		<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCookedMushroom</Key>
+		<Value>Champignon Cuit</Value>
+		<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCookedPowderedEggs</Key>
+		<Value>Oeufs en poudre</Value>
+		<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		<Key>ItemCookedCondensedMilk</Key>
+		<Value>Lait condensé</Value>
+		<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
+	  </RecordThing>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</Things>
 	
 	<!-- SECTION DES SLOTS -->
@@ -7367,8 +7829,8 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
 		</Record>
 		<Record>
 			<Key>FurnaceChamberText</Key>
-			<Value>Pression {0} 
-                                      Temperature {1}</Value>
+			<Value>Pression {0}
+			Temperature {1}</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceSmelting</Key>

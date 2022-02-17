@@ -1,3 +1,42 @@
+# Version 0.4 (En cours...) [Prochainement]
+
+## <ins>**Ajout**</ins> (French.xml)
+- Ajout d'une description sur les bouteilles de gaz.
+- Ajout d'une description sur la bouteille de gaz évolué.
+- Ajout d'une description sur les Réservoirs portables.
+- Ajout d'un meta lien au [Kit] Citerne portable.
+  - Ajout d'une description à la Citerne portable d'eau.
+- Ajout d'un meta lien au [Kit] Ordinateur.
+  - Ajout d'une description à l'ordinateur.
+- Ajout d'un meta lien au [Kit] Console.
+  - Ajout d'une description aux consoles.
+- Ajout d'un meta lien au [Kit] Connecteur pour Bouteille.
+  - Ajout d'une descripiton au Connecteur de Bouteille de Gaz.
+- Ajout des meta lien au [Kit] Hydroponique. 
+  - Ajout d'une description au Plateau Hydroponique.
+  - Ajout d'une description au bac Hydroponique.
+- Ajout d'une description aux filtres (Petit, moyen et grand).
+- Ajout d'un meta lien au [Kit] Ventilation Active.
+  - Ajout d'une description à la Ventilation Active.
+- Ajout d'un meta lien au [Kit] Broyeur de glace.
+  - Ajout d'une description au Broyeur de glace.
+- Ajout d'un meta lien au [Kit] Contrôleur d'Alimentation.
+  - Ajout d'une description au Contrôleur d'Alimentation.
+- Ajout d'un meta lien au [Kit] Station de Batterie.
+  - Rajout et traduction de la Station de Batterie.
+
+
+## <ins>**Correctif**</ins> (French.xml)
+- Modification du [Kit] Bac Hydroponique en [Kit] Hydroponique.
+  - Pour optimiser la recherche du plateau hydroponique, j'ai supprimer 'Bac'.
+- Modification du [Kit] Batterie en [Kit] Station de batterie.
+  - Pour une meilleur compréhension et cohésion.
+
+
+
+
+
+
 # Version 0.3 (à jour) [16/02/2022]
 ## <ins>**Ajout:**</ins> (French_help.xml)
   - Traduction de la page "Voyager vers d'autres planètes" (Guides).

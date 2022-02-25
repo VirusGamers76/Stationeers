@@ -22,20 +22,40 @@
   - Ajout d'une description au Broyeur de glace.
 - Ajout d'un meta lien au [Kit] Contrôleur d'Alimentation.
   - Ajout d'une description au Contrôleur d'Alimentation.
-- Ajout d'un meta lien au [Kit] Station de Batterie.
-  - Rajout et traduction de la Station de Batterie.
-
-
+- Ajout d'un meta lien au [Kit] Petite Station de Batterie.
+  - Rajout et traduction d'une description de la Petite Station de Batterie.
+- Ajout d'un meta lien au [Kit] Grande Station de Batterie.
+  - Rajout et traduction d'une description de la Grande Station de Batterie.
+- Ajout d'une description à la Carte Analyseur Atmosphérique.
+- Ajout d'une description à la Carte Analyseur Médical.
+- Ajout d'une description à la Carte Analyseur Réseau.
+- Ajout d'une description au Circuit Imprimé: Contrôle atmosphérique.
+- Ajout d'une description au Circuit Imprimé: Contrôle du sas.
+- Ajout d'une description au Circuit Imprimé: Affichage de la caméra.
+- Ajout d'une description au Circuit Imprimé: Contrôle de porte.
+- Ajout d'une description au Circuit imprimé: Afficheur de gaz.
+- Ajout d'une description au Circuit Imprimé: Contrôle du mode.
+- Ajout d'une description au Circuit Imprimé: Contrôle d'alimentation.
+- Ajout d'une description au Circuit Imprimé: Affichage vaisseau.
+- Ajout d'une description au Circuit Imprimé: Contrôle panneaux solaire.
+  
 ## <ins>**Correctif**</ins> (French.xml)
 - Modification du [Kit] Bac Hydroponique en [Kit] Hydroponique.
   - Pour optimiser la recherche du plateau hydroponique, j'ai supprimer 'Bac'.
 - Modification du [Kit] Batterie en [Kit] Station de batterie.
   - Pour une meilleur compréhension et cohésion.
-
-
-
-
-
+- Supression des parenthèse de la Carte Analyseur Atmosphérique.
+- Supression des parenthèse de la Carte Analyseur Médical.
+- Supression des parenthèse de la Carte Analyseur Réseau.
+- Supression des parenthèse au Circuit: Imprimé Contrôle atmosphérique.
+- Supression des parenthèse au Circuit: Imprimé Contrôle du sas.
+- Supression des parenthèse au Circuit Imprimé: Affichage de la caméra.
+- Supression des parenthèse au Circuit Imprimé: Contrôle de porte.
+- Supression des parenthèse au Circuit imprimé: Afficheur de gaz.
+- Supression des parenthèse au Circuit Imprimé: Contrôle du mode.
+- Supression des parenthèse au Circuit Imprimé: Contrôle d'alimentation.
+- Supression des parenthèse au Circuit Imprimé: Affichage vaisseau.
+- Supression des parenthèse au Circuit Imprimé: Contrôle panneaux solaire.
 
 # Version 0.3 (à jour) [16/02/2022]
 ## <ins>**Ajout:**</ins> (French_help.xml)

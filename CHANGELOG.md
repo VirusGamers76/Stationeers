@@ -1,4 +1,8 @@
 # Version 0.4 (En cours...) [Prochainement]
+## <ins>**Ajout**</ins> (French_tooltips.xml)
+- Correctif d'un problème de d'affichage du status d'alerte de la batterie arrivé à 50%
+  - Ce correctif est temporaire. Merci à [[FR]Bouy](https://steamcommunity.com/app/544550/discussions/0/3177854919323766055/#c3183486320475160897) pour le report.
+
 
 ## <ins>**Ajout**</ins> (French.xml)
 - Ajout d'une description sur les bouteilles de gaz.

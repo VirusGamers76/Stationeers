@@ -606,15 +606,18 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeAtmosAnalyser</Key>
-			<Value>Carte (Analyseur Atmosphérique)</Value>
+			<Value>Carte Analyseur Atmosphérique</Value>
+			<Description>L'analyseur atmosphérique Lorenz est un spectromètre de masse multifonctionnel conçu par &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; à utiliser avec la {THING:ItemTablet}. Il affiche la pression, la concentration et la quantité molaire des &lt;color=#0080FFFF&gt;{LINK:GasPage;Gaz}&lt;/color&gt; dans des pièces, des réservoirs ou des réseaux de canalisations.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeMedicalAnalyser</Key>
-			<Value>Carte (Analyseur Médical)</Value>
+			<Value>Carte Analyseur Médical</Value>
+			<Description>Lorsqu'il est ajouté à la {THING:ItemTablet}, l'analyseur médical ReadyMed de &lt;color=#0080FFFF&gt;{LINK:Asura;Asura's}&lt;/color&gt;'s révèle la santé, ou non, des différents organes de l'utilisateurs. En raison d'un défaut de conception, les modèles plus anciens étaient connus pour produire des niveaux de rayonnement X de type quasar. Les progrès récents en matière de blindage ont réduit de plus de moitié le risque pour les utilisateurs.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeNetworkAnalyser</Key>
-			<Value>Carte (Analyseur Réseau)</Value>
+			<Value>Carte Analyseur Réseau</Value>
+			<Description>Petit chef-d'œuvre de l'ingénierie microélectronique, l'analyseur de réseau affiche le courant, la tension et la puissance d'un réseau câblé, ainsi que tous les appareils qui y sont connectés. Basé sur une conception &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; largement copiée, il est utilisé conjointement avec la {THING:ItemTablet}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>Character</Key>
@@ -622,43 +625,56 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAirControl</Key>
-			<Value>Circuit Imprimé (Contrôle atmosphérique)</Value>
+			<Value>Circuit Imprimé: Contrôle atmosphérique</Value>
+			<Description>Lorsqu'elles sont ajoutées à une {THING:StructureConsole}, les cartes de circuit de contrôle d'air vous permettent de programmer une {THING:StructureActiveVent}. Le mode de pression maintient une atmosphère de 100 kPa, commutant l'évent actif entre le flux entrant et le flux sortant jusqu'à ce que la pression cible soit atteinte.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAirlockControl</Key>
-			<Value>Circuit Imprimé (Contrôle du sas)</Value>
+			<Value>Circuit Imprimé: Contrôle du sas</Value>
+			<Description>Selon la rumeur, il aurait été dessiné pour la première fois sur un mur de toilettes par un ingénieur &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt;. La polyvalence et la facilité de fabrication du contrôle de sas Exgress en ont fait le système de contrôle de choix pour les protocoles de cycle de {THING:StructureAirlock}. 
+			Pour entrer en mode configuration, insérez le disque de données dans la {THING:StructureConsole}. Dans ce mode, vous pouvez voir tous les objets accessibles aux données actuellement connectés à la {THING:StructureConsole}. Les portes, les lumières, les capteurs de gaz et les consoles esclaves peuvent être sélectionnés (surlignés en vert) et seront contrôlés une fois le disque de données retiré.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardCameraDisplay</Key>
-			<Value>Circuit Imprimé (Affichage de la caméra)</Value>
+			<Value>Circuit Imprimé: Affichage de la caméra</Value>
+			<Description>La surveillance est parfois nécessaire lors de la construction de bases dans des environnements hautement hostiles. Le circuit imprimé d'affichage de la caméra permet aux Stationeers méfiants de transformer une {THING:StructureConsole} en un écran de sécurité lorsqu'elle est connectée à une {THING:StructureCamera}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardDoorControl</Key>
-			<Value>Circuit Imprimé (Contrôle de porte)</Value>
+			<Value>Circuit Imprimé: Contrôle de porte</Value>
+			<Description>Outil pour la construction de base &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; ce circuit imprimé permet d'ouvrir et de fermer une {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} ou {THING:StructureGlassDoor} à distance, lorsqu'il est connecté à une {THING:StructureConsole}. Ce système peut être encore lié à {THING:StructureMotionSensor} pour créer des portes automatiques.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardGasDisplay</Key>
-			<Value>Circuit imprimé (Afficheur de gaz)</Value>
+			<Value>Circuit imprimé: Afficheur de gaz</Value>
+			<Description>L'information, c'est le pouvoir. Placez ce circuit imprimé dans une {THING:StructureConsole} pour créer un affichage indiquant la pression du gaz ou la température de tout réservoir connecté, bidon de stockage, {THING:ItemPipeAnalyizer} ou {THING:ItemGasSensor}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardModeControl</Key>
-			<Value>Circuit Imprimé (Contrôle du mode)</Value>
+			<Value>Circuit Imprimé: Contrôle du mode</Value>
+			<Description>Vous n'arrivez pas à décider quel mode vous préférez ? Cette carte de circuit imprimé vous permet de basculer n'importe quel appareil connecté entre les modes de fonctionnement.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardPowerControl</Key>
-			<Value>Circuit Imprimé (Contrôle d&apos;alimentation)</Value>
+			<Value>Circuit Imprimé: Contrôle d'alimentation</Value>
+			<Description>Sous des soleils lointains et des environnements exigeants, les systèmes &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; doivent équilibrer fiabilité, résilience et polyvalence. La carte de contrôle de l'alimentation permet l'activation et la désactivation à distance des appareils sélectionnés, en déconnectant le fonctionnement manuel.
+				
+			Le circuit imprimé a deux modes: 'Link' allume ou éteint tous les appareils; 'Toggle' fait passer chaque appareil à son état alternatif.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardShipDisplay</Key>
-			<Value>Circuit Imprimé (Affichage vaisseau)</Value>
+			<Value>Circuit Imprimé: Affichage vaisseau</Value>
+			<Description>Lorsque le manuel original de &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; s'est effondré sous son propre poids en une singularité, certaines informations ont été irrémédiablement perdues. Parmi ce mystérieux corpus de connaissances se trouve le but exact du tableau d'affichage du navire.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardSolarControl</Key>
-			<Value>Circuit Imprimé (Contrôle panneaux solaire)</Value>
+			<Value>Circuit Imprimé: Contrôle panneaux solaire</Value>
+			<Description>L'ajout d'une carte de contrôle solaire à une {THING:StructureConsole} vous permet de contrôler manuellement les angles horizontaux et verticaux de tout {THING:StructureSolarPanel} connecté.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicAirConditioner</Key>
 			<Value>Climatiseur portable</Value>
+			<Description>Le climatiseur portable Huxi conçu par &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; refroidit en puisant la chaleur de l'atmosphère et en la stockant, ou en ajoutant de la chaleur à l'atmosphère à partir de son réservoir interne. Avec une pression interne max de 8106kPa, sa capacité est relativement limitée, la physique étant claire à ce sujet. Pour étendre sa capacité de stockage de température, boulonnez le Huxi à un {THING:StructureTankConnector}, puis connectez-le à un réseau de canalisations fournissant des &lt;color=#0080FFFF&gt;{LINK:GasPage;gaz}&lt;/color&gt; chauds ou froids.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicCrate</Key>
@@ -682,36 +698,51 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterAir</Key>
-			<Value>Réservoir portable (Air)</Value>
+			<Value>Réservoir portable d'air</Value>
+			<Description>Les réservoirs de gaz portables font une chose: stocker du gaz. Mais vous pouvez faire beaucoup avec eux. Pour remplir le réservoir, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterOxygen} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterCarbonDioxide</Key>
-			<Value>Réservoir portable (CO2)</Value>
+			<Value>Réservoir portable de CO²</Value>
+			<Description>Les réservoirs de gaz portables stockent les gaz. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterCarbonDioxide} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterEmpty</Key>
 			<Value>Réservoir portable</Value>
+			<Description>Les réservoirs de gaz portables stockent les gaz. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterEmpty} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterFuel</Key>
-			<Value>Réservoir portable (Carburant)</Value>
+			<Value>Réservoir portable de Carburant</Value>
+			<Description>Les réservoirs de gaz portables stockent les gaz. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterFuel} en l'attachant à la section rayée du réservoir. Vous pouvez aussi utiliser une {THING:ItemWrench} pour l'attacher à un rover ou à une fusée pour plus tard.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterNitrogen</Key>
-			<Value>Réservoir portable (Azote)</Value>
+			<Value>Réservoir portable d'Azote</Value>
+			<Description>Les réservoirs de gaz portables stockent les gaz. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous vous retrouverez avec de l'azote dans des endroits auxquels vous ne vous attendiez pas. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterNitrogen} en l'attachant à la section rayée du réservoir. Vous pouvez aussi utiliser une {THING:ItemWrench} pour l'attacher à un rover ou à une fusée pour plus tard.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterOxygen</Key>
-			<Value>Réservoir portable (Oxygène)</Value>
+			<Value>Réservoir portable d'Oxygène)</Value>
+			<Description>Les réservoirs de gaz portables stockent les gaz. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterOxygen} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterVolatiles</Key>
-			<Value>Réservoir portable (Hydrogène)</Value>
+			<Value>Réservoir portable d'Hydrogène</Value>
+			<Description>Les réservoirs de gaz portables stockent les gaz. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous vous retrouverez avec de l'azote dans des endroits auxquels vous ne vous attendiez pas. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterVolatiles en l'attachant à la section rayée du réservoir. Vous pouvez aussi utiliser une {THING:ItemWrench} pour l'attacher à une fusée et lui faire faire le tour du système solaire..</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterWater</Key>
-			<Value>Citerne portable (Eau)</Value>
+			<Value>Citerne portable d'eau</Value>
+			<Description>Voir {THING:DynamicLiquidCanisterEmpty} pour plus de détails.</Description>
 		</RecordThing>
+		<RecordThing>
+			<Key>DynamicLiquidCanisterEmpty</Key>
+			<Value>Citerne portable d'eau</Value>
+			<Description>Ce réservoir portable stocke du liquide, et uniquement du liquide. Vous n'avez plus qu'à le remplir. Pour ce faire, boulonnez-en un à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à l'aide des {THING:ItemKitPipeLiquid} pour fournir du liquide à un réseau.
+Essayez de maintenir une pression inférieure à 10 MPa, ou vous finirez par être mouillé ou au pire, blessé.
+Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la section rayée du réservoir. Ou vous pouvez utiliser une {THING:ItemWrench} pour l'attacher à une fusée.</Description>
+		  </RecordThing>
 		<RecordThing>
 			<Key>DynamicGenerator</Key>
 			<Value>Générateur portable</Value>
@@ -763,15 +794,17 @@
 		<RecordThing>
 			<Key>ItemActiveVent</Key>
 			<Value>[Kit] Ventilation Active</Value>
+			<Description>Voir: {THING:StructureActiveVent} pour plus de détails.
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemAreaPowerControl</Key>
 			<Value>[Kit] Contrôleur d&apos;Alimentation</Value>
+			<Description>Voir: {THING:StructureAreaPowerControl} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBatteryCell</Key>
 			<Value>Petite batterie</Value>
-			<Description>Exploitant une conception pionnière au début du 21e siècle, la petite cellule de batterie est l'unité de base d'alimentation électrique portable du &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt;. Bien qu'il n'ait pas la charge d'une {THING:ItemBatteryCellLarge} ou d'une {THING:ItemBatteryCellNuclear}, il a l'humble avantage d'être fabriqué à partir de ressources de base.
+			<Description>Exploitant une conception pionnière au début du 21e siècle, la petite cellule de batterie est l'unité de base d'alimentation électrique portable du &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt;. Bien qu'il n'ait pas la charge d'une {THING:ItemBatteryCellLarge} ou d'une {THING:ItemBatteryCellNuclear}, il a l'humble avantage d'être fabriqué à partir de ressources de base.
 			{HEADER:Puissance de sortie:}
 			La petite batterie peut stocker jusqu'à 36 kW de puissance.</Description>
 		</RecordThing>
@@ -899,31 +932,38 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterCarbonDioxide</Key>
-			<Value>Bouteille de Gaz [CO2]</Value>
+			<Value>Bouteille de Gaz [CO²]</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type CO². La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterPollutants</Key>
 			<Value>Bouteille de Gaz [Polluant]</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type polluant. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterEmpty</Key>
 			<Value>Bouteille de Gaz</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterFuel</Key>
 			<Value>Bouteille de Gaz [Carburant]</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type carburant. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterVolatiles</Key>
 			<Value>Bouteille de Gaz [Hydrogène]</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type Hydrogène. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterNitrogen</Key>
 			<Value>Bouteille de Gaz [Azote]</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type Azote. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterOxygen</Key>
 			<Value>Bouteille de Gaz [Oxygène]</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type Oxygène. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterWater</Key>
@@ -935,32 +975,9 @@
 			<Description>Retient l'eau, si vous en avez.</Description>
 		</RecordThing>
 		<RecordThing>
-			<Key>ItemGasFilterCarbonDioxide</Key>
-			<Value>Filtre [CO2]</Value>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterPollutants</Key>
-			<Value>Filtre [Polluant]</Value>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterNitrogen</Key>
-			<Value>Filtre [Azote]</Value>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterOxygen</Key>
-			<Value>Filtre [Oxygène]</Value>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterVolatiles</Key>
-			<Value>Filtre [Hydrogène]</Value>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterWater</Key>
-			<Value>Filtre [Eau]</Value>
-		</RecordThing>
-		<RecordThing>
 			<Key>ItemGasTankStorage</Key>
 			<Value>[Kit] Connecteur pour Bouteille</Value>
+			<Description>Voir {THING:StructureGasTankStorage} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidTankStorage</Key>
@@ -992,7 +1009,8 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemHydroponicTray</Key>
-			<Value>[Kit] Bac Hydroponique</Value>
+			<Value>[Kit] Hydroponique</Value>
+			<Description>Voir {THING:StructureHydroponicsTrayData} ou {THING:StructureHydroponicsTray} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemIce</Key>
@@ -1025,8 +1043,17 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitBattery</Key>
-			<Value>[Kit] Batterie</Value>
+			<Value>[Kit] Petite Station de Batterie</Value>
+			<Description>Voir: {THING:StructureBattery} pour plus de détails.</Description>
 		</RecordThing>
+		<RecordThing>
+			<Key>StructureBattery</Key>
+			<Value>Petite Station de Batterie</Value>
+			<Description>Fournissant un stockage d'énergie fiable et à grande échelle, la Petite Station de Batterie &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 'Dianzi' est le cœur de la plupart des bases de &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;. 
+Il y a une variété de précautions à prendre lors de la conception de systèmes électriques utilisant des batteries, et chaque Stationeer expérimenté a une histoire à raconter, d'où l'expression: "Dianzi cuisine, mais il fait aussi frire."
+{HEADER:PUISSANCE DE SORTIE:}
+Capable de stocker jusqu'à 3 600 000 Watts (3.6kW) de puissance, il n'y a pas de limites pratiques à son débit, il est donc sage d'utiliser des {THING:ItemCableCoilHeavy}. Les ingénieurs électriciens chevronnés riront également au nez de ceux qui ne parviennent pas à séparer leurs réseaux de production d'électricité à l'aide d'un {THING:StructureAreaPowerControl} et d'un {THING:StructureTransformer}.</Description>
+		  </RecordThing>
 		<RecordThing>
 			<Key>ItemKitCentrifuge</Key>
 			<Value>[Kit] Centrifugeuse</Value>
@@ -1038,10 +1065,18 @@
 		<RecordThing>
 			<Key>ItemKitComputer</Key>
 			<Value>[Kit] Ordinateur</Value>
+			<Description>Voir {THING:StructureComputer} pour plus de détails.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureConsole</Key>
+			<Value>Console</Value>
+			<Description>Ce boîtier de commande conçu par &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; gère des appareils tels que {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} et {THING:StructureCompositeDoor}, selon le &lt;color=#0080FFFF&gt;{LINK:LogicPage;circuit imprimé}&lt;/color&gt; inséré dans l'unité. Il dispose d'un port de donnéespartagé et d'alimentation.
+Une console complète affiche tous les appareils connectés au réseau électrique actuel. Tous les appareils non liés au circuit imprimé installé seront grisés et inutilisables. Les consoles sont verrouillées une fois qu'un {THING:ItemDataDisk} est enlever.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitConsole</Key>
 			<Value>[Kit] Console</Value>
+			<Description>Voir {THING:StructureConsole} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitConveyor</Key>
@@ -1404,6 +1439,8 @@
 		<RecordThing>
 			<Key>StructureActiveVent</Key>
 			<Value>Ventilation Active</Value>
+			<Description>Des fragments du manuel original de &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; récupéré, décrivent la conception des ventilations actifs:
+"... ventilation actif est un dispositif alimenté pour maintenir la pression du &lt;color=#0080FFFF&gt;{LINK:GasPage;gaz}&lt;/color&gt; en pompant du gaz dans (ou hors) d'un réseau de canalisations. La ventilation actif a deux modes: "Vers l'extérieur" le règle pour pomper du gaz dans un espace jusqu'à ce que la pression soit atteinte; "Vers l'intérieur" le règle pour pomper le gaz jusqu'à ce que la pression soit atteinte. Le paramètre de pression peut être défini sur une {THING:StructureConsole}. La pression par défaut est de 101 kPa pour la sortie; 0kPa pour l'intérieur..."</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAirConditioner</Key>
@@ -1427,10 +1464,18 @@
 		<RecordThing>
 			<Key>StructureAreaPowerControl</Key>
 			<Value>Contrôleur d&apos;Alimentation</Value>
+			<Description>Le contrôleur d'alimentation (APC) est utilisé pour séparer l’alimentation dans leurs propres sous-réseaux et réduire les fluctuations de puissance.
+L’APC peut être ouvert avec un {THING:ItemCrowbar}, une fois ouvert, le commutateur doit être réglé sur l’état «ON» pour qu’il fonctionne. Une cellule de batterie peut être ajoutée pour servir de tampon d’alimentation pour le sous-réseau en cas de déconnexion du réseau d’alimentation principal.
+L’APC peut généralement être utilisé pour des machines ayant des besoins en énergie variables, telles que le {THING:StructureAutolathe}, {THING:StructureElectronicsPrinter}, {THING:StructureArcFurnace} etc. Cela permettra à toutes ces machines de prendre beaucoup d’énergie à de courts intervalles tant que l’APC dispose d’une batterie. Contrairement au Transformer, l’APC ne limitera pas la quantité d’énergie qu’il traverse.
+Si une puissance suffisante est disponible en amont, l’APC agit comme un passage et ne limitera pas sa puissance de sortie, il est recommandé d’utiliser un {THING:ItemCableFuse} ou un {THING:StructureTransformerSmall} lors de l’alimentation d’un réseau câblé non lourd pour éviter les dépassements.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAreaPowerControlReversed</Key>
 			<Value>Contrôleur d&apos;Alimentation</Value>
+			<Description>Le contrôleur d'alimentation (APC) est utilisé pour séparer l’alimentation dans leurs propres sous-réseaux et réduire les fluctuations de puissance.
+L’APC peut être ouvert avec un {THING:ItemCrowbar}, une fois ouvert, le commutateur doit être réglé sur l’état «ON» pour qu’il fonctionne. Une cellule de batterie peut être ajoutée pour servir de tampon d’alimentation pour le sous-réseau en cas de déconnexion du réseau d’alimentation principal.
+L’APC peut généralement être utilisé pour des machines ayant des besoins en énergie variables, telles que le {THING:StructureAutolathe}, {THING:StructureElectronicsPrinter}, {THING:StructureArcFurnace} etc. Cela permettra à toutes ces machines de prendre beaucoup d’énergie à de courts intervalles tant que l’APC dispose d’une batterie. Contrairement au Transformer, l’APC ne limitera pas la quantité d’énergie qu’il traverse.
+Si une puissance suffisante est disponible en amont, l’APC agit comme un passage et ne limitera pas sa puissance de sortie, il est recommandé d’utiliser un {THING:ItemCableFuse} ou un {THING:StructureTransformerSmall} lors de l’alimentation d’un réseau câblé non lourd pour éviter les dépassements.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBackPressureRegulator</Key>
@@ -1550,14 +1595,26 @@
 		<RecordThing>
 			<Key>StructureComputer</Key>
 			<Value>Ordinateur</Value>
+			<Description>À certains égards, une relique, le «Chonk R1» a été conçu par des techniciens &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; en conflit sévère, qui avaient besoin d'une unité capable de fonctionner avec une large gamme de &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;cartes mères}&lt;/color&gt;, tout en endurant le pire qu'un nouveau Cadet puisse lui infliger.
+Le résultat est une machine décrite par certains comme "le seul PC susceptible de survivre à notre collision avec un trou noir", tandis que d'autres utilisateurs, moins reconnaissants, la considèrent comme partageant l'essentiel de son ADN technologique avec une râpe à fromage.
+Cartes mères compatibles:
+- {THING:MotherboardLogic}
+- {THING:MotherboardManufacturing}
+- {THING:MotherboardSorter}
+- {THING:MotherboardComms}
+- {THING:MotherboardProgrammableChip}</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleDual</Key>
 			<Value>Console Double</Value>
+			<Description>Ce boîtier de commande conçu par &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; gère des appareils tels que {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} et {THING:StructureCompositeDoor}, selon le &lt;color=#0080FFFF&gt;{LINK:LogicPage;circuit imprimé}&lt;/color&gt; inséré dans l'unité. Il dispose d'un port de donnéespartagé et d'alimentation.
+Une console complète affiche tous les appareils connectés au réseau électrique actuel. Tous les appareils non liés au circuit imprimé installé seront grisés et inutilisables. Les consoles sont verrouillées une fois qu'un {THING:ItemDataDisk} est enlever.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleMonitor</Key>
 			<Value>Console Moniteur</Value>
+			<Description>Ce boîtier de commande conçu par &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; gère des appareils tels que {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} et {THING:StructureCompositeDoor}, selon le &lt;color=#0080FFFF&gt;{LINK:LogicPage;circuit imprimé}&lt;/color&gt; inséré dans l'unité. Il dispose d'un port de donnéespartagé et d'alimentation.
+Une console complète affiche tous les appareils connectés au réseau électrique actuel. Tous les appareils non liés au circuit imprimé installé seront grisés et inutilisables. Les consoles sont verrouillées une fois qu'un {THING:ItemDataDisk} est enlever.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureControlChair</Key>
@@ -1630,6 +1687,7 @@
 		<RecordThing>
 			<Key>StructureGasTankStorage</Key>
 			<Value>Connecteur de Bouteille de Gaz</Value>
+			<Description>Lorsqu'elle est connectée à un réseau de canalisations, le connecteur de bouteille de gaz vous permet de recharger vos {THING:ItemGasCanisterEmpty}, ainsi que de lire diverses données atmosphériques à partir du bidon.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankStorage</Key>
@@ -1646,6 +1704,8 @@
 		<RecordThing>
 			<Key>StructureHydroponicsTray</Key>
 			<Value>Plateau Hydroponique</Value>
+			<Description>Le plateau hydroponique d'&lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; est le récipient idéal pour cultiver une gamme de &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plantes}&lt;/color&gt;. Il doit être alimenté en eau par un réseau de canalisations, et suffisamment de lumière pour générer la photosynthèse.
+Il peut être automatisé à l'aide de {THING:StructureHarvie}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureIgniter</Key>
@@ -1875,7 +1935,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolidFuelGenerator</Key>
-			<Value>Générateur (Combustible Solide)</Value>
+			<Value>Générateur à Combustible Solide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitGenerator</Key>
@@ -2946,7 +3006,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardHashDisplay</Key>
-			<Value>Circuit Imprimé (Affichage de Hash code)</Value>
+			<Value>Circuit Imprimé: Affichage de Hash code</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureHydroponicsStation</Key>
@@ -2962,7 +3022,8 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterSmart</Key>
-			<Value>Bouteille de Gaz (Evoluée)</Value>
+			<Value>Bouteille de Gaz évoluée</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker tout type de gaz. La pression maximale est de 20,265 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeConfiguration</Key>
@@ -2974,7 +3035,8 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardGraphDisplay</Key>
-			<Value>Circuit Imprimé (Affichage graphique)</Value>
+			<Value>Circuit Imprimé: Affichage graphique</Value>
+			<Description>L’affichage graphique, lorsqu’il est monté dans une {THING:StructureConsole}, peut afficher un seul type de logique sur un graphique X-Y. L’axe X indique le temps sur un intervalle court et récent (l’échelle ne peut pas être ajustée), tandis que l’axe Y commence à zéro et à une valeur maximale (déterminée automatiquement).</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitMotherShipCore</Key>
@@ -3082,7 +3144,8 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAdvAirlockControl</Key>
-			<Value>Circuit imprimé (sas amélioré)</Value>
+			<Value>Circuit imprimé: sas amélioré</Value>
+			<Description>Ce circuit imprimé peut être utilisé pour automatiser le fonctionnement d’un sas séparant deux atmosphères sous pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitPressurePlate</Key>
@@ -3107,6 +3170,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		<RecordThing>
 			<Key>ItemKitDynamicLiquidCanister</Key>
 			<Value>[Kit] Citerne portable</Value>
+			<Description>Voir {THING:DynamicLiquidCanisterEmpty} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemFlowerBlue</Key>
@@ -3157,52 +3221,130 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 			<Value>Fleur (Verte)</Value>
 		</RecordThing>
 		<RecordThing>
-			<Key>ItemGasFilterCarbonDioxideL</Key>
-			<Value>Grand Filtre (CO2)</Value>
+			<Key>ItemGasFilterCarbonDioxide</Key>
+			<Value>Filtre de CO²</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterCarbonDioxideM</Key>
-			<Value>Filtre moyen (CO2)</Value>
+			<Value>Filtre moyen de CO²</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
-			<Key>ItemGasFilterNitrogenL</Key>
-			<Value>Grand Filtre (Azote)</Value>
+			<Key>ItemGasFilterCarbonDioxideL</Key>
+			<Value>Grand Filtre de CO²</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 20 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterNitrogen</Key>
+			<Value>Filtre d'Azote</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrogenM</Key>
-			<Value>Filtre moyen (Azote)</Value>
+			<Value>Filtre moyen d'Azote</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
-			<Key>ItemGasFilterOxygenL</Key>
-			<Value>Grand Filtre (Oxygène)</Value>
+			<Key>ItemGasFilterNitrogenL</Key>
+			<Value>Grand Filtre d'Azote</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 20 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterOxygen</Key>
+			<Value>Filtre d'Oxygène</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterOxygenM</Key>
-			<Value>Filtre moyen (Oxygène)</Value>
+			<Value>Filtre moyen d'Oxygène</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
-			<Key>ItemGasFilterPollutantsL</Key>
-			<Value>Grand Filtre (Polluant)</Value>
+			<Key>ItemGasFilterOxygenL</Key>
+			<Value>Grand Filtre d'Oxygène</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 20 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterPollutants</Key>
+			<Value>Filtre de Polluant</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterPollutantsM</Key>
-			<Value>Filtre moyen (Polluant)</Value>
+			<Value>Filtre moyen de Polluant</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
-			<Key>ItemGasFilterVolatilesL</Key>
-			<Value>Grand Filtre (Hydrogène)</Value>
+			<Key>ItemGasFilterPollutantsL</Key>
+			<Value>Grand Filtre de Polluant</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 20 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterVolatiles</Key>
+			<Value>Filtre d'Hydrogène</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterVolatilesM</Key>
-			<Value>Filtre moyen (Hydrogène)</Value>
+			<Value>Filtre moyen d'Hydrogène</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
-			<Key>ItemGasFilterWaterL</Key>
-			<Value>Grand Filtre (Eau)</Value>
+			<Key>ItemGasFilterVolatilesL</Key>
+			<Value>Grand Filtre d'Hydrogène</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 20 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterWater</Key>
+			<Value>Filtre d'Eau</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterWaterM</Key>
-			<Value>Filtre moyen (Eau)</Value>
+			<Value>Filtre moyen d'Eau</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 10 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterWaterL</Key>
+			<Value>Grand Filtre d'Eau</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 20 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterNitrousOxide</Key>
+			<Value>Filtre (Protoxyde d&apos;azote)</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 2 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterNitrousOxideM</Key>
+			<Value>Filtre moyen (Protoxyde d&apos;azote)</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 10 heures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterNitrousOxideL</Key>
+			<Value>Grand filtre (Protoxyde d&apos;azote)</Value>
+			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
+Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMushroom</Key>
@@ -3297,20 +3439,9 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 			<Value>Panier de Basket</Value>
 		</RecordThing>
 		<RecordThing>
-			<Key>ItemGasFilterNitrousOxide</Key>
-			<Value>Filtre (Protoxyde d&apos;azote)</Value>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterNitrousOxideL</Key>
-			<Value>Grand filtre (Protoxyde d&apos;azote)</Value>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterNitrousOxideM</Key>
-			<Value>Filtre moyen (Protoxyde d&apos;azote)</Value>
-		</RecordThing>
-		<RecordThing>
 			<Key>ItemGasCanisterNitrousOxide</Key>
 			<Value>Bouteille de gaz (Protoxyde d&apos;azote)</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type Protoxyde d&apos;azote. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemNVG</Key>
@@ -3425,11 +3556,13 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterNitrousOxide</Key>
-			<Value>Réservoir portable (Protoxyde d&apos;azote)</Value>
+			<Value>Réservoir portable de Protoxyde d&apos;azote</Value>
+			<Description>Les réservoirs de gaz portables font une chose: stocker du gaz. Mais vous pouvez faire beaucoup avec eux. Pour remplir le réservoir, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterNitrousOxide} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterPollutants</Key>
-			<Value>Réservoir portable (Polluant)</Value>
+			<Value>Réservoir portable de Polluant</Value>
+			<Description>Les réservoirs de gaz portables font une chose: stocker du gaz. Mais vous pouvez faire beaucoup avec eux. Pour remplir le réservoir, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterPollutants} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>Lander</Key>
@@ -3450,6 +3583,11 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		<RecordThing>
 			<Key>ItemCoffeeMug</Key>
 			<Value>Tasse de café</Value>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemKitAIMeE</Key>
+			<Value>[Kit] AIMeE</Value>
+			<Description>Voir: {THING:Robot} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>Robot</Key>
@@ -4204,7 +4342,16 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitBatteryLarge</Key>
-			<Value>[Kit] Grande batterie stationnaire</Value>
+			<Value>[Kit] Grande Station de Batterie</Value>
+			<Description>Voir: {THING:StructureBatteryLarge} pour plus de détails.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureBatteryLarge</Key>
+			<Value>Grande Station de Batterie</Value>
+			<Description>Fournissant un stockage d'énergie fiable et à grande échelle, la Grande Station de Batterie &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 'Dianzi' est le cœur de la plupart des bases de &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;. 
+Il y a une variété de précautions à prendre lors de la conception de systèmes électriques utilisant des batteries, et chaque Stationeer expérimenté a une histoire à raconter, d'où l'expression: "Dianzi cuisine, mais il fait aussi frire."
+{HEADER:PUISSANCE DE SORTIE:}
+Capable de stocker jusqu'à 9 000 000 Watts (9kW) de puissance, il n'y a pas de limites pratiques à son débit, il est donc sage d'utiliser des {THING:ItemCableCoilHeavy}. Les ingénieurs électriciens chevronnés riront également au nez de ceux qui ne parviennent pas à séparer leurs réseaux de production d'électricité à l'aide d'un {THING:StructureAreaPowerControl} et d'un {THING:StructureTransformer}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageVendingMachine1</Key>
@@ -4644,11 +4791,14 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvanced</Key>
-			<Value>Réservoir MK.II</Value>
+			<Value>Réservoir portable MK.II</Value>
+			<Description>Le Réservoir portable MK.II est utilisé pour stocker les gaz. Il a un volume plus élevé que la {THING:ItemGasCanisterEmpty} ou la {THING:ItemGasCanisterSmart}.
+			La pression maximale pour le réservoir est de 20,265 MPa, soit 200 atmosphères. Une surpression du réservoir le fera exploser. Une fois la pression maximale atteinte, le réservoir commence à subir des dommages jusqu’à ce qu’il éclate.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicGasTankAdvanced</Key>
 			<Value>[Kit] Réservoir portable MK.II</Value>
+			<Description>Voir: {THING:DynamicGasTankAdvanced} pour plus de détails.
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePlinth</Key>
@@ -4781,6 +4931,8 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>StructureHydroponicsTrayData</Key>
 			<Value>Bac Hydroponique</Value>
+			<Description>L'appareil hydroponique d'&lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; est le récipient idéal pour cultiver une gamme de &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plantes}&lt;/color&gt;. Il doit être alimenté en eau par un réseau de canalisations, et suffisamment de lumière pour générer la photosynthèse.
+Il peut être automatisé à l'aide de {THING:StructureHarvie}. Notez que contrairement au {THING:StructureHydroponicsTray}, ceux-ci ne peuvent pas être placés consécutivement car ils sont considérés comme des appareils plutôt que comme de purs tuyaux. Ils permettent cependant l'interrogation des données pour les systèmes logiques.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCharcoal</Key>
@@ -4929,14 +5081,18 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>StructureIceCrusher</Key>
 			<Value>Broyeur de glace</Value>
+			<Description>Le &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; KoolAuger convertit diverses glaces en leurs &lt;color=#0080FFFF&gt;{LINK:GasPage;gaz}&lt;/color&gt; et liquides respectifs.
+La fusion par sublimation remarquablement intelligente et compacte, elle produit du gaz ou du liquide en fonction de la glace à traiter. La sortie supérieure est le gaz, la partie inférieure pour le liquide, et même si vous pouvez connecter n'importe quel tuyau à l'une ou l'autre sortie, il ne fonctionnera que si le bon réseau est connecté. Il ne fera également passer du gaz ou du liquide dans un réseau que s'il est alimenté et allumé.
+Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz ou le liquide soit vidangé. Dans cet état, il clignotera indiquant une erreur sur le commutateur d'activation.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitIceCrusher</Key>
 			<Value>[Kit] Broyeur de glace</Value>
+			<Description>Voir: {THING:StructureIceCrusher} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvancedOxygen</Key>
-			<Value>Réservoir portable MKII (Oxygène)</Value>
+			<Value>Réservoir portable MK.II (Oxygène)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvancedWater</Key>
@@ -5949,6 +6105,7 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
 		<Record>
 			<Key>GasCanister</Key>
 			<Value>Bouteille de gaz</Value>
+			<Description>La bonbonne de gaz est utilisée pour stocker les gaz. La pression maximale est de 10132,5 kPa.</Description>
 		</Record>
 		<Record>
 			<Key>GasFilter</Key>
@@ -7830,7 +7987,7 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
 		<Record>
 			<Key>FurnaceChamberText</Key>
 			<Value>Pression {0}
-			Temperature {1}</Value>
+Temperature {1}</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceSmelting</Key>
@@ -10306,7 +10463,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 			<Value>Minerais</Value>
 		</Record>
 		<Record>
-			<Key>OreCategoryKey </Key>
+			<Key>OreCategoryKey</Key>
 			<Value>Minerais</Value>
 		</Record>
 		<Record>
@@ -10319,7 +10476,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 		</Record>
 		<Record>
 			<Key>CableMaxPowerSPDA</Key>
-			<Value>Puissance maximale :</Value>
+			<Value>Puissance maximale:</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaTitle</Key>
@@ -10367,7 +10524,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 		</Record>
 		<Record>
 			<Key>StationpediaFlashpointHeader</Key>
-			<Value> Point d&apos;inflammabilité:</Value>
+			<Value>Point d&apos;inflammabilité:</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaAutoIgniteHeader</Key>

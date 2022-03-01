@@ -1,4 +1,4 @@
-# Version 0.4 (En cours...) [Prochainement]
+# Version 0.4 (à jour) [01/03/2022]
 ## <ins>**Ajout**</ins> (French_tooltips.xml)
 - Correctif d'un problème de d'affichage du status d'alerte de la batterie arrivé à 50%
   - Ce correctif est temporaire. Merci à [[FR]Bouy](https://steamcommunity.com/app/544550/discussions/0/3177854919323766055/#c3183486320475160897) pour le report.
@@ -6,10 +6,14 @@
 
 ## <ins>**Ajout**</ins> (French.xml)
 - Ajout d'une description sur les bouteilles de gaz.
+  - Co², Carburant, Azote, Oxygène, Polluant, Hydrogène, Protoxyde d'azote.
 - Ajout d'une description sur la bouteille de gaz évolué.
 - Ajout d'une description sur les Réservoirs portables.
 - Ajout d'un meta lien au [Kit] Citerne portable.
   - Ajout d'une description à la Citerne portable d'eau.
+- Ajout d'un meta lien au [Kit] Réservoir portable MK.II.
+  - Ajout d'une description au Réservoir portable MK.II.
+- Ajout d'un description au Climatiseur portable.
 - Ajout d'un meta lien au [Kit] Ordinateur.
   - Ajout d'une description à l'ordinateur.
 - Ajout d'un meta lien au [Kit] Console.
@@ -30,6 +34,7 @@
   - Rajout et traduction d'une description de la Petite Station de Batterie.
 - Ajout d'un meta lien au [Kit] Grande Station de Batterie.
   - Rajout et traduction d'une description de la Grande Station de Batterie.
+- Rajout du [Kit] AIMeE pour un meta lien.
 - Ajout d'une description à la Carte Analyseur Atmosphérique.
 - Ajout d'une description à la Carte Analyseur Médical.
 - Ajout d'une description à la Carte Analyseur Réseau.
@@ -42,6 +47,9 @@
 - Ajout d'une description au Circuit Imprimé: Contrôle d'alimentation.
 - Ajout d'une description au Circuit Imprimé: Affichage vaisseau.
 - Ajout d'une description au Circuit Imprimé: Contrôle panneaux solaire.
+- Ajout d'une description au Circuit Imprimé: Affichage graphique.
+- Ajout d'une description au Circuit imprimé: sas amélioré.
+- Ajout d'une description au Circuit Imprimé: Affichage de Hash code.
   
 ## <ins>**Correctif**</ins> (French.xml)
 - Modification du [Kit] Bac Hydroponique en [Kit] Hydroponique.
@@ -60,8 +68,11 @@
 - Supression des parenthèse au Circuit Imprimé: Contrôle d'alimentation.
 - Supression des parenthèse au Circuit Imprimé: Affichage vaisseau.
 - Supression des parenthèse au Circuit Imprimé: Contrôle panneaux solaire.
+- Supression des parenthèse au Circuit Imprimé: Affichage graphique.
+- Supression des parenthèse au Circuit imprimé: sas amélioré.
+- Supression des parenthèse au Circuit Imprimé: Affichage de Hash code.
 
-# Version 0.3 (à jour) [16/02/2022]
+# Version 0.3 (Obselette) [16/02/2022]
 ## <ins>**Ajout:**</ins> (French_help.xml)
   - Traduction de la page "Voyager vers d'autres planètes" (Guides).
   - Rajout d'une description dans "Capsule de fusée" avec le listing des modules de navette de fusée.

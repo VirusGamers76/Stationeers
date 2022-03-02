@@ -1,4 +1,8 @@
-# Version 0.4 (à jour) [01/03/2022]
+# Version 0.4b (à jour) [02/03/2022]
+- Correction du  bug lors du changement de langue.
+  - J'ai oublié de fermer les balises 'Description' Hihi.
+
+# Version 0.4 (OBSOLETE) [01/03/2022]
 ## <ins>**Ajout**</ins> (French_tooltips.xml)
 - Correctif d'un problème de d'affichage du status d'alerte de la batterie arrivé à 50%
   - Ce correctif est temporaire. Merci à [[FR]Bouy](https://steamcommunity.com/app/544550/discussions/0/3177854919323766055/#c3183486320475160897) pour le report.
@@ -72,7 +76,7 @@
 - Supression des parenthèse au Circuit imprimé: sas amélioré.
 - Supression des parenthèse au Circuit Imprimé: Affichage de Hash code.
 
-# Version 0.3 (Obselette) [16/02/2022]
+# Version 0.3 (OBSOLETE) [16/02/2022]
 ## <ins>**Ajout:**</ins> (French_help.xml)
   - Traduction de la page "Voyager vers d'autres planètes" (Guides).
   - Rajout d'une description dans "Capsule de fusée" avec le listing des modules de navette de fusée.
@@ -149,7 +153,7 @@
   - Rajout & traduction de la Turbo pompe  à gaz.
 - Rajout & traduction du [Kit] Turbo pompe à eau.
   - Rajout & traduction de la Turbo pompe à eau.
-# Version 0.2 (Obselette) [10/02/2022]
+# Version 0.2 (OBSOLETE) [10/02/2022]
 
 ## <ins>**Ajout:**</ins> (French.xml)
 
@@ -182,7 +186,7 @@
 - Traduction de la page "faire de la musique" (Guides)
 - Traduction de page "Contrôle de la température" (Guides)
 - Traduction de page "Modules de fusée automatisés (A.R.M.)" (Guides)
-# Version 0.1 (Obselette) [06/02/2022]
+# Version 0.1 (OBSOLETE) [06/02/2022]
 
 Caractéristiques:
 

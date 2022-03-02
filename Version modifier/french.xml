@@ -794,7 +794,7 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		<RecordThing>
 			<Key>ItemActiveVent</Key>
 			<Value>[Kit] Ventilation Active</Value>
-			<Description>Voir: {THING:StructureActiveVent} pour plus de détails.
+			<Description>Voir: {THING:StructureActiveVent} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemAreaPowerControl</Key>
@@ -4798,7 +4798,7 @@ Capable de stocker jusqu'à 9 000 000 Watts (9kW) de puissance, il n'y a pas de 
 		<RecordThing>
 			<Key>ItemKitDynamicGasTankAdvanced</Key>
 			<Value>[Kit] Réservoir portable MK.II</Value>
-			<Description>Voir: {THING:DynamicGasTankAdvanced} pour plus de détails.
+			<Description>Voir: {THING:DynamicGasTankAdvanced} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePlinth</Key>

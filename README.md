@@ -5,15 +5,15 @@
 # Bienvenue !
 
 -----------------------
-#### Ceci est le dépot non officiel de la traduction française du jeu [Stationeers](https://store.steampowered.com/app/544550/Stationeers/).
+#### Ceci est le dépôt non officiel de la traduction française du jeu [Stationeers](https://store.steampowered.com/app/544550/Stationeers/).
 
 -----------------------
-#### Nous avons créer un tutoriel dans le wiki sur l'[installation de la traduction française](https://github.com/VirusGamers76/Stationeers/wiki/Installation-de-la-version-fran%C3%A7aise).
+#### Nous avons créé un tutoriel dans le wiki sur l'[installation de la traduction française](https://github.com/VirusGamers76/Stationeers/wiki/Installation-de-la-version-fran%C3%A7aise).
 
 -----------------------
-#### N'hésitez pas à télécharger et testée la dernière version française et donnez votre avis dans le [fil de discussion](https://github.com/VirusGamers76/Stationeers/discussions).
+#### N'hésitez pas à télécharger et tester la dernière version française et donnez votre avis dans le [fil de discussion](https://github.com/VirusGamers76/Stationeers/discussions).
 
 -----------------------
-#### Pour voir l'avancement du projet, tu peut visionner le [CHANGELOG](https://github.com/VirusGamers76/Stationeers/blob/main/CHANGELOG.md) :)
+#### Pour voir l'avancement du projet, tu peux visionner le [CHANGELOG](https://github.com/VirusGamers76/Stationeers/blob/main/CHANGELOG.md) :)
 
 -----------------------

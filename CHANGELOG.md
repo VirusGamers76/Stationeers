@@ -1,4 +1,6 @@
-# Version 0.4b (à jour) [02/03/2022]
+# Version 0.4c (à jour) [25/03/2022]
+- Divers correction d'orthographe. Merci à NoNoNeo#7939
+# Version 0.4b (OBSOLETE) [02/03/2022]
 - Correction du  bug lors du changement de langue.
   - J'ai oublié de fermer les balises 'Description' Hihi.
 

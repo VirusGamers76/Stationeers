@@ -27,7 +27,7 @@
 
 		<StationpediaPage>
 			<Key>OrePage</Key>
-			<Title>Minerais</Title>
+			<Title>Minerai</Title>
 			<Text>
 				Ce sont des objets qui sont {LINK:MiningPage;minée} et peuvent souvent être {LINK:SmeltingPage;fondue}. Vous pouvez également obtenir du minerai mélangé en recyclant des éléments dans le {THING:StructureRecycler}, puis en le faisant passer dans la {THING:StructureCentrifuge} qui le divisera en {LINK:OrePage} ou {LINK:SmeltingPage;smelting}.
 				Certains minerais fondent lorsqu'ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gaz}. Par exemple, le minerais de {THING:ItemIce} se fond en {GAS:Water} et en {GAS:Oxygen}. Veillez à les garder à l'abri de la chaleur ou de la lumière du soleil jusqu'à ce que vous vouliez qu'ils fondent.
@@ -54,7 +54,7 @@
 			<Key>KitPage</Key>
 			<Title>Kits de construction</Title>
 			<Text>
-				Ce sont des objets qui sont utiliser pendant la {LINK:ConstructionPage;Construction} et d'autres tâches.
+				Ce sont des objets qui sont utilisés pendant la {LINK:ConstructionPage;Construction} et d'autres tâches.
 				{LIST_OF_KITS}
 			</Text>
 		</StationpediaPage>
@@ -110,7 +110,7 @@
 			<Key>OrganicPage</Key>
 			<Title>Biologie et aliments</Title>
 			<Text>
-				Ce sont des produits Biologiques et alimentaires.
+				Ce sont des produits biologiques et alimentaires.
 				{LIST_OF_ORGANICS}
 			</Text>
 		</StationpediaPage>
@@ -156,7 +156,7 @@
 			<Key>ImportExportPage</Key>
 			<Title>Import/Export and Chutes</Title>
 			<Text>
-				Ce sont des structures, généralement alimentées, capables de recevoir et d'envoyer des éléments. La plupart ont des fonctions spécialisées et peuvent être automatiser notamment avec des {LINK:LogicUnitPage}, {LINK:AtmosphericPage}, etc. Ils sont construits de la même manière que les autres structures.
+				Ce sont des structures, généralement alimentées, capables de recevoir et d'envoyer des éléments. La plupart ont des fonctions spécialisées et peuvent être automatisés notamment avec des {LINK:LogicUnitPage}, {LINK:AtmosphericPage}, etc. Ils sont construits de la même manière que les autres structures.
 				{LIST_OF_IMPORTEXPORT}
 			</Text>
 		</StationpediaPage>
@@ -264,13 +264,13 @@
 				En règle générale, vous utiliserez des {LINK:KitPage;kits} pour lancer la construction, puis une variété d&apos;{LINK:ToolPage;outils} et de {LINK:ResourcePage;resources} pour terminer. Portez une attention particulière au nombre de pièces de votre kit pour finir la construction de ce que vous avez sélectionné, car certaines structures nécessitent plus d&apos;une pièce pour être terminé. Pour certains kits, vous aurez plusieurs options, utilisez la {COLORRED:molette} pour changer l&apos;option actuelle que vous cherchez à construire.
 
 				{HEADER:ÉTAPES DE CONSTRUCTION:}
-				Certaines structures auront plusieurs étapes de construction qui nécessitent différentes combinaisons pour se terminer. Votre info-bulle vous indiquera la combinaison dont vous avez besoin pour compléter la structure. Parfois, vous aurez besoin d&apos;avoir deux objets, un dans chaque main, pour terminer un état de construction. Certains outils devront d&apos;abord être activés, ce qui peut être fait en appuyant sur {KEY:ToggleHandPower} pendant qu&apos;il est dans votre main active.
+				Certaines structures auront plusieurs étapes de construction qui nécessitent différentes combinaisons pour se terminer. Votre infobulle vous indiquera la combinaison dont vous avez besoin pour compléter la structure. Parfois, vous aurez besoin d&apos;avoir deux objets, un dans chaque main, pour terminer un état de construction. Certains outils devront d&apos;abord être activés, ce qui peut être fait en appuyant sur {KEY:ToggleHandPower} pendant qu&apos;il est dans votre main active.
 
-				{HEADER:INFO-BULLES:}
-				Si vous regardez directement une structure incomplète, vous obtiendrez des informations sur ce que vous devez faire pour la compléter. Si vous avez un {LINK:ToolPage;outil} dans votre main et que ce n&apos;est pas le bon {LINK:ToolPage;tool}, une info-bulle apparaîtra vous indiquant ce que vous auriez besoin d&apos;utiliser pour le déconstruire.
+				{HEADER:INFOBULLES:}
+				Si vous regardez directement une structure incomplète, vous obtiendrez des informations sur ce que vous devez faire pour la compléter. Si vous avez un {LINK:ToolPage;outil} dans votre main et que ce n&apos;est pas le bon {LINK:ToolPage;tool}, une infobulle apparaîtra vous indiquant ce que vous auriez besoin d&apos;utiliser pour le déconstruire.
 
 				{HEADER:PRESSION:}
-				Lors de la construction, il est important de noter que la pression est mesurée sous forme de différentiel. La plupart des structures ont une limite de pression de 200 kPa. Si la différence entre l&apos;intérieur et l&apos;extérieur est supérieure à cela, vous allez avoir des sérieux problèmes.
+				Lors de la construction, il est important de noter que la pression est mesurée sous forme de différentiel. La plupart des structures ont une limite de pression de 200 kPa. Si la différence entre l&apos;intérieur et l&apos;extérieur est supérieure à cela, vous allez avoir de sérieux problèmes.
 			  </Text>
 		</StationpediaPage>
 		<StationpediaPage>
@@ -280,12 +280,12 @@
 			<Text>
 				&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; n&apos;approuve pas les bandes sonores ou autres distractions.
 				En tant que tels, les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; ont dû créer leur propre accompagnement musical pour le travail exigeant de construction et de maintenance d&apos;infrastructures hors du monde.
-				Au centre de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; de séquencer de courts motifs musicaux ou des boucles.
+				Au centre de ce passe-temps se trouve le séquenceur pas-à-pas, qui permet aux &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; de séquencer de courts motifs musicaux ou des boucles.
 				
 				{HEADER:CONSEIL DE MUSICIEN:}
-				1: Connectez 8 {THING:DeviceStepUnit} à votre séquenceur pas à pas via le port de données sur le côté gauche.
+				1: Connectez 8 {THING:DeviceStepUnit} à votre séquenceur pas-à-pas via le port de données sur le côté gauche.
 				
-				2: Étiquetez chaque unité de pas, puis attribuez les unités de pas 1 à 8 sur le séquenceur pas à pas à l&apos;aide du tournevis.
+				2: Étiquetez chaque unité de pas, puis attribuez les unités de pas 1 à 8 sur le séquenceur pas-à-pas à l&apos;aide du tournevis.
 				
 				3: Sélectionnez le haut-parleur de sortie (par exemple {THING:PassiveSpeaker}) où le séquenceur jouera les sons. Celui-ci doit être connecté au réseau logique sur le côté droit du séquenceur.
 				
@@ -363,7 +363,7 @@
 
 				L'installation de plusieurs climatiseurs sur le même réseau de canalisations peut être utile si vous avez besoin que les choses aillent plus vite ou si vous devez en utiliser certains pour le chauffage et d'autres pour le refroidissement. Pour ce faire, connectez les entrées et les sorties des climatiseurs ensemble et partagez le même réseau de tuyaux pour leurs entrées et sorties. Le réseau de canalisations d'évacuation peut également être partagé entre eux, mais il doit être séparé du réseau de canalisations d'entrée/sortie. La même idée s'applique lors de l'utilisation du climatiseur pour contrôler la température des réservoirs. Cependant, au lieu d'utiliser un {THING:StructureAirConditioner}, vous devrez connecter directement le réservoir au climatiseur.
 
-				CLIMATISEUR: NE PAS OUBLIEZ
+				CLIMATISEUR: NE PAS OUBLIER
 				- Plus la différence de température entre le tuyau d'entrée et le tuyau d'évacuation est grande, plus le climatiseur utilisera de puissance
 				- La puissance consommée par le climatiseur peut dépasser 5 kW, il est donc recommandé d'utiliser des {THING:ItemCableCoilHeavy} pour alimenter les climatiseurs.
 				- Faire passer le tuyau d'évacuation à l'extérieur et l'égaliser avec l'atmosphère extérieure n'est pas toujours la meilleure option : le gaz que vous y mettez peut être appliqué ailleurs dans votre base.
@@ -384,7 +384,7 @@
      		<DisplayFilter>Guides</DisplayFilter>
 			<Text>Les fusées automatisées sont des véhicules sans équipage qui peuvent être envoyés hors du monde pour récupérer une gamme de ressources. La fusée peut être contrôlée par des composants &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;électronique}&lt;/color&gt;.
       
-				Une fois lancées, les fusées automatisées recherchent des planètes ou des astéroïdes avec des ressources exploitables, selon les MODULES avec lesquels elles ont été construites. Les fusées peuvent être programmées pour exploiter toutes les ressources disponibles, puis se déplacer vers une autre planète ou rentrer chez elles. Leur portée - Leur portée - et donc la quantité de ressources qu'ils peuvent collecter - est déterminée par leur carburant disponible. S'ils manquent de carburant, ils sont perdus dans le vide pour toujours.
+				Une fois lancées, les fusées automatisées recherchent des planètes ou des astéroïdes avec des ressources exploitables, selon les MODULES choisis lors de la construction. Les fusées peuvent être programmées pour exploiter toutes les ressources disponibles puis, soit de se déplacer vers une autre planète, soit de rentrer sur votre base. Leur portée - et donc la quantité de ressources qu'elles peuvent collecter - est déterminée par le carburant disponible. Si elles viennent à en manquer, elles sont perdues dans le vide à tout jamais.
 
 				{HEADER:LES MODULES:}
 				Le système de fusée automatisé est composé de quatre modules fondamentaux, plus un moteur et un ou plusieurs réservoirs de carburant:
@@ -393,19 +393,19 @@
 				Le {THING:StructureModularRocketAutomation} est le système de contrôle, transmettant les données aux différents modules.
 
 				# MODULE MINIER:
-				Ces modules effectue l'opération minière. Actuellement ce sont {THING:StructureRocketModuleMiningOre}, {THING:StructureModularRocketIceMining}, {THING:StructureRocketModuleMiningJunk} et {THING:StructureModularRocketGasMining}.
+				Ces modules effectuent l'opération minière. Actuellement ce sont {THING:StructureRocketModuleMiningOre}, {THING:StructureModularRocketIceMining}, {THING:StructureRocketModuleMiningJunk} et {THING:StructureModularRocketGasMining}.
 
 				# COUPLEUR:
 				Celui-ci relie les modules de minage aux modules de stockage, en faisant passer la matière de l'un à l'autre. Plus précisément, le {THING:StructureModularRocketCouplingDown} transmet les ressources à un module de stockage SOUS celui-ci. Le {THING:StructureModularRocketCouplingUp} transmet les ressources à un module de stockage AU-DESSUS. La fusée ne collectera pas de ressources sans cet élément.
 
 				# MODULE DE RANGEMENT:
-				ce module reçoit des ressources d'un module de minage via un coupleur et les stocke jusqu'au retour de la fusée. Cela inclut actuellement {THING:StructureRocketModuleSilo} pour les minerais et {THING:StructureModularRocketFueltank01} pour le gaz. Les modules de stockage peuvent être connectés à un &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;réseau de chutes}&lt;/color&gt;, mais sont fermés par défaut. Utilisez des &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;composants électronique}&lt;/color&gt; pour le définir sur "ouvert".
+				ce module reçoit des ressources d'un module de minage via un coupleur et les stocke jusqu'au retour de la fusée. Cela inclut actuellement {THING:StructureRocketModuleSilo} pour les minerais et {THING:StructureModularRocketFueltank01} pour le gaz. Les modules de stockage peuvent être connectés à un &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;réseau de chutes}&lt;/color&gt;, mais sont fermés par défaut. Utilisez des &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;composants électroniques}&lt;/color&gt; pour le définir sur "ouvert".
 
 
 				{HEADER:CONDITIONS DE LANCEMENT:}
 
 				# PUISSANCE:
-				tous les modules de la fusée doivent être alimentés. Notez que les modules sont créés "On" par défaut, mais peuvent être désactivés et activés à l'aide des &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;composants électronique}&lt;/color&gt;.
+				tous les modules de la fusée doivent être alimentés. Notez que les modules sont créés "On" par défaut, mais peuvent être désactivés et activés à l'aide des &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;composants électroniques}&lt;/color&gt;.
 
 				# CARBURANT:
 				La fusée doit avoir au moins un réservoir de carburant et suffisamment de carburant pour le décollage (au moins 500 mols). Notez que la fusée nécessite également 500 mols pour atterrir ET consomme 5 mols par tick pendant la phase de déplacement.
@@ -484,7 +484,7 @@
 				La console du {THING:StructureModularRocketCommand01} affiche l'état actuel de ces conditions. Il ne nécessite pas d'atmosphère pour décoller, l'atmosphère de votre combinaison est suffisante.
 
 				{HEADER:MOTEUR DE FUSÉE MODULAIRE:}
-				Le {THING:StructureModularRocketEngine01} est capable de soulever jusqu'à sept modules (y compris lui-même).
+				Le {THING:StructureModularRocketEngine01} est capable de soulever jusqu'à sept modules (y comprit lui-même).
 
 				{HEADER:RÉSERVOIR DE CARBURANT DE FUSÉE MODULAIRE:}
 				Le {THING:StructureModularRocketFueltank01} nécessite un mélange 2:1 de Volatils et d'Oxygène. Si le mélange dépasse ces proportions, ou si vous placez d'autres gaz dans le réservoir, la console du {THING:StructureModularRocketCommand01} affichera une erreur "Non valide".
@@ -554,7 +554,7 @@
 			<Key>DecayPage</Key>
     		<Title>Nourriture pourrie</Title>
     		<DisplayFilter>Guides</DisplayFilter>
-    		<Text>Les aliments se décomposent avec le temps en {THING:DecayedFood}, à moins d'être réfrigéré dans une atmosphère sutable. La vitesse exacte de décomposition varie individuellement par:
+    		<Text>Les aliments se décomposent avec le temps en {THING:DecayedFood}, à moins d'être réfrigéré dans une atmosphère stable. La vitesse exacte de décomposition varie individuellement par:
 
 				- TEMPÉRATURE: La réfrigération ralentira la décomposition, mais de nombreux aliments seront endommagés par une exposition à une pression extrêmement basse, ainsi qu'à une chaleur extrême. La température optimale est de 0 kelvin (-272 °C).
 
@@ -611,7 +611,7 @@
 				- IC - {THING:ItemHardSuit} uniquement..
 
 				{HEADER:PRESSION:}
-				Elle doit être réglé entre 50-100 KPa. Les humains dans le jeu tolèrent jusqu'à ~250kPa et peuvent survivre jusqu'à ~300kPA.
+				Elle doit être réglée entre 50-100 KPa. Les humains dans le jeu tolèrent jusqu'à ~250kPa et peuvent survivre jusqu'à ~300kPA.
 
 				{HEADER:TEMPÉRATURE:}
 				Normalement réglé sur 18-21°C, les humains dans le jeu préférant 10-29°C, tolérant 0-39°C et survivant jusqu'à 49°C. À des températures plus élevées, votre A/C consommera plus d'énergie de la batterie pour maintenir la température interne.

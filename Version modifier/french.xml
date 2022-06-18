@@ -606,17 +606,17 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeAtmosAnalyser</Key>
-			<Value>Carte Analyseur Atmosphérique</Value>
+			<Value>Carte : Analyseur Atmosphérique</Value>
 			<Description>L'analyseur atmosphérique Lorenz est un spectromètre de masse multifonctionnel conçu par &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; à utiliser avec la {THING:ItemTablet}. Il affiche la pression, la concentration et la quantité molaire des &lt;color=#0080FFFF&gt;{LINK:GasPage;Gaz}&lt;/color&gt; dans des pièces, des réservoirs ou des réseaux de canalisations.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeMedicalAnalyser</Key>
-			<Value>Carte Analyseur Médical</Value>
+			<Value>Carte : Analyseur Médical</Value>
 			<Description>Lorsqu'il est ajouté à la {THING:ItemTablet}, l'analyseur médical ReadyMed de &lt;color=#0080FFFF&gt;{LINK:Asura;Asura's}&lt;/color&gt;'s révèle la santé, ou non, des différents organes de l'utilisateurs. En raison d'un défaut de conception, les modèles plus anciens étaient connus pour produire des niveaux de rayonnement X de type quasar. Les progrès récents en matière de blindage ont réduit de plus de moitié le risque pour les utilisateurs.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeNetworkAnalyser</Key>
-			<Value>Carte Analyseur Réseau</Value>
+			<Value>Carte : Analyseur Réseau</Value>
 			<Description>Petit chef-d'œuvre de l'ingénierie microélectronique, l'analyseur de réseau affiche le courant, la tension et la puissance d'un réseau câblé, ainsi que tous les appareils qui y sont connectés. Basé sur une conception &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; largement copiée, il est utilisé conjointement avec la {THING:ItemTablet}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -625,50 +625,50 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAirControl</Key>
-			<Value>Circuit Imprimé: Contrôle atmosphérique</Value>
+			<Value>Circuit Imprimé : Contrôle atmosphérique</Value>
 			<Description>Lorsqu'elles sont ajoutées à une {THING:StructureConsole}, les cartes de circuit de contrôle d'air vous permettent de programmer une {THING:StructureActiveVent}. Le mode de pression maintient une atmosphère de 100 kPa, commutant l'évent actif entre le flux entrant et le flux sortant jusqu'à ce que la pression cible soit atteinte.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAirlockControl</Key>
-			<Value>Circuit Imprimé: Contrôle du sas</Value>
+			<Value>Circuit Imprimé : Contrôle du sas</Value>
 			<Description>Selon la rumeur, il aurait été dessiné pour la première fois sur un mur de toilettes par un ingénieur &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt;. La polyvalence et la facilité de fabrication du contrôle de sas Exgress en ont fait le système de contrôle de choix pour les protocoles de cycle de {THING:StructureAirlock}. 
 			Pour entrer en mode configuration, insérez le disque de données dans la {THING:StructureConsole}. Dans ce mode, vous pouvez voir tous les objets accessibles aux données actuellement connectés à la {THING:StructureConsole}. Les portes, les lumières, les capteurs de gaz et les consoles esclaves peuvent être sélectionnés (surlignés en vert) et seront contrôlés une fois le disque de données retiré.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardCameraDisplay</Key>
-			<Value>Circuit Imprimé: Affichage de la caméra</Value>
+			<Value>Circuit Imprimé : Affichage de la caméra</Value>
 			<Description>La surveillance est parfois nécessaire lors de la construction de bases dans des environnements hautement hostiles. Le circuit imprimé d'affichage de la caméra permet aux Stationeers méfiants de transformer une {THING:StructureConsole} en un écran de sécurité lorsqu'elle est connectée à une {THING:StructureCamera}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardDoorControl</Key>
-			<Value>Circuit Imprimé: Contrôle de porte</Value>
+			<Value>Circuit Imprimé : Contrôle de porte</Value>
 			<Description>Outil pour la construction de base &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; ce circuit imprimé permet d'ouvrir et de fermer une {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} ou {THING:StructureGlassDoor} à distance, lorsqu'il est connecté à une {THING:StructureConsole}. Ce système peut être encore lié à {THING:StructureMotionSensor} pour créer des portes automatiques.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardGasDisplay</Key>
-			<Value>Circuit imprimé: Afficheur de gaz</Value>
+			<Value>Circuit imprimé : Afficheur de gaz</Value>
 			<Description>L'information, c'est le pouvoir. Placez ce circuit imprimé dans une {THING:StructureConsole} pour créer un affichage indiquant la pression du gaz ou la température de tout réservoir connecté, bidon de stockage, {THING:ItemPipeAnalyizer} ou {THING:ItemGasSensor}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardModeControl</Key>
-			<Value>Circuit Imprimé: Contrôle du mode</Value>
+			<Value>Circuit Imprimé : Contrôle du mode</Value>
 			<Description>Vous n'arrivez pas à décider quel mode vous préférez ? Cette carte de circuit imprimé vous permet de basculer n'importe quel appareil connecté entre les modes de fonctionnement.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardPowerControl</Key>
-			<Value>Circuit Imprimé: Contrôle d'alimentation</Value>
+			<Value>Circuit Imprimé : Contrôle d'alimentation</Value>
 			<Description>Sous des soleils lointains et des environnements exigeants, les systèmes &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; doivent équilibrer fiabilité, résilience et polyvalence. La carte de contrôle de l'alimentation permet l'activation et la désactivation à distance des appareils sélectionnés, en déconnectant le fonctionnement manuel.
 				
 			Le circuit imprimé a deux modes: 'Link' allume ou éteint tous les appareils; 'Toggle' fait passer chaque appareil à son état alternatif.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardShipDisplay</Key>
-			<Value>Circuit Imprimé: Affichage vaisseau</Value>
+			<Value>Circuit Imprimé : Affichage vaisseau</Value>
 			<Description>Lorsque le manuel original de &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; s'est effondré sous son propre poids en une singularité, certaines informations ont été irrémédiablement perdues. Parmi ce mystérieux corpus de connaissances se trouve le but exact du tableau d'affichage du navire.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardSolarControl</Key>
-			<Value>Circuit Imprimé: Contrôle panneaux solaire</Value>
+			<Value>Circuit Imprimé : Contrôle panneaux solaire</Value>
 			<Description>L'ajout d'une carte de contrôle solaire à une {THING:StructureConsole} vous permet de contrôler manuellement les angles horizontaux et verticaux de tout {THING:StructureSolarPanel} connecté.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -708,7 +708,7 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterEmpty</Key>
-			<Value>Réservoir portable</Value>
+			<Value>Réservoir portable de gaz vide</Value>
 			<Description>Les réservoirs de gaz portables stockent les gaz. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterEmpty} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -723,7 +723,7 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterOxygen</Key>
-			<Value>Réservoir portable d'Oxygène)</Value>
+			<Value>Réservoir portable d'Oxygène</Value>
 			<Description>Les réservoirs de gaz portables stockent les gaz. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterOxygen} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -733,12 +733,12 @@
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterWater</Key>
-			<Value>Citerne portable d'eau</Value>
+			<Value>Réservoir portable d'eau</Value>
 			<Description>Voir {THING:DynamicLiquidCanisterEmpty} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicLiquidCanisterEmpty</Key>
-			<Value>Citerne portable d'eau</Value>
+			<Value>Réservoir portable de liquide</Value>
 			<Description>Ce réservoir portable stocke du liquide, et uniquement du liquide. Vous n'avez plus qu'à le remplir. Pour ce faire, boulonnez-en un à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à l'aide des {THING:ItemKitPipeLiquid} pour fournir du liquide à un réseau.
 Essayez de maintenir une pression inférieure à 10 MPa, ou vous finirez par être mouillé ou au pire, blessé.
 Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la section rayée du réservoir. Ou vous pouvez utiliser une {THING:ItemWrench} pour l'attacher à une fusée.</Description>
@@ -803,14 +803,14 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBatteryCell</Key>
-			<Value>Petite batterie</Value>
+			<Value>Batterie (Petite)</Value>
 			<Description>Exploitant une conception pionnière au début du 21e siècle, la petite cellule de batterie est l'unité de base d'alimentation électrique portable du &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt;. Bien qu'il n'ait pas la charge d'une {THING:ItemBatteryCellLarge} ou d'une {THING:ItemBatteryCellNuclear}, il a l'humble avantage d'être fabriqué à partir de ressources de base.
 			{HEADER:Puissance de sortie:}
 			La petite batterie peut stocker jusqu'à 36 kW de puissance.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBatteryCellLarge</Key>
-			<Value>Grande batterie</Value>
+			<Value>Batterie (Grande)</Value>
 			<Description>Produite pour la première fois en série par &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; en 2155 sur la base d'un prototype non attribué, la conception classique à l'état solide de l'anode en silicium étend sa plage de température optimale.
 			{HEADER:Puissance de sortie:}
 			La Grande batterie peut stocker jusqu'à 288 kW de puissance.
@@ -818,7 +818,7 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBatteryCellNuclear</Key>
-			<Value>Batterie nucléaire</Value>
+			<Value>Batterie (Nucléaire)</Value>
 			<Description>Illégales sur Terre depuis l'événement de Chengdu, les cellules nucléaires &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; ont trouvé un nouveau marché hors du monde, radicalement moins soucieux de la sécurité.
 			{HEADER:Puissance de sortie:}
 			Poussant le poids de la puissance à ses limites, la {LINK:ItemBatteryCellNuclear} a une charge de 2,3 Mégawatts (2 304 000 Watt), reflétant sa dépendance aux &lt;color=#0080FFFF&gt;{LINK:IngotPage;superalliages exotiques}&lt;/color&gt;.
@@ -826,7 +826,7 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBatteryCharger</Key>
-			<Value>[Kit] Chargeur de Batterie</Value>
+			<Value>[Kit] Chargeur de Batteries (grand)</Value>
 			<Description>Voir: {THING:StructureBatteryCharger} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -835,7 +835,7 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCableCoil</Key>
-			<Value>Câble 5 Kw</Value>
+			<Value>Câble (5 kW)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemChemLightBlue</Key>
@@ -933,55 +933,55 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		<RecordThing>
 			<Key>ItemGasCanisterCarbonDioxide</Key>
 			<Value>Bouteille de Gaz [CO²]</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type CO². La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz de type CO². La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterPollutants</Key>
 			<Value>Bouteille de Gaz [Polluant]</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type polluant. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz de type polluant. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterEmpty</Key>
 			<Value>Bouteille de Gaz</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterFuel</Key>
 			<Value>Bouteille de Gaz [Carburant]</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type carburant. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz de type carburant. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterVolatiles</Key>
 			<Value>Bouteille de Gaz [Hydrogène]</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type Hydrogène. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz de type Hydrogène. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterNitrogen</Key>
 			<Value>Bouteille de Gaz [Azote]</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type Azote. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz de type Azote. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterOxygen</Key>
-			<Value>Bouteille de Gaz [Oxygène]</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type Oxygène. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
+			<Value>Bouteille de gaz [Oxygène]</Value>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz de type Oxygène. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterWater</Key>
-			<Value>Bonbonne [Eau]</Value>
+			<Value>Bouteille de liquide [Eau]</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidCanisterEmpty</Key>
-			<Value>Bonbonne de liquide [Vide]</Value>
+			<Value>Bouteille de liquide</Value>
 			<Description>Retient l'eau, si vous en avez.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasTankStorage</Key>
-			<Value>[Kit] Connecteur pour Bouteille</Value>
+			<Value>[Kit] Connecteur pour bouteille de gaz</Value>
 			<Description>Voir {THING:StructureGasTankStorage} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidTankStorage</Key>
-			<Value>[Kit] Connecteur pour Bonbonne</Value>
+			<Value>[Kit] Connecteur pour bouteille de liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGlassSheets</Key>
@@ -1043,12 +1043,12 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitBattery</Key>
-			<Value>[Kit] Petite Station de Batterie</Value>
+			<Value>[Kit] Station de Batterie (Petite)</Value>
 			<Description>Voir: {THING:StructureBattery} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBattery</Key>
-			<Value>Petite Station de Batterie</Value>
+			<Value>Station de Batterie (Petite)</Value>
 			<Description>Fournissant un stockage d'énergie fiable et à grande échelle, la Petite Station de Batterie &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 'Dianzi' est le cœur de la plupart des bases de &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;. 
 Il y a une variété de précautions à prendre lors de la conception de systèmes électriques utilisant des batteries, et chaque Stationeer expérimenté a une histoire à raconter, d'où l'expression: "Dianzi cuisine, mais il fait aussi frire."
 {HEADER:PUISSANCE DE SORTIE:}
@@ -1104,7 +1104,7 @@ Une console complète affiche tous les appareils connectés au réseau électriq
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRegulator</Key>
-			<Value>[Kit] Régulateur de Pression</Value>
+			<Value>[Kit] Régulateur de Pression de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSensor</Key>
@@ -1136,7 +1136,7 @@ Une console complète affiche tous les appareils connectés au réseau électriq
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitTank</Key>
-			<Value>[Kit] Réservoir</Value>
+			<Value>[Kit] Réservoir de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitTorpedoTube</Key>
@@ -1216,7 +1216,7 @@ Une console complète affiche tous les appareils connectés au réseau électriq
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeGasMixer</Key>
-			<Value>[Kit] Mélangeur de Gaz</Value>
+			<Value>[Kit] Mélangeur à gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeLabel</Key>
@@ -1224,7 +1224,7 @@ Une console complète affiche tous les appareils connectés au réseau électriq
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeMeter</Key>
-			<Value>[Kit] Tuyau avec Manomètre</Value>
+			<Value>[Kit] Manomètre à tuyau de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeRadiator</Key>
@@ -1240,15 +1240,15 @@ Une console complète affiche tous les appareils connectés au réseau électriq
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeValve</Key>
-			<Value>[Kit] Vanne</Value>
+			<Value>[Kit] Vanne à gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeVolumePump</Key>
-			<Value>[Kit] Tuyau avec Pompe</Value>
+			<Value>[Kit] Pompe à gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidPipeValve</Key>
-			<Value>[Kit] vanne à liquide</Value>
+			<Value>[Kit] Vanne à liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPowerConnector</Key>
@@ -1356,11 +1356,11 @@ Une console complète affiche tous les appareils connectés au réseau électriq
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemTankConnector</Key>
-			<Value>[Kit] Connecteur de Réservoir portable</Value>
+			<Value>[Kit] Connecteur de réservoir portable de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemTankConnectorLiquid</Key>
-			<Value>[Kit] Connecteur de Citerne portable</Value>
+			<Value>[Kit] Connecteur de réservoir portable de liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemToolBelt</Key>
@@ -1479,12 +1479,12 @@ Si une puissance suffisante est disponible en amont, l’APC agit comme un passa
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBackPressureRegulator</Key>
-			<Value>Régulateur de pression arrière</Value>
+			<Value>Régulateur de pression de gaz arrière</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBatteryCharger</Key>
-			<Value>Chargeur de Batterie</Value>
-			<Description>Le chargeur de batterie peut charger 5 batteries à la fois.
+			<Value>Chargeur de Batteries (grand)</Value>
+			<Description>Le chargeur de batteries peut charger 5 batteries à la fois.
 			{HEADER:Notes:}
 			Chaque batterie de charge consommera 500 watts. La puissance maximale nécessaire pour cinq batteries est de 2500 Watts. La connexion du chargeur de batterie à des câbles lourds n’augmentera pas le taux de charge. Il consomme une alimentation de veille de 10 watts lorsqu’il est allumé, quel que soit le nombre de batteries connectées.</Description>
 		</RecordThing>
@@ -1691,7 +1691,7 @@ Une console complète affiche tous les appareils connectés au réseau électriq
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankStorage</Key>
-			<Value>Connecteur de Bonbonne</Value>
+			<Value>Connecteur de bouteille</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureGlassDoor</Key>
@@ -1729,23 +1729,23 @@ Il peut être automatisé à l'aide de {THING:StructureHarvie}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeCorner</Key>
-			<Value>Tuyau (Coin)</Value>
+			<Value>Tuyau de gaz (Coin)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeCrossJunction</Key>
-			<Value>Tuyau (Jonction)</Value>
+			<Value>Tuyau de gaz (Jonction)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeCrossJunction3</Key>
-			<Value>Tuyau (Jonction à 3 voies)</Value>
+			<Value>Tuyau de gaz (Jonction à 3 voies)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeCrossJunction5</Key>
-			<Value>Tuyau (Jonction à 5 voies)</Value>
+			<Value>Tuyau de gaz (Jonction à 5 voies)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeCrossJunction6</Key>
-			<Value>Tuyau (Jonction à 6 voies)</Value>
+			<Value>Tuyau de gaz (Jonction à 6 voies)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLabel</Key>
@@ -1753,19 +1753,19 @@ Il peut être automatisé à l'aide de {THING:StructureHarvie}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeMeter</Key>
-			<Value>Tuyau avec Manomètre</Value>
+			<Value>Manomètre à tuyau de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeRadiator</Key>
-			<Value>Radiateur de Tuyau</Value>
+			<Value>Radiateur de Tuyau de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeStraight</Key>
-			<Value>Tuyau (Droit)</Value>
+			<Value>Tuyau de gaz (Droit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeTJunction</Key>
-			<Value>Tuyau (Jonction T)</Value>
+			<Value>Tuyau de gaz (Jonction T)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePowerConnector</Key>
@@ -1773,7 +1773,7 @@ Il peut être automatisé à l'aide de {THING:StructureHarvie}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePressureRegulator</Key>
-			<Value>Régulateur de Pression</Value>
+			<Value>Régulateur de Pression de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureRailing</Key>
@@ -1825,23 +1825,23 @@ Il peut être automatisé à l'aide de {THING:StructureHarvie}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankConnector</Key>
-			<Value>Connecteur de Réservoir portable</Value>
+			<Value>Connecteur de Réservoir portable de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankConnectorLiquid</Key>
-			<Value>Connecteur de Citerne portable</Value>
+			<Value>Connecteur de Réservoir portable de liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankSmall</Key>
-			<Value>Petit Réservoir</Value>
+			<Value>Réservoir de gaz (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankSmallAir</Key>
-			<Value>Petit Réservoir (Air)</Value>
+			<Value>Réservoir de gaz (Petit) (Air)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankSmallFuel</Key>
-			<Value>Petit Réservoir (Carburant)</Value>
+			<Value>Réservoir de gaz (Petit) (Carburant)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTorpedoRack</Key>
@@ -1853,11 +1853,11 @@ Il peut être automatisé à l'aide de {THING:StructureHarvie}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureValve</Key>
-			<Value>Vanne</Value>
+			<Value>Vanne à gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureVolumePump</Key>
-			<Value>Pompe</Value>
+			<Value>Pompe à gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidValve</Key>
@@ -2011,7 +2011,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTransformerSmall</Key>
-			<Value>Petit transformateur</Value>
+			<Value>Transformateur (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>WeaponPistolEnergy</Key>
@@ -2038,11 +2038,11 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitPipe</Key>
-			<Value>[Kit] Tuyau</Value>
+			<Value>[Kit] Tuyau de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeElectronicReader</Key>
-			<Value>Carte (Liseuse Encyclopédie)</Value>
+			<Value>Carte : Liseuse Encyclopédie</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCableCoilHeavy</Key>
@@ -2054,7 +2054,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemIronFrames</Key>
-			<Value>[Kit] (Cadres en Fer)</Value>
+			<Value>[Kit] Cadres en Fer</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemIronSheets</Key>
@@ -2141,7 +2141,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemVolatiles</Key>
-			<Value>Glace (Volatiles)</Value>
+			<Value>Glace (Hydrogène)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemOxite</Key>
@@ -2165,7 +2165,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitTransformerSmall</Key>
-			<Value>[Kit] Petit transformateur</Value>
+			<Value>[Kit] Transformateur (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSuitStorage</Key>
@@ -2181,7 +2181,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitEngineSmall</Key>
-			<Value>[Kit] Petit moteur de fusée</Value>
+			<Value>[Kit] Moteur de fusée (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitEngineMedium</Key>
@@ -2189,7 +2189,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitEngineLarge</Key>
-			<Value>[Kit] Grand moteur de fusée</Value>
+			<Value>[Kit] Moteur de fusée (Grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitElectronicsPrinter</Key>
@@ -2236,7 +2236,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeTracker</Key>
-			<Value>Carte Traqueur</Value>
+			<Value>Carte : Traqueur</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasSensor</Key>
@@ -2260,7 +2260,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTransformerSmallReversed</Key>
-			<Value>Petit transformateur inversé</Value>
+			<Value>Transformateur inversé (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLogicUnit</Key>
@@ -2320,15 +2320,15 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLogicDisplay5</Key>
-			<Value>Petit afficheur LED</Value>
+			<Value>Afficheur LED (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleLED5</Key>
-			<Value>Petit afficheur LED</Value>
+			<Value>Afficheur LED (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleLED8Large</Key>
-			<Value>Grand afficheur LED</Value>
+			<Value>Afficheur LED (Grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSign1x1</Key>
@@ -2384,7 +2384,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleLED1x2</Key>
-			<Value>Afficheur LED (Moyen)</Value>
+			<Value>Afficheur LED (moyen)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleLED1x3</Key>
@@ -2412,7 +2412,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankBig</Key>
-			<Value>Grand Réservoir</Value>
+			<Value>Réservoir de gaz (Grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPotato</Key>
@@ -2443,7 +2443,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeOreScanner</Key>
-			<Value>Carte (Scanneur de minéral)</Value>
+			<Value>Carte : Scanneur de minéral </Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPotatoBaked</Key>
@@ -2503,11 +2503,11 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureFlagSmall</Key>
-			<Value>Petit drapeau</Value>
+			<Value>Drapeau (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemFlagSmall</Key>
-			<Value>[Kit] Petit drapeau</Value>
+			<Value>[Kit] Drapeau (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingAngled</Key>
@@ -2627,7 +2627,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWallPanels</Key>
-			<Value>Kit (Panneaux muraux)</Value>
+			<Value>[Kit] Panneaux muraux</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWallPanelling1</Key>
@@ -2635,7 +2635,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitCompositeFloorGrating</Key>
-			<Value>Kit (Caillebotis)</Value>
+			<Value>[Kit] Caillebotis</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>CompositeRollCover</Key>
@@ -2643,7 +2643,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitLadder</Key>
-			<Value>Kit (Echelle)</Value>
+			<Value>[Kit] Echelle</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureFrameCornerCut</Key>
@@ -2807,47 +2807,47 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallSmallPanels</Key>
-			<Value>Petits panneaux muraux</Value>
+			<Value>Panneaux muraux (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallLargePanel</Key>
-			<Value>Grand panneau mural</Value>
+			<Value>Panneau mural (Grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallSmallPanelsAndHatch</Key>
-			<Value>Petits panneaux muraux (trappe)</Value>
+			<Value>Panneaux muraux (Petit)(trappe)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallSmallPanelsArrow</Key>
-			<Value>Petits panneaux muraux (flèche)</Value>
+			<Value>Panneaux muraux (Petit)(flèche)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallSmallPanelsMonoChrome</Key>
-			<Value>Petits panneaux muraux (monochrome)</Value>
+			<Value>Panneaux muraux (Petit)(monochrome)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallSmallPanelsTwoTone</Key>
-			<Value>Petits panneaux muraux (deux tons)</Value>
+			<Value>Panneaux muraux (Petit)(deux tons)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallLargePanelArrow</Key>
-			<Value>Grand panneau mural (flèche)</Value>
+			<Value>Panneau mural (Grand)(flèche)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWallArch</Key>
-			<Value>Kit (Mur arc)</Value>
+			<Value>[Kit] Mur arc</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWallFlat</Key>
-			<Value>Kit (Mur plat)</Value>
+			<Value>[Kit] Mur plat</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWallGeometry</Key>
-			<Value>Kit (Mur géométrique)</Value>
+			<Value>[Kit] Mur géométrique</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWallPadded</Key>
-			<Value>Kit (Mur extrudé)</Value>
+			<Value>[Kit] Mur extrudé</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLadder</Key>
@@ -2855,11 +2855,11 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeGuide</Key>
-			<Value>Carte (Guide)</Value>
+			<Value>Carte : Guide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeCrossJunction4</Key>
-			<Value>Tuyau (4 Jonctions)</Value>
+			<Value>Tuyau de gaz (4 Jonctions)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemAuthoringTool</Key>
@@ -2891,7 +2891,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeAccessController</Key>
-			<Value>Carte (Contrôleur d&apos;accès)</Value>
+			<Value>Carte : Contrôleur d&apos;accès</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>AccessCardBlack</Key>
@@ -2982,7 +2982,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitElevator</Key>
-			<Value>Kit (Ascenseur)</Value>
+			<Value>[Kit] Ascenseur</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ElevatorCarrage</Key>
@@ -2998,7 +2998,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitCrateMount</Key>
-			<Value>Kit (Connecteur de caisse)</Value>
+			<Value>[Kit] Connecteur de caisse</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLogicMirror</Key>
@@ -3006,7 +3006,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardHashDisplay</Key>
-			<Value>Circuit Imprimé: Affichage de Hash code</Value>
+			<Value>Circuit Imprimé : Affichage de Hash code</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureHydroponicsStation</Key>
@@ -3022,20 +3022,20 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterSmart</Key>
-			<Value>Bouteille de Gaz évoluée</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker tout type de gaz. La pression maximale est de 20,265 MPa, pour un volume de 64 litres.</Description>
+			<Value>Bouteille de gaz MK.II</Value>
+			<Description>La bouteille de gaz est utilisée pour stocker tout type de gaz. La pression maximale est de 20,265 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeConfiguration</Key>
-			<Value>Carte (Configuration)</Value>
+			<Value>Carte : Configuration</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitCrate</Key>
-			<Value>Kit (Caisse)</Value>
+			<Value>[Kit] Caisse</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardGraphDisplay</Key>
-			<Value>Circuit Imprimé: Affichage graphique</Value>
+			<Value>Circuit Imprimé : Affichage graphique</Value>
 			<Description>L’affichage graphique, lorsqu’il est monté dans une {THING:StructureConsole}, peut afficher un seul type de logique sur un graphique X-Y. L’axe X indique le temps sur un intervalle court et récent (l’échelle ne peut pas être ajustée), tandis que l’axe Y commence à zéro et à une valeur maximale (déterminée automatiquement).</Description>
 		</RecordThing>
 		<RecordThing>
@@ -3052,7 +3052,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitPipeValve</Key>
-			<Value>[Kit] Vanne de tuyau</Value>
+			<Value>[Kit] Vanne à gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicGenerator</Key>
@@ -3096,7 +3096,7 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitTurbineGenerator</Key>
-			<Value>Kit (Générateur à Turbine)</Value>
+			<Value>[Kit] Générateur à Turbine</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ReagentSilver</Key>
@@ -3144,12 +3144,12 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAdvAirlockControl</Key>
-			<Value>Circuit imprimé: sas amélioré</Value>
+			<Value>Circuit imprimé : Contrôle du sas amélioré</Value>
 			<Description>Ce circuit imprimé peut être utilisé pour automatiser le fonctionnement d’un sas séparant deux atmosphères sous pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitPressurePlate</Key>
-			<Value>Kit (Plaque de déclenchement)</Value>
+			<Value>[Kit] Plaque de déclenchement</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePressurePlateLarge</Key>
@@ -3165,11 +3165,11 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicCanister</Key>
-			<Value>[Kit] Réservoir portable</Value>
+			<Value>[Kit] Réservoir portable de gaz</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicLiquidCanister</Key>
-			<Value>[Kit] Citerne portable</Value>
+			<Value>[Kit] Réservoir portable de liquide</Value>
 			<Description>Voir {THING:DynamicLiquidCanisterEmpty} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -3222,127 +3222,127 @@ Afin de faire fonctionner correctement le refroidisseur mural, vous devrez conne
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterCarbonDioxide</Key>
-			<Value>Filtre de CO²</Value>
+			<Value>Filtre de CO² (Petit)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterCarbonDioxideM</Key>
-			<Value>Filtre moyen de CO²</Value>
+			<Value>Filtre de CO² (Moyen)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterCarbonDioxideL</Key>
-			<Value>Grand Filtre de CO²</Value>
+			<Value>Filtre de CO² (Grand)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrogen</Key>
-			<Value>Filtre d'Azote</Value>
+			<Value>Filtre d'Azote (Petit)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrogenM</Key>
-			<Value>Filtre moyen d'Azote</Value>
+			<Value>Filtre d'Azote (Moyen)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrogenL</Key>
-			<Value>Grand Filtre d'Azote</Value>
+			<Value>Filtre d'Azote (Grand)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterOxygen</Key>
-			<Value>Filtre d'Oxygène</Value>
+			<Value>Filtre d'Oxygène (Petit)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterOxygenM</Key>
-			<Value>Filtre moyen d'Oxygène</Value>
+			<Value>Filtre d'Oxygène (Moyen)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterOxygenL</Key>
-			<Value>Grand Filtre d'Oxygène</Value>
+			<Value>Filtre d'Oxygène (Grand)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterPollutants</Key>
-			<Value>Filtre de Polluant</Value>
+			<Value>Filtre de Polluant (Petit)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterPollutantsM</Key>
-			<Value>Filtre moyen de Polluant</Value>
+			<Value>Filtre de Polluant (Moyen)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterPollutantsL</Key>
-			<Value>Grand Filtre de Polluant</Value>
+			<Value>Filtre de Polluant (Grand)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterVolatiles</Key>
-			<Value>Filtre d'Hydrogène</Value>
+			<Value>Filtre d'Hydrogène (Petit)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterVolatilesM</Key>
-			<Value>Filtre moyen d'Hydrogène</Value>
+			<Value>Filtre d'Hydrogène (Moyen)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterVolatilesL</Key>
-			<Value>Grand Filtre d'Hydrogène</Value>
+			<Value>Filtre d'Hydrogène (Grand)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterWater</Key>
-			<Value>Filtre d'Eau</Value>
+			<Value>Filtre d'Eau (Petit)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterWaterM</Key>
-			<Value>Filtre moyen d'Eau</Value>
+			<Value>Filtre d'Eau (Moyen)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterWaterL</Key>
-			<Value>Grand Filtre d'Eau</Value>
+			<Value>Filtre d'Eau (Grand)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrousOxide</Key>
-			<Value>Filtre (Protoxyde d&apos;azote)</Value>
+			<Value>Filtre de Protoxyde d&apos;Azote (Petit)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 2 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrousOxideM</Key>
-			<Value>Filtre moyen (Protoxyde d&apos;azote)</Value>
+			<Value>Filtre de Protoxyde d&apos;Azote (Moyen)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 10 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrousOxideL</Key>
-			<Value>Grand filtre (Protoxyde d&apos;azote)</Value>
+			<Value>Filtre de Protoxyde d&apos;Azote (Grand)</Value>
 			<Description>Les filtres sont utilisés pour filtrer le gaz d’une entrée. Seuls les gaz correspondant au type de filtres y passeront.
 Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
@@ -3388,7 +3388,7 @@ Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeOreScannerColor</Key>
-			<Value>Scanner de minerai (couleur)</Value>
+			<Value>Carte : Scanneur de minéral en couleur</Value>
 			<Description>Lorsqu'il est inséré dans une {THING:ItemTablet} et utilisé conjointement avec un {THING:DynamicGPR}, le scanner affichera les minéraux cachés sous terre dans différentes couleurs sur la tablette.
 
 			Fer et nickel = Rouge
@@ -3440,12 +3440,12 @@ Ce filtre a une durée de vie de: 20 heures.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterNitrousOxide</Key>
-			<Value>Bouteille de gaz (Protoxyde d&apos;azote)</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz de type Protoxyde d&apos;azote. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
+			<Value>Bouteille de gaz [Protoxyde d&apos;azote]</Value>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz de type Protoxyde d&apos;azote. La pression maximale est de 10.132 MPa, pour un volume de 64 litres.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemNVG</Key>
-			<Value>Lunette de vision nocturne</Value>
+			<Value>Lunettes de vision nocturne</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGlasses</Key>
@@ -3898,11 +3898,11 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAutoMinerSmall</Key>
-			<Value>Petite station de minage</Value>
+			<Value>Station de minage (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitAutoMinerSmall</Key>
-			<Value>[Kit] Petite station de minage</Value>
+			<Value>[Kit] Station de minage (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDirtCannister</Key>
@@ -3939,46 +3939,46 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		<RecordThing>
 			<Key>H2Combustor</Key>
 			<Value>Bruleur à hydrogène</Value>
-			<Description>Légèrement adapté de sa conception originale &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, le bruleur à hydrogène fait exactement ce que son nom l'indique, il brûle un mélange de volatiles et d'oxygène pour créer de l'eau. Extrêmement utile dans les environnements chauds ou arides, les utilisateurs doivent être conscients que la chambre de combustion produit une chaleur résiduelle considérable. Le dispositif est également moins que parfaitement efficace, ce qui entraîne l'auto-inflammation de volatils dans la chambre et la production de gaz résiduaires qui doivent être traités.</Description>
+			<Description>Légèrement adapté de sa conception originale &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, le bruleur à hydrogène fait exactement ce que son nom l'indique, il brûle un mélange d'hydrogène et d'oxygène pour créer de l'eau. Extrêmement utile dans les environnements chauds ou arides, les utilisateurs doivent être conscients que la chambre de combustion produit une chaleur résiduelle considérable. Le dispositif est également moins que parfaitement efficace, ce qui entraîne l'auto-inflammation de l'hydrogène dans la chambre et la production de gaz résiduaires qui doivent être traités.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedPipeStraight</Key>
-			<Value>Tuyau isolé (Droit)</Value>
+			<Value>Tuyau de gaz isolé (Droit)</Value>
 			<Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedPipeCorner</Key>
-			<Value>Tuyau isolé (Coin)</Value>
+			<Value>Tuyau de gaz isolé (Coin)</Value>
 			<Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedPipeCrossJunction</Key>
-			<Value>Tuyau isolé (En Croix)</Value>
+			<Value>Tuyau de gaz isolé (En Croix)</Value>
 			<Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedPipeCrossJunction3</Key>
-			<Value>Tuyau isolé (3 voies)</Value>
+			<Value>Tuyau de gaz isolé (3 voies)</Value>
 			<Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedPipeCrossJunction4</Key>
-			<Value>Tuyau isolé (4 voies)</Value>
+			<Value>Tuyau de gaz isolé (4 voies)</Value>
 			<Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedPipeCrossJunction5</Key>
-			<Value>Tuyau isolé (5 voies)</Value>
+			<Value>Tuyau de gaz isolé (5 voies)</Value>
 			<Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedPipeCrossJunction6</Key>
-			<Value>Tuyau isolé (6 voies)</Value>
+			<Value>Tuyau de gaz isolé (6 voies)</Value>
 			<Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedPipeTJunction</Key>
-			<Value>Tuyau isolé (Jonction T)</Value>
+			<Value>Tuyau de gaz isolé (Jonction T)</Value>
 			<Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -3987,7 +3987,7 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitInsulatedPipe</Key>
-			<Value>[Kit] Tuyau isolé</Value>
+			<Value>[Kit] Tuyau de gaz isolé</Value>
 			<Description>Ce kit produit des variétés de tuyaux isolés, qui réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -4140,7 +4140,7 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterRocketFuel</Key>
-			<Value>Réservoir portable (carburant fusée)</Value>
+			<Value>Réservoir portable de Carburant fusée</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ModularRocketCommand01Lander</Key>
@@ -4152,21 +4152,21 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSensorProcessingUnitOreScanner</Key>
-			<Value>Carte lunette (Scanneur de minéral)</Value>
+			<Value>Carte lunettes (Scanneur de minéral)</Value>
 			<Description>L'unité de traitement des capteurs peut être insérée dans {THING:ItemSensorLenses} to reveal pour révéler les minéraux souterrains dans un HUD.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSensorLenses</Key>
-			<Value>Lunettes AR</Value>
+			<Value>Lunettes de Réalité Augmenté (Scanneur de minéral)</Value>
 			<Description>Ces lunettes &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; ne sont peut-être pas la chose la plus à la mode, mais lorsqu'une {THING:ItemSensorProcessingUnitOreScanner} est inséré, les papetiers peuvent utiliser ces lunettes pratiques pour radiographier le sol et trouver des minerais cachés sous la surface.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBatteryChargerSmall</Key>
-			<Value>Petit chargeur de batterie</Value>
+			<Value>Chargeur de batteries (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBatteryChargerSmall</Key>
-			<Value>[Kit] Petit chargeur de batterie</Value>
+			<Value>[Kit] Chargeur de batteries (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanelFlat</Key>
@@ -4194,15 +4194,15 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankSmallInsulated</Key>
-			<Value>Petit réservoir calfeutré</Value>
+			<Value>Rréservoir de gaz isolé (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankBigInsulated</Key>
-			<Value>Grand réservoir calfeutré</Value>
+			<Value>Réservoir de gaz isolé (Grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitTankInsulated</Key>
-			<Value>[Kit] Réservoir calfeutré</Value>
+			<Value>[Kit] Réservoir de gaz isolé</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChairThickSingle</Key>
@@ -4342,12 +4342,12 @@ RobotMode.None = 6 = État attribué automatiquement, indique lorsque les emplac
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitBatteryLarge</Key>
-			<Value>[Kit] Grande Station de Batterie</Value>
+			<Value>[Kit] Station de Batterie (Grand)</Value>
 			<Description>Voir: {THING:StructureBatteryLarge} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBatteryLarge</Key>
-			<Value>Grande Station de Batterie</Value>
+			<Value>Station de Batterie (Grande)</Value>
 			<Description>Fournissant un stockage d'énergie fiable et à grande échelle, la Grande Station de Batterie &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 'Dianzi' est le cœur de la plupart des bases de &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;. 
 Il y a une variété de précautions à prendre lors de la conception de systèmes électriques utilisant des batteries, et chaque Stationeer expérimenté a une histoire à raconter, d'où l'expression: "Dianzi cuisine, mais il fait aussi frire."
 {HEADER:PUISSANCE DE SORTIE:}
@@ -4371,7 +4371,7 @@ Capable de stocker jusqu'à 9 000 000 Watts (9kW) de puissance, il n'y a pas de 
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageArcFurnace1</Key>
-			<Value>Tube de {THING:StructureArcFurnace}</Value>
+			<Value>Tuyau de {THING:StructureArcFurnace}</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageArcFurnace2</Key>
@@ -4647,7 +4647,7 @@ Capable de stocker jusqu'à 9 000 000 Watts (9kW) de puissance, il n'y a pas de 
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageH2Combustor1</Key>
-			<Value>Tube de {THING:H2Combustor}</Value>
+			<Value>Tuyau de {THING:H2Combustor}</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageHydroponicsAutomatic1</Key>
@@ -4791,13 +4791,13 @@ Capable de stocker jusqu'à 9 000 000 Watts (9kW) de puissance, il n'y a pas de 
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvanced</Key>
-			<Value>Réservoir portable MK.II</Value>
+			<Value>Réservoir portable de gaz MK.II</Value>
 			<Description>Le Réservoir portable MK.II est utilisé pour stocker les gaz. Il a un volume plus élevé que la {THING:ItemGasCanisterEmpty} ou la {THING:ItemGasCanisterSmart}.
 			La pression maximale pour le réservoir est de 20,265 MPa, soit 200 atmosphères. Une surpression du réservoir le fera exploser. Une fois la pression maximale atteinte, le réservoir commence à subir des dommages jusqu’à ce qu’il éclate.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicGasTankAdvanced</Key>
-			<Value>[Kit] Réservoir portable MK.II</Value>
+			<Value>[Kit] Réservoir portable de gaz MK.II</Value>
 			<Description>Voir: {THING:DynamicGasTankAdvanced} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -4980,39 +4980,39 @@ Il peut être automatisé à l'aide de {THING:StructureHarvie}. Notez que contra
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitPipeLiquid</Key>
-			<Value>[Kit] Tube</Value>
+			<Value>[Kit] Tuyau de liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidCrossJunction</Key>
-			<Value>Tube (En Croix)</Value>
+			<Value>Tuyau de liquide (En Croix)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidStraight</Key>
-			<Value>Tube (Droit)</Value>
+			<Value>Tuyau de liquide (Droit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidCorner</Key>
-			<Value>Tube (Coin)</Value>
+			<Value>Tuyau de liquide (Coin)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidCrossJunction3</Key>
-			<Value>Tube (En Croix, trois voies)</Value>
+			<Value>Tuyau de liquide (En Croix, trois voies)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidCrossJunction4</Key>
-			<Value>Tube (En Croix, quatre voies)</Value>
+			<Value>Tuyau de liquide (En Croix, quatre voies)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidCrossJunction5</Key>
-			<Value>Tube (En Croix, cinq voies)</Value>
+			<Value>Tuyau de liquide (En Croix, cinq voies)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidCrossJunction6</Key>
-			<Value>Tube (En Croix, six voies)</Value>
+			<Value>Tuyau de liquide (En Croix, six voies)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidTJunction</Key>
-			<Value>Tube (Jonction T)</Value>
+			<Value>Tuyau de liquide (Jonction T)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageWindTurbine001</Key>
@@ -5068,15 +5068,18 @@ Il peut être automatisé à l'aide de {THING:StructureHarvie}. Notez que contra
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWaterBottle</Key>
-			<Value>Bouteille d&apos;eau</Value>
+			<Value>Gourde d&apos;eau</Value>
+			<Description>Pour ne plus avoir soif...</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWaterBottleFiller</Key>
-			<Value>Remplisseur de bouteille d’eau</Value>
+			<Value>Remplisseur de gourde d’eau</Value>
+			<Description>Pour ne plus avoir soif...</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWaterBottleFiller</Key>
-			<Value>Remplisseur de bouteille d’eau</Value>
+			<Value>Remplisseur de gourde d’eau</Value>
+			<Description>Pour ne plus avoir soif...</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureIceCrusher</Key>
@@ -5092,27 +5095,27 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvancedOxygen</Key>
-			<Value>Réservoir portable MK.II (Oxygène)</Value>
+			<Value>Réservoir portable d'Oxygène MK.II</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvancedWater</Key>
-			<Value>Citerne portable MKII (Eau)</Value>
+			<Value>Réservoir portable de liquide MK.II</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidPipeRadiator</Key>
-			<Value>Radiateur de Tube</Value>
+			<Value>Radiateur à liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeLiquidRadiator</Key>
-			<Value>[Kit] Radiateur de Tube</Value>
+			<Value>[Kit] Radiateur à liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicMKIILiquidCanister</Key>
-			<Value>[Kit] Citerne portable MK.II</Value>
+			<Value>[Kit] Réservoir portable de liquide MK.II</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicMKIILiquidCanisterWater</Key>
-			<Value>Citerne portable MK.II (Eau)</Value>
+			<Value>Réservoir portable de liquide MK.II</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidVolumePump</Key>
@@ -5132,7 +5135,7 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidCanisterSmart</Key>
-			<Value>Bonbonne de liquide (Evoluée)</Value>
+			<Value>Bouteille de liquide MK.II</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIScrewdriver</Key>
@@ -5172,19 +5175,20 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWaterBottleFiller</Key>
-			<Value>[Kit] Remplisseur de bouteille d’eau</Value>
+			<Value>[Kit] Remplisseur de gourdes d’eau</Value>
+			<Description>Pour ne plus avoir soif...</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankBig</Key>
-			<Value>Grande Citerne</Value>
+			<Value>Réservoir de liquide (Grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankSmall</Key>
-			<Value>Citerne</Value>
+			<Value>Réservoir de liquide (Petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitLiquidTank</Key>
-			<Value>[Kit] Citerne</Value>
+			<Value>[Kit] Réservoir de liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureModularRocketLiquidTank</Key>
@@ -5267,11 +5271,11 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWaterPipeMeter</Key>
-			<Value>[Kit] Tube avec Manomètre</Value>
+			<Value>[Kit] Manomètre à tuyau de liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWaterPipeMeter</Key>
-			<Value>Tube avec Manomètre</Value>
+			<Value>Manomètre à tuyau de liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWaterPipeDigitalValve</Key>
@@ -5283,15 +5287,16 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWaterWallCooler</Key>
-			<Value>[Kit] Refroidisseur à eau</Value>
+			<Value>[Kit] Refroidisseur à liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWaterWallCooler</Key>
-			<Value>Refroidisseur à eau</Value>
+			<Value>Refroidisseur à liquide</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWaterBottleFillerBottom</Key>
-			<Value>Remplisseur de bouteille d’eau</Value>
+			<Value>Remplisseur de gourdes d’eau</Value>
+			<Description>Pour ne plus avoir soif...</Description>
 		</RecordThing>
 		<!-- RAJOUTER PAR VIRUS_GAMERS -->
 		<RecordThing>
@@ -5326,7 +5331,7 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		</RecordThing>
 		<RecordThing>
 			<Key>InsulatedLiquidPipeCorner</Key>
-			<Value>Coin de tuyau de liquide isolé</Value>
+			<Value>Coin à tuyau de liquide isolé</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -5431,22 +5436,22 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWaterPipeHeater</Key>
-			<Value>[Kit] Chauffe-tuyau d'eau</Value>
+			<Value>[Kit] Chauffe-tuyau de liquide</Value>
 			<Description>Voir {THING:StructureLiquidPipeHeater} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidPipeHeater</Key>
-			<Value>[Kit] Chauffe-tuyau d'eau</Value>
+			<Value>[Kit] Chauffe-tuyau de liquide</Value>
 			<Description>Voir {THING:StructureLiquidPipeHeater} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidPipeHeater</Key>
-			<Value>Chauffe-tuyau d'eau</Value>
+			<Value>Chauffe-tuyau de liquide</Value>
 			<Description>Ajoute 1000 joules de chaleur par tick au contenu de votre réseau de canalisations.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTurboVolumePump</Key>
-			<Value>Turbo pompe  à gaz</Value>
+			<Value>Turbo pompe à gaz</Value>
 			<Description>Déplace 10 fois plus de gaz qu'une {THING:StructureVolumePump}, de base, avec un mode qui peut être réglé pour s'écouler dans les deux sens.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -5456,37 +5461,37 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTurboVolumePump</Key>
-			<Value>Turbo pompe à eau</Value>
+			<Value>Turbo pompe à liqude</Value>
 			<Description>Déplace 10 fois plus de gaz qu'une {THING:StructureVolumePump}, de base, avec un mode qui peut être réglé pour s'écouler dans les deux sens.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitLiquidTurboVolumePump</Key>
-			<Value>[Kit] Turbo pompe à eau</Value>
+			<Value>[Kit] Turbo pompe à liqude</Value>
 			<Description>Voir {THING:StructureLiquidTurboVolumePump} pour plus de détails.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankBigInsulated</Key>
-			<Value>Grande citerne de liquide isolé</Value>
+			<Value>Réservoir de liquide isolé (Grand)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitLiquidTankInsulated</Key>
-			<Value>[Kit] Citerne de liquide isolé</Value>
+			<Value>[Kit] Réservoir de liquide isolé</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankSmallInsulated</Key>
-			<Value>Petite citerne de liquide isolé</Value>
+			<Value>Réservoir de liquide isolé (Petit)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>Battery_Wireless_cell</Key>
-			<Value>Petite batterie sans fil</Value>
+			<Value>Batterie sans fil (Petit)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>Battery_Wireless_cell_Big</Key>
-			<Value>Grannde batterie sans fil</Value>
+			<Value>Batterie sans fil (Grande)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -5659,7 +5664,7 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 			</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidPipeOneWayValve</Key>
-			<Value>Vanne unidirectionnelle d'eau</Value>
+			<Value>Vanne unidirectionnelle de liquide</Value>
 			<Description>La vanne unidirectionnelle déplace le liquide dans une seule direction: du côté entrée vers le côté sortie. Il n'autorise le débit que si la pression d'entrée est supérieure à la pression de sortie.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -5670,7 +5675,7 @@ Si le KoolAuger est plein, il n'acceptera plus de glace jusqu'à ce que le gaz o
 		<RecordThing>
 			<Key>ItemMiningBeltMKII</Key>
 			<Value>Ceinture minière MK.II</Value>
-			<Description>Une ceinture minière plus grande et plus spacieuse, le Mk II est similaire à la {THING:ItemMiningBelt}, mais dispose de 13 emplacements au lieu des 8 de base, pour augmenter la durée de vos voyages miniers. Il a également de la place pour deux outils.</Description>
+			<Description>Une ceinture minière plus grande et plus spacieuse, le MK.II est similaire à la {THING:ItemMiningBelt}, mais dispose de 13 emplacements au lieu des 8 de base, pour augmenter la durée de vos voyages miniers. Il a également de la place pour deux outils.</Description>
 		</RecordThing>
 		<RecordThing>
       		<Key>ItemLiquidDrain</Key>
@@ -5787,32 +5792,32 @@ Comme le N Flow-P est un système passif, il égalise la pression sur l'ensemble
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnector</Key>
-      <Value>[Kit] Connecteur de réservoir isolé gaz</Value>
+      <Value>[Kit] Connecteur de réservoir isolé de gaz</Value>
 	  <Description>Voir: {THING:StructureInsulatedTankConnector} pour plus de détails.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedTankConnector</Key>
-      <Value>Connecteur de réservoir isolé gaz</Value>
+      <Value>Connecteur de réservoir isolé de gaz</Value>
       <Description>Utilisé pour fixer un réservoir portable à gaz, un épurateur d’air portable ou un climatiseur portable à un réseau de tuyaux à gaz à l’aide de la clé à molette.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnectorLiquid</Key>
-      <Value>[Kit] Connecteur de réservoir isolé liquide</Value>
+      <Value>[Kit] Connecteur de réservoir isolé de liquide</Value>
       <Description>Voir: {THING:StructureInsulatedTankConnectorLiquid} pour plus de détails.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedTankConnectorLiquid</Key>
-      <Value>Connecteur de réservoir isolé liquide</Value>
+      <Value>Connecteur de réservoir isolé de liquide</Value>
       <Description>Utilisé pour fixer un réservoir portable à liquide, un épurateur d’air portable ou un climatiseur portable à un réseau de tuyaux à liquide à l’aide de la clé à molette.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeBig</Key>
-      <Value>[Kit] Grand réfrigérateur</Value>
+      <Value>[Kit] Réfrigérateur (Grand)</Value>
       <Description>Voir: {THING:StructureFridgeBig} pour plus de détails.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeBig</Key>
-      <Value>Grand réfrigérateur</Value>
+      <Value>Réfrigérateur (Grand)</Value>
       <Description>Le réfrigérateur &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Koolaid est un dispositif de stockage auto-refroidissant avec 15 emplacements qui conserve les aliments lorsqu'il est alimenté et allumé. Alors que de nombreux utilisateurs se sont plaints de l'emplacement de l'interrupteur d'alimentation, sa place dans le panthéon des logiciels blancs hors monde est incontestée.
 Doté de sa propre atmosphère interne permanente, le réfrigérateur Koolaid ralentit la décomposition des &lt;color=#0080FFFF&gt;{LINK:OrganicPage;aliments}&lt;/color&gt; en maintenant une température interne optimale. Sa consommation électrique varie en fonction de la température extérieure contre laquelle il doit équilibrer sa température interne.
 En tant que tel, il doit dégager de la chaleur pour fonctionner, de sorte que le réfrigérateur Koolaid NE fonctionne PAS dans le vide. Aussi, ne laissez pas la porte ouverte, car elle s'égalisera avec la température extérieur; Et peut-être commencer à biper.
@@ -5860,12 +5865,12 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
     </RecordThing>
     <RecordThing>
 		<Key>ItemKitFridgeSmall</Key>
-		<Value>[Kit] Petit réfrigérateur</Value>
+		<Value>[Kit] Réfrigérateur (Petit)</Value>
 		<Description>Voir: {THING:StructureFridgeSmall} pour plus de détails.</Description>
 	</RecordThing>
 	<RecordThing>
 		<Key>StructureFridgeSmall</Key>
-		<Value>Petit réfrigérateur</Value>
+		<Value>Réfrigérateur (Petit)</Value>
 		<Description>Essentiellement une boîte fortement isolée qui permet aux Stationeers de le brancher dans n'importe quelle atmosphère souhaitée, le réfrigérateur &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; était une solution simple au problème de la &lt;color=#0080FFFF&gt;{LINK:NutritionPage;décomposition des aliments}&lt;/color&gt;. Il stocke un petit nombre d'articles, à n'importe quelle température que vous pouvez rassembler.
 Pour plus d'informations sur la conservation des aliments, visitez la section {LINK:DecayPage;Nourriture pourrie} de Stationpedia.</Description>
 	</RecordThing>
@@ -5885,7 +5890,7 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
 		<Key>StructureAdvancedComposter</Key>
 		<Value>Composteur avancé</Value>
 		<Description>Le composteur avancé crée de l'{THING:Fertilizer} à partir de matière organique. Il accepte les &lt;color=#0080FFFF&gt;{LINK:OrganicPage;aliments}&lt;/color&gt;, {THING:DecayedFood} ou de la {THING:ItemBiomass}. Il nécessite de l'eau et de l'électricité pour fonctionner, ce qui accélère le processus naturel de compostage.
-			Lors du traitement, il libère de l'azote et des substances volatiles, ainsi qu'une petite quantité de chaleur.
+			Lors du traitement, il libère de l'azote et de l'hydrogène, ainsi qu'une petite quantité de chaleur.
 			
 			{HEADER:COMPOSTAGE:}
 			L'engrais est produit dans un rapport de 1:3 d'engrais aux ingrédients. Les effets de l'engrais sur les plantes varieront en fonction des proportions respectives de ses ingrédients.
@@ -5902,17 +5907,17 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
 	  </RecordThing>
 	  <RecordThing>
 		<Key>StructurePlanter</Key>
-		<Value>jardinière</Value>
+		<Value>Jardinière</Value>
 		<Description>Une petite jardinière à des fins décoratives ou hydroponiques. Peut être connecté à l'eau ou arrosé manuellement à l'aide d'une {THING:ItemWaterBottle} ou d'une {THING:ItemGasCanisterWater}.</Description>
 	  </RecordThing>
 	  <RecordThing>
 		<Key>ItemKitPlanter</Key>
-		<Value>[Kit] jardinièrer</Value>
+		<Value>[Kit] Jardinièrer</Value>
 		<Description>Voir {THING:StructurePlanter} pour plus de détails.</Description>
 	  </RecordThing>
 	  <RecordThing>
 		<Key>KitPlanter</Key>
-		<Value>[Kit] jardinière</Value>
+		<Value>[Kit] Jardinière</Value>
 		<Description>Voir {THING:StructurePlanter} pour plus de détails.</Description>
 	  </RecordThing>
 	  <RecordThing>
@@ -6105,7 +6110,7 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
 		<Record>
 			<Key>GasCanister</Key>
 			<Value>Bouteille de gaz</Value>
-			<Description>La bonbonne de gaz est utilisée pour stocker les gaz. La pression maximale est de 10132,5 kPa.</Description>
+			<Description>La bouteille de gaz est utilisée pour stocker les gaz. La pression maximale est de 10132,5 kPa.</Description>
 		</Record>
 		<Record>
 			<Key>GasFilter</Key>
@@ -6145,7 +6150,7 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
 		</Record>
 		<Record>
 			<Key>Cartridge</Key>
-			<Value>Carte d&apos;accès</Value>
+			<Value>Carte : d&apos;accès</Value>
 		</Record>
 		<Record>
 			<Key>CaptainsSeat</Key>
@@ -6249,7 +6254,7 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
 		</Record>
 		<Record>
 			<Key>Cartridge2</Key>
-			<Value>Carte d&apos;accès 2</Value>
+			<Value>Carte : d&apos;accès 2</Value>
 		</Record>
 		<Record>
 			<Key>Next</Key>
@@ -6261,11 +6266,11 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
 		</Record>
 		<Record>
 			<Key>Cartridge0</Key>
-			<Value>Carte d&apos;accès 0</Value>
+			<Value>Carte : d&apos;accès 0</Value>
 		</Record>
 		<Record>
 			<Key>Cartridge1</Key>
-			<Value>Carte d&apos;accès 1</Value>
+			<Value>Carte : d&apos;accès 1</Value>
 		</Record>
 		<Record>
 			<Key>Previous</Key>
@@ -6285,7 +6290,8 @@ Pour plus d'informations sur la conservation des aliments, visitez la section {L
 		</Record>
 		<Record>
 			<Key>BottleSlot</Key>
-			<Value>Emplacement bouteille d&apos;eau</Value>
+			<Value>Emplacement gourde d&apos;eau</Value>
+			<Description>Pour ne plus avoir soif...</Description>
 		</Record>
 	</Slots>
 	
@@ -8124,7 +8130,7 @@ Un endroit idéal pour le joueur débutant, avec moins de dangers et de complexi
 		</Record>
 		<Record>
 			<Key>NewWorldVulcanShortDesc</Key>
-			<Value>L’environnement volatile de Vulcan ne peut survivre que dans très peu d’organismes vivants, mais sa surface fracturée et ses riches gisements de minéraux en font une entreprise risquée mais rentable pour les vendeurs entreprenants.</Value>
+			<Value>L’environnement composé d'hydrogène de Vulcan ne peut survivre que dans très peu d’organismes vivants, mais sa surface fracturée et ses riches gisements de minéraux en font une entreprise risquée mais rentable pour les vendeurs entreprenants.</Value>
 		</Record>
 		<Record>
 			<Key>NewWorldVulcan2ShortDesc</Key>
@@ -8362,7 +8368,7 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
 		</Record>
 		<Record>
 			<Key>LogicTypeRatioCarbonDioxide</Key>
-			<Value>Le ratio de CO2 dans l&apos;atmosphère du dispositif</Value>
+			<Value>Le ratio de CO² dans l&apos;atmosphère du dispositif</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeRatioNitrogen</Key>
@@ -10089,7 +10095,8 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>BottleSlot</Key>
-			<Value>Emplacement bouteille d&apos;eau</Value>
+			<Value>Emplacement gourde d&apos;eau</Value>
+			<Description>Pour ne plus avoir soif...</Description>
 		</Record>
 		<Record>
 			<Key>TutorialCompleteDeanHall</Key>
@@ -10637,7 +10644,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 			<Key>MoleVolatilesDescription</Key>
 			<Value>Les volatils sont une molécule organique complexe extrêmement réactive, qui peut être utilisée en conjonction avec l'oxygène comme combustible. Il est affiné à partir de {THING:ItemVolatiles}.
 			En raison de réglementations obscures et largement oubliées de &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; les volatils sont parfois étiquetés « H2 » par divers éléments technologiques.Cependant, bien qu'ils soient similaires à l'hydrogène, ils ne sont pas "réellement" de l'hydrogène. Les volatils ne produiront pas d'eau lorsqu'ils seront brûlés, sans catalyseur (Voir: {THING:H2Combustor}). Seuls, ils créent des polluants et du dioxyde de carbone lorsqu'ils sont brûlés dans le ratio suivant :
-			x2 Volatils + x1 O2 -&gt; 3X + 6CO2 + chaleur.
+			x2 Volatils + x1 O2 -&gt; 3X + 6CO² + chaleur.
 			</Value>
 		</Record>
 		<Record>
@@ -10648,7 +10655,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 		</Record>
 		<Record>
 			<Key>MoleWaterDescription</Key>
-			<Value>Vous pouvez obtenir de l'eau en fondant ou en écrasant de la {THING:ItemIce} à l'aide d'un {THING:StructureFurnace} ou d'un {THING:StructureIceCrusher}, ou en brûlant des substances volatiles et de l'oxygène à l'aide du {THING:H2Combustor}.
+			<Value>Vous pouvez obtenir de l'eau en fondant ou en écrasant de la {THING:ItemIce} à l'aide d'un {THING:StructureFurnace} ou d'un {THING:StructureIceCrusher}, ou en brûlant de l'hydrogène et de l'oxygène à l'aide du {THING:H2Combustor}.
 			L'eau est essentielle pour que les &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plantes}&lt;/color&gt; restent en vie et produisent de la &lt;color=#0080FFFF&gt;{LINK:NutritionPage;nourriture}&lt;/color&gt;. C'est aussi un fluide caloporteur exceptionnel avec une capacité calorifique très élevée.
 			Remarque: L'eau était auparavant traitée comme un gaz, mais un nouveau système pour les liquides est en cours de développement, comprenant des tuyaux, des réservoirs, des pompes, etc. L'eau est actuellement le seul liquide disponible et ne change pas actuellement d'état.
 			</Value>
@@ -10901,71 +10908,71 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 		</Record>
 		<Record>
 			<Key>Keypad0</Key>
-			<Value>Keypad 0</Value>
+			<Value>Num 0</Value>
 		</Record>
 		<Record>
 			<Key>Keypad1</Key>
-			<Value>Keypad 1</Value>
+			<Value>Num 1</Value>
 		</Record>
 		<Record>
 			<Key>Keypad2</Key>
-			<Value>Keypad 2</Value>
+			<Value>Num 2</Value>
 		</Record>
 		<Record>
 			<Key>Keypad3</Key>
-			<Value>Keypad 3</Value>
+			<Value>Num 3</Value>
 		</Record>
 		<Record>
 			<Key>Keypad4</Key>
-			<Value>Keypad 4</Value>
+			<Value>Num 4</Value>
 		</Record>
 		<Record>
 			<Key>Keypad5</Key>
-			<Value>Keypad 5</Value>
+			<Value>Num 5</Value>
 		</Record>
 		<Record>
 			<Key>Keypad6</Key>
-			<Value>Keypad 6</Value>
+			<Value>Num 6</Value>
 		</Record>
 		<Record>
 			<Key>Keypad7</Key>
-			<Value>Keypad 7</Value>
+			<Value>Num 7</Value>
 		</Record>
 		<Record>
 			<Key>Keypad8</Key>
-			<Value>Keypad 8</Value>
+			<Value>Num 8</Value>
 		</Record>
 		<Record>
 			<Key>Keypad9</Key>
-			<Value>Keypad 9</Value>
+			<Value>Num 9</Value>
 		</Record>
 		<Record>
 			<Key>KeypadPeriod</Key>
-			<Value>Keypad  .</Value>
+			<Value>Num  .</Value>
 		</Record>
 		<Record>
 			<Key>KeypadDivide</Key>
-			<Value>Keypad  /</Value>
+			<Value>Num  /</Value>
 		</Record>
 		<Record>
 			<Key>KeypadMultiply</Key>
-			<Value>Keypad  *</Value>
+			<Value>Num  *</Value>
 		</Record>
 		<Record>
 			<Key>KeypadMinus</Key>
-			<Value>Keypad  -</Value>
+			<Value>Num  -</Value>
 		</Record>
 		<Record>
 			<Key>KeypadPlus</Key>
-			<Value>Keypad  +</Value>
+			<Value>Num  +</Value>
 		</Record>
 		<Record>
 			<Key>KeypadEnter</Key>
-			<Value>Keypad  Entrer</Value>
+			<Value>Num  Entrer</Value>
 		</Record>
 		<Record>
 			<Key>KeypadEquals</Key>
-			<Value>Keypad  =</Value>
+			<Value>Num  =</Value>
 		</Record>
 		<Record>
 			<Key>UpArrow</Key>
@@ -11005,23 +11012,23 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 		</Record>
 		<Record>
 			<Key>ScrollLock</Key>
-			<Value>Scroll Lock</Value>
+			<Value>Arrêt défilement</Value>
 		</Record>
 		<Record>
 			<Key>RightShift</Key>
-			<Value>Shift Droit</Value>
+			<Value>Maj Droit</Value>
 		</Record>
 		<Record>
 			<Key>LeftShift</Key>
-			<Value>Shift Gauche</Value>
+			<Value>Maj Gauche</Value>
 		</Record>
 		<Record>
 			<Key>RightControl</Key>
-			<Value>Controle Droit</Value>
+			<Value>Ctrl Droit</Value>
 		</Record>
 		<Record>
 			<Key>LeftControl</Key>
-			<Value>Controle Gauche</Value>
+			<Value>Ctrl Gauche</Value>
 		</Record>
 		<Record>
 			<Key>RightAlt</Key>
@@ -11069,31 +11076,31 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
 		</Record>
 		<Record>
 			<Key>Mouse0</Key>
-			<Value>Mouse 0</Value>
+			<Value>Souris 0</Value>
 		</Record>
 		<Record>
 			<Key>Mouse1</Key>
-			<Value>Mouse 1</Value>
+			<Value>Souris 1</Value>
 		</Record>
 		<Record>
 			<Key>Mouse2</Key>
-			<Value>Mouse 2</Value>
+			<Value>Souris 2</Value>
 		</Record>
 		<Record>
 			<Key>Mouse3</Key>
-			<Value>Mouse 3</Value>
+			<Value>Souris 3</Value>
 		</Record>
 		<Record>
 			<Key>Mouse4</Key>
-			<Value>Mouse 4</Value>
+			<Value>Souris 4</Value>
 		</Record>
 		<Record>
 			<Key>Mouse5</Key>
-			<Value>Mouse 5</Value>
+			<Value>Souris 5</Value>
 		</Record>
 		<Record>
 			<Key>Mouse6</Key>
-			<Value>Mouse 6</Value>
+			<Value>Souris 6</Value>
 		</Record>
 		<Record>
 			<Key>JoystickButton0</Key>
